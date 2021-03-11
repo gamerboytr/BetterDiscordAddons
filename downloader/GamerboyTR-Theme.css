@@ -21,6 +21,10 @@ div[aria-controls="Hypesquad Online-tab"] {
       color: orange;
   }
   
+  div[class="label-22pbtT da-label"]:hover {
+      color: #fff;
+  }
+  
   .wrapper-3WhCwL {
       background: rgba(137, 157, 229, 0.1)!important;
       box-shadow: none;
