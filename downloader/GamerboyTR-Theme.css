@@ -18,6 +18,9 @@
   @import url('https://nyri4.github.io/Discolored/main.css');
   @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/EmojiReplace.theme.css');
 /* Endİf */ 
+:root {
+  --homeImageSize: 55px;
+}
 div[aria-controls="Hypesquad Online-tab"] {
       color: orange;
   }
