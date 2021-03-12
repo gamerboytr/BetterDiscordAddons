@@ -1,9 +1,21 @@
+  /**
+ * @name Hacker-Theme
+ * @description Hacker Theme
+ * @author GamerboyTR
+ * @version 1.0
+ * @authorId 546019971910598658
+ * @invite bvFw4YBEAE
+ * @website http://gamerboytr.rf.gd
+ * @source https://gamerboytr.github.io/downloader/Hacker-Theme.css
+ */
+
 @import url("https://codedotspectra.github.io/themes/themes-cores/neutron8.css");
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
 @import url("https://codedotspectra.github.io/themes/core/badges.css");
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
 @import url('https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css');
+
 :root {
 --themeColor1: #5fa805;
 --themeColor2: #0d7f05;
