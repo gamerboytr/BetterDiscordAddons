@@ -15,6 +15,9 @@
 @import url("https://codedotspectra.github.io/themes/core/badges.css");
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
 @import url('https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css');
+@import url('https://gamerboytr.github.io/bettericons.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/EmojiReplace.theme.css');
 
 :root {
 --themeColor1: #5fa805;
@@ -25,7 +28,6 @@
 --backgroundImage: url('https://i.pinimg.com/originals/62/c9/3a/62c93a4cf6462f54fdea6d735d927f9c.gif');
 --backgroundBlur: 5px;
 --backgroundOpacity: 0.6;
-
 --rs-small-spacing: 2px;
 --rs-large-spacing: 3px;
 --rs-width: 2px;
@@ -36,7 +38,6 @@
 --rs-streaming-color: #643da7;
 --rs-offline-color: #636b75;
 --rs-invisible-color: #4e535a;
-
 --columns: 1;
 --guildsize: 40;
 --guildgap: 3;
