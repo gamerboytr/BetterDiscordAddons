@@ -26,6 +26,10 @@ div[aria-controls="Hypesquad Online-tab"] {
       color: #fff;
   }
   
+  .unread-1xRYoj {
+      background-color: var(--background-accent);
+  }
+  
   .wrapper-3WhCwL {
       background: rgba(137, 157, 229, 0.1)!important;
       box-shadow: none;
@@ -320,7 +324,7 @@ div[aria-controls="Hypesquad Online-tab"] {
   q,
   s,
   samp,
-  small,
+  small,.unread-1xRYoj
   span,
   strike,
   strong,
