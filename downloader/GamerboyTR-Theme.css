@@ -21,7 +21,15 @@
 div[aria-controls="Hypesquad Online-tab"] {
       color: orange;
   }
+
+  div[class="iconContainer-2-XQPY da-iconContainer"]:hover {
+      color: #fff;
+  }
   
+  div[class="item-1tOPte da-item labelContainer-1BLJti da-labelContainer colorDanger-2qLCe1 colorDefault-2K3EoJ da-colorDanger da-colorDefault"]:hover {
+      color: #fff;
+  }  
+
   div[class="label-22pbtT da-label"]:hover {
       color: #fff;
   }
