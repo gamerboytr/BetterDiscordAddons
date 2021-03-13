@@ -45,6 +45,15 @@ div[aria-controls="Hypesquad Online-tab"] {
   [aria-label="Ekranını Paylaş"]:hover {
       border-radius: 115px;
   }
+
+  
+  [aria-label="Aramaya Katıl"]:hover {
+      border-radius: 115px;
+  }
+  
+  [aria-label="Görüntülü Aramaya Katıl"]:hover {
+      border-radius: 115px;
+  }
   
   [aria-label="İzlemeyi Bırak"]:hover {
       border-radius: 115px;
