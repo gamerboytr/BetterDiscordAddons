@@ -36,7 +36,11 @@ div[aria-controls="Hypesquad Online-tab"] {
   div[class="label-22pbtT da-label"]:hover {
       color: #fff;
   }
-  
+
+  .tutorialContainer-SGrQ1h {
+      padding-top: 0!important;
+  }
+
   .unread-1xRYoj {
       background-color: var(--background-accent);
   }
