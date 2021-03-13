@@ -24,6 +24,10 @@
 div[aria-controls="Hypesquad Online-tab"] {
       color: orange;
   }
+  
+  ul[id="folder-items-1831673625"] {
+      height: unset!important;
+  }
 
   div[class="iconContainer-2-XQPY da-iconContainer"]:hover {
       color: #fff;
