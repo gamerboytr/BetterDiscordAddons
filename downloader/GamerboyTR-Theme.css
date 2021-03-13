@@ -33,6 +33,23 @@ div[aria-controls="Hypesquad Online-tab"] {
       color: #fff;
   }
   
+  button[aria-label="Disconnect"]:hover {
+      border-radius: 115px;
+      background-color: #bd373c;
+  }
+  
+  [aria-label="Bağlantıyı Kes"]:hover {
+      border-radius: 115px;
+  }
+  
+  [aria-label="Ekranını Paylaş"]:hover {
+      border-radius: 115px;
+  }
+  
+  [aria-label="İzlemeyi Bırak"]:hover {
+      border-radius: 115px;
+  }
+  
   div[class="item-1tOPte da-item labelContainer-1BLJti da-labelContainer colorDanger-2qLCe1 colorDefault-2K3EoJ da-colorDanger da-colorDefault"]:hover {
       color: #fff;
   }  
