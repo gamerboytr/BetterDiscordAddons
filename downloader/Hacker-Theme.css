@@ -1,0 +1,476 @@
+  /**
+ * @name Hacker-Theme
+ * @description Hacker Theme
+ * @author GamerboyTR
+ * @version 1.0
+ * @authorId 546019971910598658
+ * @invite bvFw4YBEAE
+ * @website http://gamerboytr.rf.gd
+ * @source https://gamerboytr.github.io/downloader/Hacker-Theme.css
+ */
+
+@import url("https://codedotspectra.github.io/themes/themes-cores/neutron8.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+@import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
+@import url("https://codedotspectra.github.io/themes/core/badges.css");
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
+@import url('https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css');
+@import url('https://gamerboytr.github.io/bettericons.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/EmojiReplace.theme.css');
+
+:root {
+--themeColor1: #5fa805;
+--themeColor2: #0d7f05;
+--customFont: 'Open Sans', sans-serif;
+--homeImage: url('https://i.pinimg.com/originals/13/8d/52/138d52a8f429510e2c16bd67990dae3c.jpg');
+--backgroundImage: url('https://i.pinimg.com/originals/62/c9/3a/62c93a4cf6462f54fdea6d735d927f9c.gif');
+--backgroundBlur: 5px;
+--backgroundOpacity: 0.6;
+--rs-small-spacing: 2px;
+--rs-large-spacing: 3px;
+--rs-width: 2px;
+--rs-avatar-shape: 50%;
+--rs-online-color: #04761b;
+--rs-idle-color: #faa61a;
+--rs-dnd-color: #f04747;
+--rs-streaming-color: #643da7;
+--rs-offline-color: #636b75;
+--rs-invisible-color: #4e535a;
+--columns: 1;
+--guildsize: 40;
+--guildgap: 3;
+--aligndms: 0;
+}
+div[aria-controls="Hypesquad Online-tab"] {
+      color: orange;
+  }
+
+  div[class="iconContainer-2-XQPY da-iconContainer"]:hover {
+      color: #fff;
+  }
+  
+  div[class="item-1tOPte da-item labelContainer-1BLJti da-labelContainer colorDanger-2qLCe1 colorDefault-2K3EoJ da-colorDanger da-colorDefault"]:hover {
+      color: #fff;
+  }  
+
+  div[class="label-22pbtT da-label"]:hover {
+      color: #fff;
+  }
+  
+  .unread-1xRYoj {
+      background-color: var(--background-accent);
+  }
+  
+  .wrapper-3WhCwL {
+      background: rgba(137, 157, 229, 0.1)!important;
+      box-shadow: none;
+      color: #7289da;
+  }
+  
+  .container-UC8Ug1 {
+      background: #0a0909;
+  }
+  
+  div[class="colorStandard-2KCXvj size16-1P40sf text-1FOLJS da-text"] {
+      color: #fff;
+      font-size: 15px;
+  }
+  
+  div[class="colorHeaderPrimary-26Jzh- size24-RIRrxO title-3w8xhj da-title"] {
+      color: #fff;
+  }
+  
+  div[class="colorHeaderSecondary-3Sp3Ft size16-1P40sf subtitle-Nw1LLR da-subtitle"] {
+      color: rgba(255, 255, 255, 0.856);
+  }
+  
+  div[class="colorStandard-2KCXvj size20-17Iy80 footerTitle-2CYZch"] {
+      color: rgba(255, 255, 255, 0.856);
+  }
+  
+  div[class="colorHeaderSecondary-3Sp3Ft size12-3cLvbJ optionHeader-1-5lcp da-optionHeader"] {
+      color: rgba(255, 255, 255, 0.856);
+  }
+.inspector-3LQtX9 {
+    background: #080808;
+}
+  
+  div[class="colorHeaderPrimary-26Jzh- size24-RIRrxO title-XLSR78 da-title"] {
+      color: #fff;
+  }
+  
+  div[class="colorHeaderSecondary-3Sp3Ft size14-e6ZScH"] {
+      color: rgba(255, 255, 255, 0.856);
+  }
+  
+  div[class="sampleLink-2NLvZg da-sampleLink"] {
+      color: rgba(255, 255, 255, 0.856);
+  }
+  
+  div[class="inputDefault-_djjkz input-cIJ7To da-inputDefault da-input inputInner-2akrSS da-inputInner"] {
+      color: rgba(255, 255, 255, 0.747);
+  }
+  
+  button[aria-label="Disconnect"] {
+      border-radius: 115px
+  }
+  
+  svg[viewBox="0 0 12 12"] {
+      width: 15px;
+  }
+  
+  .mentioned-xhSam7 {
+      background-color: rgba(250, 166, 26, 0.05)!important;
+  }
+  
+  div.hero-EvfTTA {
+      max-width: none;
+  }
+  
+  path[style] {
+      visibility: hidden;
+  }
+  
+  div.grid-1nZz7S {
+      background: #2f3136ad;
+  }
+  
+  span.colorHeaderPrimary-26Jzh- {
+      color: rgb(252, 14, 14);
+  }
+  
+  span.colorHeaderSecondary-3Sp3Ft {
+      color: rgb(76, 151, 76);
+  }
+  
+  .rtcConnectionStatusConnected-VRZDjy {
+      color: #43b581!important;
+  }
+  
+  div[class="contents-18-Yxp da-contents"] {
+      color: unset!important;
+  }
+  
+  .colorHeaderPrimary-26Jzh- {
+      color: #fff!important;
+  }
+  
+  .colorHeaderSecondary-3Sp3Ft {
+      color: rgb(238, 223, 223)
+  }
+  
+  .contents-18-Yxp {
+      color: #fff;
+  }
+  
+  div.info-1VyQPT {
+      visibility: visible;
+  }
+  
+  path[d="M4 0L0 4V8L4 12L8 8V4L4 0ZM7 7.59L4 10.59L1 7.59V4.41L4 1.41L7 4.41V7.59Z"] {
+      color: #b377f3;
+  }
+  
+  [class="icon-3GaxIC da-icon memberBadgeIcon-1hpSQc da-memberBadgeIcon"] {
+      color: #b377f3;
+  }
+  
+  [aria-label="Bağlantıyı Kes"] {
+      border-radius: 115px;
+  }
+  
+  [aria-label="Ekranını Paylaş"] {
+      border-radius: 115px;
+  }
+  
+  [aria-label="İzlemeyi Bırak"] {
+      border-radius: 115px;
+  }
+  
+  div[aria-controls="Hypesquad Online-tab"]::before {
+      color: orange;
+  }
+  
+  div[class="badge-7CsdQq profileGuildSubscriberlvl1-3oI9tx da-profileGuildSubscriberlvl1 size17-2GsONg"] {
+      color: #b377f3;
+  }
+  
+  div[class="attachment-33OFj0 horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG alignCenter-1dQNNs da-attachment da-horizontal da-flex da-directionRow da-alignCenter embedWrapper-lXpS3L da-embedWrapper"]::after {
+      background: #2f3136;
+  }
+  
+  span[class="botTag-ymWxY6 da-botTag bot-2Fta1w da-bot botTagInvert-18-95s botTag-2WPJ74 da-botTagInvert da-botTag px-10SIf7 da-px"] {
+      background: #fff;
+      margin: 1px 0px 0px 5.56152px;
+      isolation: isolate;
+  }
+  
+  .da.sansAttachButton {
+      background-color: transparent!important;
+  }
+  
+  button[aria-label="Aramaya Katıl"] {
+      border-radius: 115px;
+      transition: none;
+  }
+  
+  button[aria-label="Görüntülü Aramaya Katıl"] {
+      border-radius: 115px;
+  }
+  
+  button[class="controlButton-2MhVEL da-controlButton centerButton-3CaNcJ colorable-1bkp8v da-centerButton da-colorable green-plH-Mj button-38aScr da-button lookBlank-3eh9lL colorBrand-3pXr91 grow-q77ONN da-grow"] {
+      border-radius: 115px;
+  }
+  
+  button[class="actionButton-3CLkPB da-actionButton last-3WKR_s da-last centerButton-3CaNcJ colorable-1bkp8v da-centerButton da-colorable green-plH-Mj button-38aScr da-button lookBlank-3eh9lL colorBrand-3pXr91 grow-q77ONN da-grow"] {
+      border-radius: 115px;
+  }
+  
+  div[class="problemsText-1Yx-Kl da-problemsText"]::after {
+      content: 'Unutma Bu Temayı Yapan Kişi GamerboyTR :D';
+      padding-right: 175px;
+      font-size: 20px;
+      visibility: visible;
+  }
+  
+  div[class="problemsText-1Yx-Kl da-problemsText"] {
+      visibility: hidden;
+  }
+  
+  .border-3dQmSY.speaking-WDn8Wm {
+      box-shadow: inset 0 0 0 2px #43b581;
+      ;
+  }
+  
+  button[class="undefined bd-guild button-38aScr da-button lookOutlined-3sRXeN colorBrand-3pXr91 sizeMedium-1AC_Sl grow-q77ONN da-grow"]>div[class="contents-18-Yxp da-contents"] {
+      color: #fff!important;
+  }
+  
+  .botTagInvert-18-95s {
+      background: #fff;
+  }
+  /* Sağ Üst Düğmeler */
+  
+  div[class="winButtonClose-1HsbF- winButton-iRh8-Z flexCenter-3_1bcw flex-1O1GKY justifyCenter-3D2jYp alignCenter-1dQNNs da-winButtonClose da-winButton da-flexCenter da-flex da-justifyCenter da-alignCenter"]:hover {
+      background-color: red;
+      transition: 500ms all;
+  }
+  
+  div[class="winButtonMinMax-PBQ2gm winButton-iRh8-Z flexCenter-3_1bcw flex-1O1GKY justifyCenter-3D2jYp alignCenter-1dQNNs da-winButtonMinMax da-winButton da-flexCenter da-flex da-justifyCenter da-alignCenter"]:hover {
+      background-color: orange;
+      transition: 350ms all;
+  }
+  
+  div[class="preview-2nSL_2 da-preview group-spacing-16 cardPrimaryOutline-29Ujqw card-3Qj_Yx da-cardPrimaryOutline da-card"] {
+      background-color: var(--background-secondary)!important;
+  }
+  
+  .css-gvi9bl-control:hover {
+      background: rgb(17, 17, 17)!important;
+      transition: 300ms all;
+  }
+  
+  .css-gvi9bl-control:active {
+      background: rgb(17, 17, 17)!important;
+      transition: 300ms all;
+  }
+  
+  .marketingLogoImage-2SzXIR::after {
+      background: #b377f3;
+  }
+  /* Reklam */
+  
+  .typeWindows-1za-n7::before {
+      content: 'By GamerboyTR';
+      font-size: 14px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: #8e9297;
+      position: absolute;
+      left: 68px;
+  }
+  
+  .emptyCard-1RJw8n {
+      background: #2e2c2c60;
+  }
+  
+  .container-2fRDfG {
+      background: unset;
+  }
+  
+  .icon-1kp3fr {
+      width: 30px;
+      height: 40px;
+      margin-right: 8px;
+      -ms-flex-negative: 0;
+      flex-shrink: 0;
+  }
+  
+  .theme-dark .channelNotice-1-XFjC.invite-OjTXrW,
+  .theme-light .channelNotice-1-XFjC.invite-OjTXrW {
+      background-image: url('https://discord.com/assets/bf625d222187f542b9d7179109422e2c.svg')!important;
+  }
+  
+  button[class="actionButton-3CLkPB da-actionButton centerButton-3CaNcJ colorable-1bkp8v da-centerButton da-colorable red-33-Lnk button-38aScr da-button lookBlank-3eh9lL colorBrand-3pXr91 grow-q77ONN da-grow"] {
+      border-radius: 115px;
+  }
+  
+  a,
+  abbr,
+  acronym,
+  address,
+  applet,
+  big,
+  blockquote,
+  body,
+  caption,
+  cite,
+  code,
+  dd,
+  del,
+  dfn,
+  div,
+  dl,
+  dt,
+  em,
+  fieldset,
+  form,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  html,
+  iframe,
+  img,
+  ins,
+  kbd,
+  label,
+  legend,
+  li,
+  object,
+  ol,
+  p,
+  pre,
+  q,
+  s,
+  samp,
+  small,.unread-1xRYoj
+  span,
+  strike,
+  strong,
+  table,
+  tbody,
+  td,
+  tfoot,
+  th,
+  thead,
+  tr,
+  tt,
+  ul,
+  var {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-weight: inherit;
+      font-style: inherit;
+      font-family: inherit;
+      font-size: 100%;
+      vertical-align: baseline;
+  }
+  
+  .tutorialContainer-SGrQ1h {
+      padding-top: 5px!important;
+  }
+  
+  .colorHeaderPrimary-26Jzh- {
+      display: inline-block !important;
+      background: transparent;
+  }
+  
+  .wrapper-35wsBm {
+      background-color: #2f313680 !important;
+  }
+  
+  div[class="channelNotice-1-XFjC da-channelNotice quickswitcher-35bYg4 da-quickswitcher"] {
+      background-image: none!important;
+  }
+  
+  .attachment-33OFj0::after,
+  .embedFull-2tM8--::after,
+  .wrapper-35wsBm::after {
+      background-image: none;
+  }
+  
+  button.barButtonMain-3K-jeJ,
+  button.barButtonBase-2uLO1z,
+  button.da-barButtonMain,
+  button.da-barButtonBase {
+      z-index: 50000;
+  }
+  /* Media */
+  
+  @media only screen and (min-width: 1920px) {
+      div.info-1VyQPT::before {
+          content: 'Theme By GamerboyTR.';
+          color: #72767d;
+          font-size: 15px;
+          line-height: 16px;
+          visibility: visible;
+          position: absolute;
+          bottom: -300px;
+      }
+      div[class="noticeRegion-1YviSH da-noticeRegion slider-2neXMg da-slider"] {
+          margin-left: 30em;
+          margin-bottom: 1em;
+      }
+  }
+  
+  @media only screen and (min-width: 1024px) and (max-width: 1919px) {
+      div.info-1VyQPT::before {
+          content: 'Theme By GamerboyTR.';
+          color: #72767d;
+          font-size: 15px;
+          line-height: 16px;
+          visibility: visible;
+          position: absolute;
+          bottom: -700px;
+      }
+  }
+  
+  @media only screen and (min-width: 1366px) and (max-width: 1919px) {
+      div.info-1VyQPT::before {
+          content: 'Theme By GamerboyTR.';
+          color: #72767d;
+          font-size: 15px;
+          line-height: 16px;
+          visibility: visible;
+          position: absolute;
+          bottom: -700px;
+      }
+      div[class="noticeRegion-1YviSH da-noticeRegion slider-2neXMg da-slider"] {
+          margin-left: 10em;
+      }
+  }
+  
+  @media only screen and (min-width: 2560px) {
+      div.info-1VyQPT::before {
+          content: 'Theme By GamerboyTR.';
+          color: #72767d;
+          font-size: 19px;
+          line-height: 16px;
+          visibility: visible;
+          position: absolute;
+          bottom: -690px;
+          left: 25px;
+      }
+      * {
+          font-size: 1.5em;
+          size: 1.5em;
+      }
+      img {
+          size: 1.5em!important;
+      }
+  }
+  /*  Endİf All  */
