@@ -1,8 +1,7 @@
-# GamerboyTR Github
+# [BetterDiscord](https://github.com/rauenzi/BetterDiscordApp) Eklentileri
+GamerboyTR Tarafından Yapılan Temaları Ve Eklentileri İçeren Bir Sayfa.
 
-# 🇹🇷:
+## [Eklentiler](https://github.com/)
+## [Temalar](https://github.com/)
 
-# Nedir Bu?
-GamerboyTR Tarafından Yapılmış Çalışmaların Barındırıldığı Yer.
-
-#Better Discord İle Temalar Ve Eklentilerimi Kullanabilirsiniz.
+Copyright (C) 2021 GamerboyTR
