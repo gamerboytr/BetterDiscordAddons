@@ -24,6 +24,15 @@
       --homeImageSize: 50px;
   } 
   
+  div.newMessagesBar-265mhP {
+      background: #7289da!important;
+  }
+  
+  .attachment-33OFj0 .icon-1kp3fr+*::before,
+  .attachment-33OFj0 .icon-1kp3fr+*::after {
+      position: absolute;
+      display: none;  
+
   div[aria-controls="Hypesquad Online-tab"] {
       color: orange;
   }
