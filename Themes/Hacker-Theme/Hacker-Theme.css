@@ -1,76 +1,63 @@
   /**
- * @name GamerboyTR-Theme
- * @description GamerboyTR Tarafından
+ * @name Hacker-Theme
+ * @description Hacker Theme
  * @author GamerboyTR
- * @version 2.5
+ * @version 1.0
  * @authorId 546019971910598658
  * @invite bvFw4YBEAE
  * @website http://gamerboytr.rf.gd
- * @source https://gamerboytr.github.io/downloader/GamerboyTR-Theme.css
+ * @source https://gamerboytr.github.io/Themes/Hacker-Theme/Hacker-Theme.css
  */
-/* İmports */
+  
   @import url("https://codedotspectra.github.io/themes/themes-cores/neutron8.css");
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
   @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
   @import url("https://codedotspectra.github.io/themes/core/badges.css");
   @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
   @import url('https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css');
-  @import url('https://gamerboytr.github.io/bettericons.css');
+  @import url('https://gamerboytr.github.io/Themes/BetterIcons/BetterIcons.css');
   @import url('https://nyri4.github.io/Discolored/main.css');
   @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/EmojiReplace.theme.css');
-/* Endİf */ 
-:root {
-  --homeImageSize: 55px;
-}
-div[aria-controls="Hypesquad Online-tab"] {
+   :root {
+      --themeColor1: #5fa805;
+      --themeColor2: #0d7f05;
+      --customFont: 'Open Sans', sans-serif;
+      --homeImage: url('https://i.pinimg.com/originals/13/8d/52/138d52a8f429510e2c16bd67990dae3c.jpg');
+      --backgroundImage: url('https://i.pinimg.com/originals/62/c9/3a/62c93a4cf6462f54fdea6d735d927f9c.gif');
+      --backgroundBlur: 5px;
+      --backgroundOpacity: 0.6;
+      --rs-small-spacing: 2px;
+      --rs-large-spacing: 3px;
+      --rs-width: 2px;
+      --rs-avatar-shape: 50%;
+      --rs-online-color: #04761b;
+      --rs-idle-color: #faa61a;
+      --rs-dnd-color: #f04747;
+      --rs-streaming-color: #643da7;
+      --rs-offline-color: #636b75;
+      --rs-invisible-color: #4e535a;
+      --columns: 1;
+      --guildsize: 40;
+      --guildgap: 3;
+      --aligndms: 0;
+  }
+  
+  div[aria-controls="Hypesquad Online-tab"] {
       color: orange;
   }
   
-  ul[id="folder-items-1831673625"] {
-      height: unset!important;
-  }
-
   div[class="iconContainer-2-XQPY da-iconContainer"]:hover {
       color: #fff;
   }
   
-  button[aria-label="Disconnect"]:hover {
-      border-radius: 115px;
-      background-color: #bd373c;
-  }
-  
-  [aria-label="Bağlantıyı Kes"]:hover {
-      border-radius: 115px;
-  }
-  
-  [aria-label="Ekranını Paylaş"]:hover {
-      border-radius: 115px;
-  }
-
-  
-  [aria-label="Aramaya Katıl"]:hover {
-      border-radius: 115px;
-  }
-  
-  [aria-label="Görüntülü Aramaya Katıl"]:hover {
-      border-radius: 115px;
-  }
-  
-  [aria-label="İzlemeyi Bırak"]:hover {
-      border-radius: 115px;
-  }
-  
   div[class="item-1tOPte da-item labelContainer-1BLJti da-labelContainer colorDanger-2qLCe1 colorDefault-2K3EoJ da-colorDanger da-colorDefault"]:hover {
       color: #fff;
-  }  
-
+  }
+  
   div[class="label-22pbtT da-label"]:hover {
       color: #fff;
   }
-
-  .tutorialContainer-SGrQ1h {
-      padding-top: 0!important;
-  }
-
+  
   .unread-1xRYoj {
       background-color: var(--background-accent);
   }
@@ -105,9 +92,10 @@ div[aria-controls="Hypesquad Online-tab"] {
   div[class="colorHeaderSecondary-3Sp3Ft size12-3cLvbJ optionHeader-1-5lcp da-optionHeader"] {
       color: rgba(255, 255, 255, 0.856);
   }
-.inspector-3LQtX9 {
-    background: #080808;
-}
+  
+  .inspector-3LQtX9 {
+      background: #080808;
+  }
   
   div[class="colorHeaderPrimary-26Jzh- size24-RIRrxO title-XLSR78 da-title"] {
       color: #fff;
@@ -369,8 +357,8 @@ div[aria-controls="Hypesquad Online-tab"] {
   q,
   s,
   samp,
-  small,.unread-1xRYoj
-  span,
+  small,
+  .unread-1xRYoj span,
   strike,
   strong,
   table,
