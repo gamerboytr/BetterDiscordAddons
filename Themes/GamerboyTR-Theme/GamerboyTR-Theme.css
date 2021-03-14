@@ -28,9 +28,24 @@
       background: #7289da!important;
   }
   
+  
   .attachment-33OFj0 .icon-1kp3fr+*::before,
-  .attachment-33OFj0 .icon-1kp3fr+*::after {
-      display: none;  
+  .attachment-33OFj0 .icon-1kp3fr+*::after,
+  .audioMetadata-3zOuGv>*:first-child::before,
+  .audioMetadata-3zOuGv>*:first-child::after,
+  .uploadModal-2ifh8j .icon-kyxXVr:not(.image-2yrs5j)::before,
+  .uploadModal-2ifh8j .icon-kyxXVr:not(.image-2yrs5j)::after,
+  .uploadModalIn-1z07Bv .icon-kyxXVr:not(.image-2yrs5j)::before,
+  .uploadModalIn-1z07Bv .icon-kyxXVr:not(.image-2yrs5j)::after {
+      display: none;
+  }
+  
+  .attachment-33OFj0 .icon-1kp3fr,
+  .audioMetadata-3zOuGv::before,
+  .uploadModal-2ifh8j .icon-kyxXVr:not(.image-2yrs5j),
+  .uploadModalIn-1z07Bv .icon-kyxXVr:not(.image-2yrs5j) {
+      object-position: unset!important;
+      background: none!important;
   }
     
   div[aria-controls="Hypesquad Online-tab"] {
