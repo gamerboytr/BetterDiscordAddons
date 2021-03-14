@@ -51,6 +51,45 @@
   div[aria-controls="Hypesquad Online-tab"] {
       color: orange;
   }
+ 
+  .text-1FOLJS {
+      font-weight: 500;
+  }
+  
+  div[class="colorHeaderSecondary-3Sp3Ft size16-1P40sf subtitle-1Q3BuX da-subtitle"] {
+      color: #fff;
+  }
+  
+  div[class="colorHeaderSecondary-3Sp3Ft size14-e6ZScH skip-2o6MGG da-skip"] {
+      color: #fff;
+  }
+  
+  button[class="button-38aScr da-button lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x grow-q77ONN da-grow"] > div[class="contents-18-Yxp da-contents"] {
+      color: rgb(255, 0, 0)!important;
+      font-weight: 500;
+  }
+  button[class="backButton-iA7KIs da-backButton button-38aScr da-button lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x grow-q77ONN da-grow"] > div[class="contents-18-Yxp da-contents"] {
+    color: rgb(255, 0, 0)!important;
+    font-weight: 500;
+}
+button[class="button-38aScr da-button lookLink-9FtZy- colorPrimary-3b3xI6 sizeMin-1mJd1x grow-q77ONN da-grow"] > div[class="contents-18-Yxp da-contents"] {
+    color: rgb(255, 0, 0)!important;
+    font-weight: 500;
+}
+div[class="inputWrapper-31_8H8 da-inputWrapper input--jS-j2 da-input"] {
+    background-color: var(--backgroundColor)!important;
+}
+input.inputInner-2akrSS {
+    color: #fff;
+    font-weight: 300;
+}
+span[class="colorHeaderSecondary-3Sp3Ft size16-1P40sf"] {
+    color: green;
+}
+div[class="inputWrapper-31_8H8 da-inputWrapper"] > input[class="inputDefault-_djjkz input-cIJ7To da-inputDefault da-input"] {
+    color: white;
+    font-weight: 300;
+}
   
   ul[id="folder-items-1831673625"] {
       height: unset!important;
