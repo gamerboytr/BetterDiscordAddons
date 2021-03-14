@@ -22,7 +22,7 @@
   
    :root {
       --homeImageSize: 50px;
-  }
+  } 
   
   div[aria-controls="Hypesquad Online-tab"] {
       color: orange;
