@@ -30,9 +30,9 @@
   
   .attachment-33OFj0 .icon-1kp3fr+*::before,
   .attachment-33OFj0 .icon-1kp3fr+*::after {
-      position: absolute;
       display: none;  
-
+  }
+    
   div[aria-controls="Hypesquad Online-tab"] {
       color: orange;
   }
