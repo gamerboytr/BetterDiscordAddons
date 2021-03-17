@@ -55,6 +55,19 @@
   .text-1FOLJS {
       font-weight: 500;
   }
+
+  .connectedAccountName-f8AEe2, .connectedAccountNameInner-1phBvE {
+    overflow: unset!important;
+    }
+.listItems-1uJgMC {
+  background: #0D0D0D;
+}
+div[class="header-8ilj5e da-header"] {
+  background: #0D0D0D;
+}
+div[class="scroller-3gAZLs da-scroller list-6NCENv da-list thin-1ybCId scrollerBase-289Jih"] {
+  background:#0d0d0d;
+}
   
   div[class="colorHeaderSecondary-3Sp3Ft size16-1P40sf subtitle-1Q3BuX da-subtitle"] {
       color: #fff;
