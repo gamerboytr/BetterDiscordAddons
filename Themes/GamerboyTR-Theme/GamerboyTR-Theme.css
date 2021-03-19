@@ -2,7 +2,7 @@
  * @name GamerboyTR-Theme
  * @description GamerboyTR Tarafından
  * @author GamerboyTR
- * @version 2.5
+ * @version 2.7
  * @authorId 546019971910598658
  * @invite bvFw4YBEAE
  * @website http://gamerboytr.rf.gd
@@ -380,8 +380,8 @@ div[class="inputWrapper-31_8H8 da-inputWrapper"] > input[class="inputDefault-_dj
   .typeWindows-1za-n7::before {
       content: 'By GamerboyTR';
       font-size: 14px;
-      font-family: Discord;
-      /* Georgia, 'Times New Roman', Times, serif */
+/*       font-family: Discord; */
+      Georgia, 'Times New Roman', Times, serif
       color: #8e9297;
       position: absolute;
       left: 68px;
@@ -508,66 +508,5 @@ div[class="inputWrapper-31_8H8 da-inputWrapper"] > input[class="inputDefault-_dj
   }
   /* Media */
   
-  @media only screen and (min-width: 1920px) {
-      div.info-1VyQPT::before {
-          content: 'Theme By GamerboyTR.';
-          color: #72767d;
-          font-size: 15px;
-          line-height: 16px;
-          visibility: visible;
-          position: absolute;
-          bottom: -300px;
-      }
-      div[class="noticeRegion-1YviSH da-noticeRegion slider-2neXMg da-slider"] {
-          margin-left: 30em;
-          margin-bottom: 1em;
-      }
-  }
   
-  @media only screen and (min-width: 1024px) and (max-width: 1919px) {
-      div.info-1VyQPT::before {
-          content: 'Theme By GamerboyTR.';
-          color: #72767d;
-          font-size: 15px;
-          line-height: 16px;
-          visibility: visible;
-          position: absolute;
-          bottom: -700px;
-      }
-  }
-  
-  @media only screen and (min-width: 1366px) and (max-width: 1919px) {
-      div.info-1VyQPT::before {
-          content: 'Theme By GamerboyTR.';
-          color: #72767d;
-          font-size: 15px;
-          line-height: 16px;
-          visibility: visible;
-          position: absolute;
-          bottom: -700px;
-      }
-      div[class="noticeRegion-1YviSH da-noticeRegion slider-2neXMg da-slider"] {
-          margin-left: 10em;
-      }
-  }
-  
-  @media only screen and (min-width: 2560px) {
-      div.info-1VyQPT::before {
-          content: 'Theme By GamerboyTR.';
-          color: #72767d;
-          font-size: 19px;
-          line-height: 16px;
-          visibility: visible;
-          position: absolute;
-          bottom: -690px;
-          left: 25px;
-      }
-      * {
-          font-size: 1.5em;
-          size: 1.5em;
-      }
-      img {
-          size: 1.5em!important;
-      }
-  }
   /*  Endİf All  */
