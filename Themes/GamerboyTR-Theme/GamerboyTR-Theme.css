@@ -506,8 +506,6 @@ div[class="inputWrapper-31_8H8 da-inputWrapper"] > input[class="inputDefault-_dj
   button.da-barButtonBase {
       z-index: 50000;
   }
-  /* Media */   
-      @media only screen and (min-width: 1920px) {
           div.info-1VyQPT::before {
               content: 'Theme By GamerboyTR';
               color: #72767d;
@@ -517,6 +515,8 @@ div[class="inputWrapper-31_8H8 da-inputWrapper"] > input[class="inputDefault-_dj
               position: relative;
               bottom: -15ex;
           }
+  /* Media */   
+      @media only screen and (min-width: 1920px) {
           div[class="noticeRegion-1YviSH da-noticeRegion slider-2neXMg da-slider"] {
               margin-left: 30em;
               margin-bottom: 1em;
