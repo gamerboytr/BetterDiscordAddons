@@ -28,11 +28,7 @@
       display: none
   }
   nav[class="wrapper-3NnKdC da-wrapper guilds-1SWlCJ"] {
-      background-color: transparent;
-  }
-  
-  .scroller-1Bvpku {
-      background-color: var(--backgroundImage);
+      background-color: transparent!important;
   }
 
   div.newMessagesBar-265mhP {
