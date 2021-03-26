@@ -27,6 +27,9 @@
   svg[class="homeIcon-FuNwkv da-homeIcon"]>path {
       display: none
   }
+  nav[class="wrapper-3NnKdC da-wrapper guilds-1SWlCJ"] {
+      background-color: transparent;
+  }
   
   .scroller-1Bvpku {
       background-color: var(--backgroundImage);
