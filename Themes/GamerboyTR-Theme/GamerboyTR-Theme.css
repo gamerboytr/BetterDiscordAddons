@@ -27,17 +27,9 @@
   svg[class="homeIcon-FuNwkv da-homeIcon"]>path {
       display: none
   }
-  nav[class="wrapper-3NnKdC da-wrapper guilds-1SWlCJ"] {
-      background-color: transparent!important;
-  }
-nav[aria-label="Sunucu kenar çubuğu"] {
-      background-color: transparent!important;
-  }
-  
-  .wrapper-1Rf91z,
-  .wrapper-3NnKdC {
-      background-color: transparent;
-  }
+.wrapper-1Rf91z .scroller-2TZvBN, .wrapper-3NnKdC .scroller-1Bvpku {
+       background-color: transparent!important;
+}
 
   div.newMessagesBar-265mhP {
       background: #7289da!important;
