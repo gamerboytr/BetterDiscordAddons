@@ -27,6 +27,10 @@
   svg[class="homeIcon-FuNwkv da-homeIcon"]>path {
       display: none
   }
+  
+  .scroller-1Bvpku {
+      background-color: var(--backgroundImage);
+  }
 
   div.newMessagesBar-265mhP {
       background: #7289da!important;
