@@ -30,6 +30,9 @@
   nav[class="wrapper-3NnKdC da-wrapper guilds-1SWlCJ"] {
       background-color: transparent!important;
   }
+nav[aria-label="Sunucu kenar çubuğu"] {
+      background-color: transparent!important;
+  }
 
   div.newMessagesBar-265mhP {
       background: #7289da!important;
