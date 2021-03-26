@@ -33,6 +33,11 @@
 nav[aria-label="Sunucu kenar çubuğu"] {
       background-color: transparent!important;
   }
+  
+  .wrapper-1Rf91z,
+  .wrapper-3NnKdC {
+      background-color: transparent;
+  }
 
   div.newMessagesBar-265mhP {
       background: #7289da!important;
