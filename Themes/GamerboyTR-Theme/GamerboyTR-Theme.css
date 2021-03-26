@@ -34,8 +34,12 @@
   div.newMessagesBar-265mhP {
       background: #7289da!important;
   }
-  
-  
+    
+  .circleIconButton-1QV--U {
+      color: var(--themeColor1);
+      background-color: var(--backgroundColor);
+  }
+
   .attachment-33OFj0 .icon-1kp3fr+*::before,
   .attachment-33OFj0 .icon-1kp3fr+*::after,
   .audioMetadata-3zOuGv>*:first-child::before,
