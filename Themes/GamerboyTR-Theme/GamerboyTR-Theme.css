@@ -23,6 +23,11 @@
     :root {
       --homeImageSize: 50px;
       --homeImage: url('https://yt3.ggpht.com/ytc/AAUvwniEUaBNWbH9Pk7A1cmIBdxnYt0YYrgNKx5h8grSMA=s900-c-k-c0x00ffffff-no-rj');
+      --backgroundColor: #0d0d0d;
+      --rs-small-spacing: 1px;
+      --rs-large-spacing: 2px;
+      --rs-width: 2px;
+      --aligndms: 0;
   }  
     
   svg[class="homeIcon-FuNwkv da-homeIcon"]>path {
