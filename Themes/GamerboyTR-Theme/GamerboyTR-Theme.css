@@ -20,9 +20,10 @@
   @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/EmojiReplace.theme.css');
   /* Endİf */
   
-/*    :root {
+    :root {
       --homeImageSize: 50px;
-  }  */
+      --homeImage: url('https://yt3.ggpht.com/ytc/AAUvwniEUaBNWbH9Pk7A1cmIBdxnYt0YYrgNKx5h8grSMA=s900-c-k-c0x00ffffff-no-rj');
+  }  
     
   svg[class="homeIcon-FuNwkv da-homeIcon"]>path {
       display: none
