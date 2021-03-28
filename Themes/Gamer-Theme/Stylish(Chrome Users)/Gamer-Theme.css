@@ -18,20 +18,20 @@
       --rs-large-spacing: 2px;
       --rs-width: 2px;
       --aligndms: 0;
-      -themeColor1: #ff3838;
-      -themeColor2: #5B86E5;
-      -backgroundImage: url('https://raw.githubusercontent.com/gamerboytr/gamerboytr.github.io/master/Themes/Gamer-Theme/Resurces/bg.jpg');
-      -backgroundBlur: 3px;
-      -backgroundOpacity: 0.2;
-      -rs-avatar-shape: 49%;
-      -rs-online-color: #43b581;
-      -rs-idle-color: #faa61a;
-      -rs-dnd-color: #f04747;
-      -rs-streaming-color: #643da7;
-      -rs-offline-color: #636b75;
-      -columns: 1;
-      -guildsize: 40;
-      -guildgap: 5;
+      --themeColor1: #ff3838;
+      --themeColor2: #5B86E5;
+      --backgroundImage: url('https://raw.githubusercontent.com/gamerboytr/gamerboytr.github.io/master/Themes/Gamer-Theme/Resurces/bg.jpg');
+      --backgroundBlur: 3px;
+      --backgroundOpacity: 0.2;
+      --rs-avatar-shape: 49%;
+      --rs-online-color: #43b581;
+      --rs-idle-color: #faa61a;
+      --rs-dnd-color: #f04747;
+      --rs-streaming-color: #643da7;
+      --rs-offline-color: #636b75;
+      --columns: 1;
+      --guildsize: 40;
+      --guildgap: 5;
   }
     
   svg[class="homeIcon-FuNwkv da-homeIcon"]>path {
