@@ -1,0 +1,555 @@
+  /* İmports */ 
+  
+  @import url("https://codedotspectra.github.io/themes/themes-cores/neutron8.css");
+  @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
+  @import url("https://codedotspectra.github.io/themes/core/badges.css");
+  @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
+  @import url('https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css');
+  @import url('https://gamerboytr.github.io/Themes/BetterIcons/BetterIcons.css');
+  @import url('https://nyri4.github.io/Discolored/main.css');
+  @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/EmojiReplace.theme.css');
+  /* Endİf */
+  
+    :root {
+      --homeImageSize: 50px;
+      --homeImage: url('https://yt3.ggpht.com/ytc/AAUvwniEUaBNWbH9Pk7A1cmIBdxnYt0YYrgNKx5h8grSMA=s900-c-k-c0x00ffffff-no-rj');
+      --backgroundColor: #0d0d0d;
+      --rs-small-spacing: 1px;
+      --rs-large-spacing: 2px;
+      --rs-width: 2px;
+      --aligndms: 0;
+      -themeColor1: #ff3838;
+      -themeColor2: #5B86E5;
+      -backgroundImage: url('https://raw.githubusercontent.com/gamerboytr/gamerboytr.github.io/master/Themes/Gamer-Theme/Resurces/bg.jpg');
+      -backgroundBlur: 3px;
+      -backgroundOpacity: 0.2;
+      -rs-avatar-shape: 49%;
+      -rs-online-color: #43b581;
+      -rs-idle-color: #faa61a;
+      -rs-dnd-color: #f04747;
+      -rs-streaming-color: #643da7;
+      -rs-offline-color: #636b75;
+      -columns: 1;
+      -guildsize: 40;
+      -guildgap: 5;
+  }
+    
+  svg[class="homeIcon-FuNwkv da-homeIcon"]>path {
+      display: none
+  }
+.wrapper-1Rf91z, .scroller-2TZvBN, .wrapper-3NnKdC, .scroller-1Bvpku {
+       background-color: transparent!important;
+}
+
+  div.newMessagesBar-265mhP {
+      background: #7289da!important;
+  }
+    
+  .circleIconButton-1QV--U {
+      color: var(--themeColor1);
+      background-color: var(--backgroundColor);
+  }
+
+  .attachment-33OFj0 .icon-1kp3fr+*::before,
+  .attachment-33OFj0 .icon-1kp3fr+*::after,
+  .audioMetadata-3zOuGv>*:first-child::before,
+  .audioMetadata-3zOuGv>*:first-child::after,
+  .uploadModal-2ifh8j .icon-kyxXVr:not(.image-2yrs5j)::before,
+  .uploadModal-2ifh8j .icon-kyxXVr:not(.image-2yrs5j)::after,
+  .uploadModalIn-1z07Bv .icon-kyxXVr:not(.image-2yrs5j)::before,
+  .uploadModalIn-1z07Bv .icon-kyxXVr:not(.image-2yrs5j)::after {
+      display: none;
+  }
+  
+  .attachment-33OFj0 .icon-1kp3fr,
+  .audioMetadata-3zOuGv::before,
+  .uploadModal-2ifh8j .icon-kyxXVr:not(.image-2yrs5j),
+  .uploadModalIn-1z07Bv .icon-kyxXVr:not(.image-2yrs5j) {
+      object-position: unset!important;
+      background: none!important;
+  }
+    
+  div[aria-controls="Hypesquad Online-tab"] {
+      color: orange;
+  }
+ 
+  .text-1FOLJS {
+      font-weight: 500;
+  }
+
+  .connectedAccountName-f8AEe2, .connectedAccountNameInner-1phBvE {
+    overflow: unset!important;
+    }
+.listItems-1uJgMC {
+  background: #0D0D0D;
+}
+div[class="header-8ilj5e da-header"] {
+  background: #0D0D0D;
+}
+div[class="scroller-3gAZLs da-scroller list-6NCENv da-list thin-1ybCId scrollerBase-289Jih"] {
+  background:#0d0d0d;
+}
+  
+  div[class="colorHeaderSecondary-3Sp3Ft size16-1P40sf subtitle-1Q3BuX da-subtitle"] {
+      color: #fff;
+  }
+  
+  div[class="colorHeaderSecondary-3Sp3Ft size14-e6ZScH skip-2o6MGG da-skip"] {
+      color: #fff;
+  }
+  
+  button[class="button-38aScr da-button lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x grow-q77ONN da-grow"] > div[class="contents-18-Yxp da-contents"] {
+      color: rgb(255, 0, 0)!important;
+      font-weight: 500;
+  }
+  button[class="backButton-iA7KIs da-backButton button-38aScr da-button lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x grow-q77ONN da-grow"] > div[class="contents-18-Yxp da-contents"] {
+    color: rgb(255, 0, 0)!important;
+    font-weight: 500;
+}
+button[class="button-38aScr da-button lookLink-9FtZy- colorPrimary-3b3xI6 sizeMin-1mJd1x grow-q77ONN da-grow"] > div[class="contents-18-Yxp da-contents"] {
+    color: rgb(255, 0, 0)!important;
+    font-weight: 500;
+}
+div[class="inputWrapper-31_8H8 da-inputWrapper input--jS-j2 da-input"] {
+    background-color: var(--backgroundColor)!important;
+}
+input.inputInner-2akrSS {
+    color: #fff;
+    font-weight: 300;
+}
+span[class="colorHeaderSecondary-3Sp3Ft size16-1P40sf"] {
+    color: green;
+}
+div[class="inputWrapper-31_8H8 da-inputWrapper"] > input[class="inputDefault-_djjkz input-cIJ7To da-inputDefault da-input"] {
+    color: white;
+    font-weight: 300;
+}
+  
+  ul[id="folder-items-1831673625"] {
+      height: unset!important;
+  }
+  
+  patch[d="M21 4.27L19.73 3L3 19.73L4.27 21L8.46 16.82L9.69 15.58L11.35 13.92L14.99 10.28L21 4.27Z"]:hover {
+      color: #fff;
+  }
+  
+  div[class="iconContainer-2-XQPY da-iconContainer"]:hover {
+      color: #fff;
+  }
+  
+  button[aria-label="Disconnect"]:hover {
+      border-radius: 115px;
+      background-color: #bd373c;
+  }
+  
+  [aria-label="Bağlantıyı Kes"]:hover {
+      border-radius: 115px;
+  }
+  
+  [aria-label="Ekranını Paylaş"]:hover {
+      border-radius: 115px;
+  }
+  
+  [aria-label="Aramaya Katıl"]:hover {
+      border-radius: 115px;
+  }
+  
+  [aria-label="Görüntülü Aramaya Katıl"]:hover {
+      border-radius: 115px;
+  }
+  
+  [aria-label="İzlemeyi Bırak"]:hover {
+      border-radius: 115px;
+  }
+  
+  div[class="item-1tOPte da-item labelContainer-1BLJti da-labelContainer colorDanger-2qLCe1 colorDefault-2K3EoJ da-colorDanger da-colorDefault"]:hover {
+      color: #fff;
+  }
+  
+  div[class="label-22pbtT da-label"]:hover {
+      color: #fff;
+  }
+  
+  .tutorialContainer-SGrQ1h {
+      padding-top: 0!important;
+  }
+  
+  .unread-1xRYoj {
+      background-color: var(--background-accent);
+  }
+  
+  .wrapper-3WhCwL {
+      background: rgba(137, 157, 229, 0.1)!important;
+      box-shadow: none;
+      color: #7289da;
+  }
+  
+  .container-UC8Ug1 {
+      background: #0a0909;
+  }
+  
+  div[class="colorStandard-2KCXvj size16-1P40sf text-1FOLJS da-text"] {
+      color: #fff;
+      font-size: 15px;
+  }
+  
+  div[class="colorHeaderPrimary-26Jzh- size24-RIRrxO title-3w8xhj da-title"] {
+      color: #fff;
+  }
+  
+  div[class="colorHeaderSecondary-3Sp3Ft size16-1P40sf subtitle-Nw1LLR da-subtitle"] {
+      color: rgba(255, 255, 255, 0.856);
+  }
+  
+  div[class="colorStandard-2KCXvj size20-17Iy80 footerTitle-2CYZch"] {
+      color: rgba(255, 255, 255, 0.856);
+  }
+  
+  div[class="colorHeaderSecondary-3Sp3Ft size12-3cLvbJ optionHeader-1-5lcp da-optionHeader"] {
+      color: rgba(255, 255, 255, 0.856);
+  }
+  
+  .inspector-3LQtX9 {
+      background: #080808;
+  }
+  
+  div[class="colorHeaderPrimary-26Jzh- size24-RIRrxO title-XLSR78 da-title"] {
+      color: #fff;
+  }
+  
+  div[class="colorHeaderSecondary-3Sp3Ft size14-e6ZScH"] {
+      color: rgba(255, 255, 255, 0.856);
+  }
+  
+  div[class="sampleLink-2NLvZg da-sampleLink"] {
+      color: rgba(255, 255, 255, 0.856);
+  }
+  
+  div[class="inputDefault-_djjkz input-cIJ7To da-inputDefault da-input inputInner-2akrSS da-inputInner"] {
+      color: rgba(255, 255, 255, 0.747);
+  }
+  
+  button[aria-label="Disconnect"] {
+      border-radius: 115px
+  }
+  
+  svg[viewBox="0 0 12 12"] {
+      width: 15px;
+  }
+  
+  .mentioned-xhSam7 {
+      background-color: rgba(250, 166, 26, 0.05)!important;
+  }
+  
+  div.hero-EvfTTA {
+      max-width: none;
+  }
+  
+  path[style] {
+      visibility: hidden;
+  }
+  
+  div.grid-1nZz7S {
+      background: #2f3136ad;
+  }
+  
+  span.colorHeaderPrimary-26Jzh- {
+      color: rgb(252, 14, 14);
+  }
+  
+/*   span.colorHeaderSecondary-3Sp3Ft {
+      color: rgb(76, 151, 76);
+  } */
+  
+  .rtcConnectionStatusConnected-VRZDjy {
+      color: #43b581!important;
+  }
+  
+  div[class="contents-18-Yxp da-contents"] {
+      color: unset!important;
+  }
+  
+  .colorHeaderPrimary-26Jzh- {
+      color: #fff!important;
+  }
+  
+/*   .colorHeaderSecondary-3Sp3Ft {
+      color: rgb(238, 223, 223)
+  } */
+  
+  .contents-18-Yxp {
+      color: #fff;
+  }
+  
+  div.info-1VyQPT {
+      visibility: visible;
+  }
+  
+  path[d="M4 0L0 4V8L4 12L8 8V4L4 0ZM7 7.59L4 10.59L1 7.59V4.41L4 1.41L7 4.41V7.59Z"] {
+      color: #b377f3;
+  }
+  
+  [class="icon-3GaxIC da-icon memberBadgeIcon-1hpSQc da-memberBadgeIcon"] {
+      color: #b377f3;
+  }
+  
+  [aria-label="Bağlantıyı Kes"] {
+      border-radius: 115px;
+  }
+  
+  [aria-label="Ekranını Paylaş"] {
+      border-radius: 115px;
+  }
+  
+  [aria-label="İzlemeyi Bırak"] {
+      border-radius: 115px;
+  }
+  
+  div[aria-controls="Hypesquad Online-tab"]::before {
+      color: orange;
+  }
+  
+  div[class="badge-7CsdQq profileGuildSubscriberlvl1-3oI9tx da-profileGuildSubscriberlvl1 size17-2GsONg"] {
+      color: #b377f3;
+  }
+  
+  div[class="attachment-33OFj0 horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG alignCenter-1dQNNs da-attachment da-horizontal da-flex da-directionRow da-alignCenter embedWrapper-lXpS3L da-embedWrapper"]::after {
+      background: #2f3136;
+  }
+  
+  span[class="botTag-ymWxY6 da-botTag bot-2Fta1w da-bot botTagInvert-18-95s botTag-2WPJ74 da-botTagInvert da-botTag px-10SIf7 da-px"] {
+      background: #fff;
+      margin: 1px 0px 0px 5.56152px;
+      isolation: isolate;
+  }
+  
+  .da.sansAttachButton {
+      background-color: transparent!important;
+  }
+  
+  button[aria-label="Aramaya Katıl"] {
+      border-radius: 115px;
+      transition: none;
+  }
+  
+  button[aria-label="Görüntülü Aramaya Katıl"] {
+      border-radius: 115px;
+  }
+  
+  button[class="controlButton-2MhVEL da-controlButton centerButton-3CaNcJ colorable-1bkp8v da-centerButton da-colorable green-plH-Mj button-38aScr da-button lookBlank-3eh9lL colorBrand-3pXr91 grow-q77ONN da-grow"] {
+      border-radius: 115px;
+  }
+  
+  button[class="actionButton-3CLkPB da-actionButton last-3WKR_s da-last centerButton-3CaNcJ colorable-1bkp8v da-centerButton da-colorable green-plH-Mj button-38aScr da-button lookBlank-3eh9lL colorBrand-3pXr91 grow-q77ONN da-grow"] {
+      border-radius: 115px;
+  }
+  
+  div[class="problemsText-1Yx-Kl da-problemsText"]::after {
+      content: 'Unutma Bu Temayı Yapan Kişi GamerboyTR :D';
+      padding-right: 175px;
+      font-size: 20px;
+      visibility: visible;
+  }
+  
+  div[class="problemsText-1Yx-Kl da-problemsText"] {
+      visibility: hidden;
+  }
+  
+  .border-3dQmSY.speaking-WDn8Wm {
+      box-shadow: inset 0 0 0 2px #43b581;
+      ;
+  }
+  
+  button[class="undefined bd-guild button-38aScr da-button lookOutlined-3sRXeN colorBrand-3pXr91 sizeMedium-1AC_Sl grow-q77ONN da-grow"]>div[class="contents-18-Yxp da-contents"] {
+      color: #fff!important;
+  }
+  
+  .botTagInvert-18-95s {
+      background: #fff;
+  }
+  /* Sağ Üst Düğmeler */
+  
+  div[class="winButtonClose-1HsbF- winButton-iRh8-Z flexCenter-3_1bcw flex-1O1GKY justifyCenter-3D2jYp alignCenter-1dQNNs da-winButtonClose da-winButton da-flexCenter da-flex da-justifyCenter da-alignCenter"]:hover {
+      background-color: red;
+      transition: 500ms all;
+  }
+  
+  div[class="winButtonMinMax-PBQ2gm winButton-iRh8-Z flexCenter-3_1bcw flex-1O1GKY justifyCenter-3D2jYp alignCenter-1dQNNs da-winButtonMinMax da-winButton da-flexCenter da-flex da-justifyCenter da-alignCenter"]:hover {
+      background-color: orange;
+      transition: 350ms all;
+  }
+  
+  div[class="preview-2nSL_2 da-preview group-spacing-16 cardPrimaryOutline-29Ujqw card-3Qj_Yx da-cardPrimaryOutline da-card"] {
+      background-color: var(--background-secondary)!important;
+  }
+  
+  .css-gvi9bl-control:hover {
+      background: rgb(17, 17, 17)!important;
+      transition: 300ms all;
+  }
+  
+  .css-gvi9bl-control:active {
+      background: rgb(17, 17, 17)!important;
+      transition: 300ms all;
+  }
+  
+  .marketingLogoImage-2SzXIR::after {
+      background: #b377f3;
+  }
+  /* Reklam */
+  
+  .typeWindows-1za-n7::before {
+      content: 'By GamerboyTR';
+      font-size: 14px;
+      font-family: Georgia, 'Times New Roman', Times, sans-serif;
+      color: #8e9297;
+      position: absolute;
+      left: 68px;
+  }
+  
+  .emptyCard-1RJw8n {
+      background: #2e2c2c60;
+  }
+  
+  .container-2fRDfG {
+      background: unset;
+  }
+  
+  .icon-1kp3fr {
+      width: 30px;
+      height: 40px;
+      margin-right: 8px;
+      -ms-flex-negative: 0;
+      flex-shrink: 0;
+  }
+  
+  .theme-dark .channelNotice-1-XFjC.invite-OjTXrW,
+  .theme-light .channelNotice-1-XFjC.invite-OjTXrW {
+      background-image: url('https://discord.com/assets/bf625d222187f542b9d7179109422e2c.svg')!important;
+  }
+  
+  button[class="actionButton-3CLkPB da-actionButton centerButton-3CaNcJ colorable-1bkp8v da-centerButton da-colorable red-33-Lnk button-38aScr da-button lookBlank-3eh9lL colorBrand-3pXr91 grow-q77ONN da-grow"] {
+      border-radius: 115px;
+  }
+  
+  a,
+  abbr,
+  acronym,
+  address,
+  applet,
+  big,
+  blockquote,
+  body,
+  caption,
+  cite,
+  code,
+  dd,
+  del,
+  dfn,
+  div,
+  dl,
+  dt,
+  em,
+  fieldset,
+  form,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  html,
+  iframe,
+  img,
+  ins,
+  kbd,
+  label,
+  legend,
+  li,
+  object,
+  ol,
+  p,
+  pre,
+  q,
+  s,
+  samp,
+  small,
+  .unread-1xRYoj span,
+  strike,
+  strong,
+  table,
+  tbody,
+  td,
+  tfoot,
+  th,
+  thead,
+  tr,
+  tt,
+  ul,
+  var {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-weight: inherit;
+      font-style: inherit;
+      font-family: inherit;
+      font-size: 100%;
+      vertical-align: baseline;
+  }
+  
+  .tutorialContainer-SGrQ1h {
+      padding-top: 5px!important;
+  }
+  
+  .colorHeaderPrimary-26Jzh- {
+      display: inline-block !important;
+      background: transparent;
+  }
+  
+  .wrapper-35wsBm {
+      background-color: #2f313680 !important;
+  }
+  
+  div[class="channelNotice-1-XFjC da-channelNotice quickswitcher-35bYg4 da-quickswitcher"] {
+      background-image: none!important;
+  }
+  
+  .attachment-33OFj0::after,
+  .embedFull-2tM8--::after,
+  .wrapper-35wsBm::after {
+      background-image: none;
+  }
+  
+  button.barButtonMain-3K-jeJ,
+  button.barButtonBase-2uLO1z,
+  button.da-barButtonMain,
+  button.da-barButtonBase {
+      z-index: 50000;
+  }
+          div.info-1VyQPT::before {
+              content: 'Theme By GamerboyTR';
+              color: #72767d;
+              font-size: 15px;
+              line-height: 16px;
+              visibility: visible;
+              position: relative;
+              bottom: -15ex;
+          }
+  /* Media */   
+      @media only screen and (min-width: 1920px) {
+          div[class="noticeRegion-1YviSH da-noticeRegion slider-2neXMg da-slider"] {
+              margin-left: 30em;
+              margin-bottom: 1em;
+          }
+      }
+      
+      @media only screen and (min-width: 2560px) {
+          * {
+              font-size: 1.5em;
+              size: 1.5em;
+          }
+          img {
+              size: 1.5em!important;
+          }
+      }
+  /*  Endİf All  */
