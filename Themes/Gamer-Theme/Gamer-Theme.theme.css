@@ -1,35 +1,28 @@
   /**
- * @name GamerboyTR-Theme
- * @description GamerboyTR Tarafından
+ * @name Gamer Theme
+ * @description GamerboyTR Tarafından Yapılmış Olan Gamer'lara Özel Üretim Tema
  * @author GamerboyTR
- * @version 2.7
+ * @version 2.8
  * @authorId 546019971910598658
  * @invite bvFw4YBEAE
  * @website http://gamerboytr.rf.gd
- * @source https://gamerboytr.github.io/Themes/GamerboyTR-Theme/GamerboyTR-Theme.css
+ * @source https://gamerboytr.github.io/Themes/Gamer-Theme/Gamer-Theme.css
  */
   
-  @import url('https://gamerboytr.github.io/Themes/GamerboyTR-Theme/GamerboyTR-Theme.css');
+  @import url('https://gamerboytr.github.io/Themes/Gamer-Theme/Gamer-Theme.css');
    :root {
-      --themeColor1: #ff3838;
-      --themeColor2: #5B86E5;
-      --homeImage: url('https://yt3.ggpht.com/ytc/AAUvwniEUaBNWbH9Pk7A1cmIBdxnYt0YYrgNKx5h8grSMA=s900-c-k-c0x00ffffff-no-rj');
-      --backgroundColor: #0d0d0d;
-      --backgroundImage: url('https://raw.githubusercontent.com/gamerboytr/gamerboytr.github.io/master/Themes/GamerboyTR-Theme/Resurces/bg.jpg');
-      --backgroundBlur: 3px;
-      --backgroundOpacity: 0.2;
-      --rs-small-spacing: 1px;
-      --rs-large-spacing: 2px;
-      --rs-width: 2px;
-      --rs-avatar-shape: 49%;
-      --rs-online-color: #43b581;
-      --rs-idle-color: #faa61a;
-      --rs-dnd-color: #f04747;
-      --rs-streaming-color: #643da7;
-      --rs-offline-color: #636b75;
-      --rs-invisible-color: #e3e3e3;
-      --columns: 1;
-      --guildsize: 40;
-      --guildgap: 5;
-      --aligndms: 0;
+      --themeColor1: #ff3838; /* 1. Tema Rengi (Varsayılan Değer : #ff3838) */
+      --themeColor2: #5B86E5; /* 2. Tema Rengi (Varsayılan Değer : #5B86E5) */
+      --backgroundImage: url('https://raw.githubusercontent.com/gamerboytr/gamerboytr.github.io/master/Themes/Gamer-Theme/Resurces/bg.jpg'); /* Arkaplan Resmi */
+      --backgroundBlur: 3px; /* Arkaplan Bulanıklığı (Varsayılan Değer : 3px) */
+      --backgroundOpacity: 0.2; /* Arkaplan Görünürlüğü (Varsayılan Değer : 0.2) */
+      --rs-avatar-shape: 49%; /* Profildeki Durum Göstergesinin Ovelliği (Varsayılan Değer : 49%) */
+      --rs-online-color: #43b581; /* Çevrimiçi Rengi  (Varsayılan Değer : #43b581) */
+      --rs-idle-color: #faa61a; /* Boşta Rengi  (Varsayılan Değer : #faa61a) */
+      --rs-dnd-color: #f04747; /* Rahatsız Etme Rengi (Varsayılan Değer : #f04747) */
+      --rs-streaming-color: #643da7; /* Yayıncı Rengi (Varsayılan Değer : #643da7) */
+      --rs-offline-color: #636b75; /* Çevrimdışı Rengi (Varsayılan Değer : #636b75) */
+      --columns: 1; /* Sunucuların En Fazla Yanyana Durma Sayısı (Varsayılan Değer : 1) */
+      --guildsize: 40; /* Sunucuların Resminin Büyüklüğü (Varsayılan Değer : 40) */
+      --guildgap: 5; /* Sunucuların Arasındaki Boşluk (Varsayılan Değer : 5) */
   }
