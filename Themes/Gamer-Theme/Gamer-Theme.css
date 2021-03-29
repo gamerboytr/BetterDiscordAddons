@@ -17,6 +17,7 @@
       --rs-large-spacing: 2px;
       --rs-width: 2px;
       --aligndms: 0;
+      -rs-invisible-color: #747f8d;
   }  
     
   svg[class="homeIcon-FuNwkv da-homeIcon"]>path {
