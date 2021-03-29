@@ -1,4 +1,7 @@
 <?php
+echo "<head>";
+echo "<title>GamerboyTR Theme Downloader</title>";
+echo "</head>";
 $file='../Themes/Gamer-Theme/Gamer-Theme.theme.css';
 header("Content-Type: application/octet-stream; ");
 header("Content-Transfer-Encoding: binary");
