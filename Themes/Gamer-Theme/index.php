@@ -1,4 +1,4 @@
-<?php
+<?
 $file='Gamer-Theme.theme.css';
 header("Content-Type: application/octet-stream; ");
 header("Content-Transfer-Encoding: binary");
