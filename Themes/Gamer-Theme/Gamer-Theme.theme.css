@@ -1,28 +1,29 @@
   /**
- * @name Gamer Theme
+ * @name Gamer-Theme
  * @description GamerboyTR Tarafından Yapılmış Olan Gamer'lara Özel Üretim Tema
  * @author GamerboyTR
- * @version 2.8
+ * @version 2.9
  * @authorId 546019971910598658
  * @invite bvFw4YBEAE
  * @website http://gamerboytr.rf.gd
  * @source https://gamerboytr.github.io/Themes/Gamer-Theme/Gamer-Theme.css
  */
-  
-  @import url('https://gamerboytr.github.io/Themes/Gamer-Theme/Gamer-Theme.css');
+
+ @import url('https://gamerboytr.github.io/Themes/Gamer-Theme/Gamer-Theme.css');
    :root {
       --themeColor1: #ff3838; /* 1. Tema Rengi (Varsayılan Değer : #ff3838) */
       --themeColor2: #5B86E5; /* 2. Tema Rengi (Varsayılan Değer : #5B86E5) */
       --backgroundImage: url('https://raw.githubusercontent.com/gamerboytr/gamerboytr.github.io/master/Themes/Gamer-Theme/Resurces/bg.jpg'); /* Arkaplan Resmi */
       --backgroundBlur: 3px; /* Arkaplan Bulanıklığı (Varsayılan Değer : 3px) */
       --backgroundOpacity: 0.2; /* Arkaplan Görünürlüğü (Varsayılan Değer : 0.2) */
-      --rs-avatar-shape: 49%; /* Profildeki Durum Göstergesinin Ovelliği (Varsayılan Değer : 49%) */
+      --rs-avatar-shape: 50%; /* Profildeki Durum Göstergesinin Ovelliği (Varsayılan Değer : 50%) */
       --rs-online-color: #43b581; /* Çevrimiçi Rengi  (Varsayılan Değer : #43b581) */
       --rs-idle-color: #faa61a; /* Boşta Rengi  (Varsayılan Değer : #faa61a) */
       --rs-dnd-color: #f04747; /* Rahatsız Etme Rengi (Varsayılan Değer : #f04747) */
       --rs-streaming-color: #643da7; /* Yayıncı Rengi (Varsayılan Değer : #643da7) */
       --rs-offline-color: #636b75; /* Çevrimdışı Rengi (Varsayılan Değer : #636b75) */
+      --rs-invisible-color: #747f8d; /* Görünmez Rengi - Görünmez Olan Birinin Rengini Belirlemez! (Varsayılan Değer : #747f8d) */
       --columns: 1; /* Sunucuların En Fazla Yanyana Durma Sayısı (Varsayılan Değer : 1) */
       --guildsize: 40; /* Sunucuların Resminin Büyüklüğü (Varsayılan Değer : 40) */
-      --guildgap: 5; /* Sunucuların Arasındaki Boşluk (Varsayılan Değer : 5) */
+      --guildgap: 5; /* Sunucuların Arasındaki Boşluk (Varsayılan Değer : 5) */ 
   }
