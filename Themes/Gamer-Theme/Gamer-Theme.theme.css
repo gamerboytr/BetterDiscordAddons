@@ -24,6 +24,6 @@
       --rs-offline-color: #636b75; /* Çevrimdışı Rengi (Varsayılan Değer : #636b75) */
       --rs-invisible-color: #747f8d; /* Görünmez Rengi - Görünmez Olan Birinin Rengini Belirlemez! (Varsayılan Değer : #747f8d) */
       --columns: 1; /* Sunucuların En Fazla Yanyana Durma Sayısı (Varsayılan Değer : 1) */
-      --guildsize: 40; /* Sunucuların Resminin Büyüklüğü (Varsayılan Değer : 40) */
+      --guildsize: 40; /* Sunucuların Resminin Büyüklüğü (Varsayılan Değer : 40) */ 
       --guildgap: 5; /* Sunucuların Arasındaki Boşluk (Varsayılan Değer : 5) */ 
   }
