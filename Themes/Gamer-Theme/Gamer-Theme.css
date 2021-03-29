@@ -357,14 +357,14 @@ div[class="inputWrapper-31_8H8 da-inputWrapper"] > input[class="inputDefault-_dj
   
   div[class="winButtonClose-1HsbF- winButton-iRh8-Z flexCenter-3_1bcw flex-1O1GKY justifyCenter-3D2jYp alignCenter-1dQNNs da-winButtonClose da-winButton da-flexCenter da-flex da-justifyCenter da-alignCenter"]:hover {
       background-color: red;
-      transition: 500ms all;
+      transition: 200ms all;
   }
   
   div[class="winButtonMinMax-PBQ2gm winButton-iRh8-Z flexCenter-3_1bcw flex-1O1GKY justifyCenter-3D2jYp alignCenter-1dQNNs da-winButtonMinMax da-winButton da-flexCenter da-flex da-justifyCenter da-alignCenter"]:hover {
       background-color: orange;
       transition: 350ms all;
   }
-  
+  /*  Endİf */
   div[class="preview-2nSL_2 da-preview group-spacing-16 cardPrimaryOutline-29Ujqw card-3Qj_Yx da-cardPrimaryOutline da-card"] {
       background-color: var(--background-secondary)!important;
   }
