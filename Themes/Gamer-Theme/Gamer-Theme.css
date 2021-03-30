@@ -19,6 +19,7 @@
       --rs-width: 2px;
       --aligndms: 0;
   }  
+/* Login */
   .authBox-hW6HRx img[src="/assets/0f4d1ff76624bb45a3fee4189279ee92.svg"] {
     object-position: unset!important;
   }
@@ -107,7 +108,7 @@ input::placeholder {
     position:unset;
   }
 }
-    
+ /* Endİf */   
   svg[class="homeIcon-FuNwkv da-homeIcon"]>path {
       display: none
   }
