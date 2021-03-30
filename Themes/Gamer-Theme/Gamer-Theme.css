@@ -19,6 +19,57 @@
       --rs-width: 2px;
       --aligndms: 0;
   }  
+/* Call Buttons */
+  
+[aria-label="Bağlantıyı Kes"]:hover {
+    border-radius: 115px;
+    background: #a72424!important;
+}
+
+[aria-label="Ekranını Paylaş"]:hover {
+    border-radius: 115px;
+    background: #161616;
+}
+
+[aria-label="Aramaya Katıl"]:hover {
+    border-radius: 115px;
+    background: #161616;
+}
+
+[aria-label="Görüntülü Aramaya Katıl"]:hover {
+    border-radius: 115px;
+    background: #161616;
+}
+
+[aria-label="İzlemeyi Bırak"]:hover {
+    border-radius: 115px;
+    background: #161616;
+}
+
+[aria-label="Bağlantıyı Kes"] {
+  border-radius: 115px;
+}
+
+[aria-label="Ekranını Paylaş"] {
+  border-radius: 115px;
+  background: #040404;
+}
+
+[aria-label="Aramaya Katıl"] {
+  border-radius: 115px;
+  background: #040404;
+}
+
+[aria-label="Görüntülü Aramaya Katıl"] {
+  border-radius: 115px;
+  background: #040404;
+}
+
+[aria-label="İzlemeyi Bırak"] {
+  border-radius: 115px;
+  background: #040404;
+}
+/* Endİf */
 .guildSidebar-2OCzWB,.modal-f02hVt {
   background: transparent!important;
 }
@@ -214,31 +265,7 @@ div[class="inputWrapper-31_8H8 da-inputWrapper"] > input[class="inputDefault-_dj
   div[class="iconContainer-2-XQPY da-iconContainer"]:hover {
       color: #fff;
   }
-  
-  button[aria-label="Disconnect"]:hover {
-      border-radius: 115px;
-      background-color: #bd373c;
-  }
-  
-  [aria-label="Bağlantıyı Kes"]:hover {
-      border-radius: 115px;
-  }
-  
-  [aria-label="Ekranını Paylaş"]:hover {
-      border-radius: 115px;
-  }
-  
-  [aria-label="Aramaya Katıl"]:hover {
-      border-radius: 115px;
-  }
-  
-  [aria-label="Görüntülü Aramaya Katıl"]:hover {
-      border-radius: 115px;
-  }
-  
-  [aria-label="İzlemeyi Bırak"]:hover {
-      border-radius: 115px;
-  }
+
   
   div[class="item-1tOPte da-item labelContainer-1BLJti da-labelContainer colorDanger-2qLCe1 colorDefault-2K3EoJ da-colorDanger da-colorDefault"]:hover {
       color: #fff;
@@ -371,18 +398,6 @@ div[class="inputWrapper-31_8H8 da-inputWrapper"] > input[class="inputDefault-_dj
       color: #b377f3;
   }
   
-  [aria-label="Bağlantıyı Kes"] {
-      border-radius: 115px;
-  }
-  
-  [aria-label="Ekranını Paylaş"] {
-      border-radius: 115px;
-  }
-  
-  [aria-label="İzlemeyi Bırak"] {
-      border-radius: 115px;
-  }
-  
   div[aria-controls="Hypesquad Online-tab"]::before {
       color: orange;
   }
@@ -405,14 +420,6 @@ div[class="inputWrapper-31_8H8 da-inputWrapper"] > input[class="inputDefault-_dj
       background-color: transparent!important;
   }
   
-  button[aria-label="Aramaya Katıl"] {
-      border-radius: 115px;
-      transition: none;
-  }
-  
-  button[aria-label="Görüntülü Aramaya Katıl"] {
-      border-radius: 115px;
-  }
   
   button[class="controlButton-2MhVEL da-controlButton centerButton-3CaNcJ colorable-1bkp8v da-centerButton da-colorable green-plH-Mj button-38aScr da-button lookBlank-3eh9lL colorBrand-3pXr91 grow-q77ONN da-grow"] {
       border-radius: 115px;
