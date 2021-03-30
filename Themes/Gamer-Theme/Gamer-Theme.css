@@ -60,12 +60,6 @@ div[class="colorHeaderPrimary-26Jzh- size24-RIRrxO title-jXR8lp da-title marginB
 .theme-dark.authBox-hW6HRx {
   background: var(--backgroundColor);
 }
-.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
-  border-color: var(--themeColor1)!important;
-  background-image: linear-gradient(to bottom right,var(--themeColor1),var(--themeColor2))!important;
-  transition: 300ms all;
-  color: #fff!important;  
-}
 .input-cIJ7To {
   border-color: var(--themeColor2);
   transition: all 300ms;
