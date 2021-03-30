@@ -19,6 +19,94 @@
       --rs-width: 2px;
       --aligndms: 0;
   }  
+  .authBox-hW6HRx img[src="/assets/0f4d1ff76624bb45a3fee4189279ee92.svg"] {
+    object-position: unset!important;
+  }
+  .authBox-hW6HRx img[src="/assets/0f4d1ff76624bb45a3fee4189279ee92.svg"] + * {
+    display:flex!important;
+  }
+  
+button[class="smallRegisterLink-2LCrMe da-smallRegisterLink linkButton-wzh5kV da-linkButton button-38aScr da-button lookLink-9FtZy- colorBrand-3pXr91 sizeMin-1mJd1x grow-q77ONN da-grow"]>div:hover {
+  color: var(--themeColor1)!important;
+  text-decoration-color: var(--themeColor1)!important;
+  -webkit-text-decoration-color: var(--themeColor1)!important;
+  text-decoration: underline;
+  transition: 300ms all;
+}
+button[class="smallRegisterLink-2LCrMe da-smallRegisterLink linkButton-wzh5kV da-linkButton button-38aScr da-button lookLink-9FtZy- colorBrand-3pXr91 sizeMin-1mJd1x grow-q77ONN da-grow"]>div {
+  transition: 300ms color;
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+  background-color: var(--themeColor1)!important;
+  background-image: linear-gradient(to bottom right,var(--themeColor1),var(--themeColor2))!important;
+  transition: 300ms all!important;
+  display: block;
+}
+div[class="colorHeaderPrimary-26Jzh- size24-RIRrxO title-jXR8lp da-title marginBottom8-AtZOdT da-marginBottom8"]:first-child {
+  visibility: hidden!important;
+  padding: 0;
+  position:absolute
+}
+div[class="colorHeaderPrimary-26Jzh- size24-RIRrxO title-jXR8lp da-title marginBottom8-AtZOdT da-marginBottom8"]:first-child::before {
+  content: 'Tekrar Hoşgeldin Lan Tirreq';
+  visibility:visible;
+  position: relative;
+  top: -3ex;
+  left: calc(8ex + 9px);
+  font-size: 22px;
+  padding: 0
+}
+.theme-dark.authBox-hW6HRx {
+  background: var(--backgroundColor);
+}
+.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
+  border-color: var(--themeColor1)!important;
+  background-image: linear-gradient(to bottom right,var(--themeColor1),var(--themeColor2))!important;
+  transition: 300ms all;
+  color: #fff!important;  
+}
+.input-cIJ7To {
+  border-color: var(--themeColor2);
+  transition: all 300ms;
+}
+.input-cIJ7To:hover {
+  border-color: var(--themeColor1)!important;
+}
+.da-errorMessage {
+  color:rgb(255, 46, 46)!important;
+  font-weight: bold;
+  text-shadow: none;
+}
+canvas.canvas-3XuBXe {
+  display:none
+}
+div[class="rightSplit-2US0xy da-rightSplit"]{
+  display:none
+}
+div[class="splashBackground-1FRCko wrapper-3Q5DdO scrollbarGhost-2F9Zj2 scrollbar-3dvm_9 da-wrapper da-scrollbarGhost da-scrollbar"] {
+  background-image: linear-gradient(to bottom right,red,pink,yellow,purple,orange,green,cyan,blue)!important;
+  display:block;
+  width:100%;
+ height:100%;
+}
+input[class="inputDefault-_djjkz input-cIJ7To da-inputDefault da-input"]::placeholder {
+    color: #fff;
+} 
+input::placeholder {
+  color:#fff
+}
+
+@media (max-width: 768px) {
+  div[class="colorHeaderPrimary-26Jzh- size24-RIRrxO title-jXR8lp da-title marginBottom8-AtZOdT da-marginBottom8"]:first-child::before {
+    visibility:hidden;
+    display:none
+  }
+  div[class="colorHeaderPrimary-26Jzh- size24-RIRrxO title-jXR8lp da-title marginBottom8-AtZOdT da-marginBottom8"]:first-child {
+    display:block;
+    visibility:visible!important;
+    position:unset;
+  }
+}
     
   svg[class="homeIcon-FuNwkv da-homeIcon"]>path {
       display: none
