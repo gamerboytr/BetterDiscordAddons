@@ -114,6 +114,7 @@ button[class="smallRegisterLink-2LCrMe da-smallRegisterLink linkButton-wzh5kV da
   background-image: linear-gradient(to bottom right,var(--themeColor1),var(--themeColor2))!important;
   transition: 300ms all!important;
   display: block;
+  border-radius: 115px;
 }
 div[class="colorHeaderPrimary-26Jzh- size24-RIRrxO title-jXR8lp da-title marginBottom8-AtZOdT da-marginBottom8"]:first-child {
   visibility: hidden!important;
