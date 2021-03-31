@@ -38,17 +38,17 @@
 
 [aria-label="Aramaya Katıl"]:hover {
     border-radius: 115px!important;
-    background: #161616!important;
+    background: #2b7555!important;
 }
 
 [aria-label="Görüntülü Aramaya Katıl"]:hover {
     border-radius: 115px!important;
-    background: #161616!important;
+    background: #2b7555!important;
 }
 
 [aria-label="İzlemeyi Bırak"]:hover {
     border-radius: 115px!important;
-    background: #161616!important;
+    background: #a72424!important;
 }
 
 [aria-label="Bağlantıyı Kes"] {
@@ -62,17 +62,17 @@
 
 [aria-label="Aramaya Katıl"] {
   border-radius: 115px!important;
-  background: #040404!important;
+  background: #44B583!important;
 }
 
 [aria-label="Görüntülü Aramaya Katıl"] {
   border-radius: 115px!important;
-  background: #040404!important;
+  background: #44B583!important;
 }
 
 [aria-label="İzlemeyi Bırak"] {
   border-radius: 115px!important;
-  background: #040404!important;
+  background: #EF464C!important;
 }
 /* Endİf */
 .guildSidebar-2OCzWB,.modal-f02hVt {
