@@ -25,52 +25,52 @@
 /* Call Buttons */
   
 [aria-label="Bağlantıyı Kes"]:hover {
-    border-radius: 115px;
+    border-radius: 115px!important;
     background: #a72424!important;
 }
 
 [aria-label="Ekranını Paylaş"]:hover {
-    border-radius: 115px;
-    background: #161616;
+    border-radius: 115px!important;
+    background: #161616!important;
 }
 
 [aria-label="Aramaya Katıl"]:hover {
-    border-radius: 115px;
-    background: #161616;
+    border-radius: 115px!important;
+    background: #161616!important;
 }
 
 [aria-label="Görüntülü Aramaya Katıl"]:hover {
-    border-radius: 115px;
-    background: #161616;
+    border-radius: 115px!important;
+    background: #161616!important;
 }
 
 [aria-label="İzlemeyi Bırak"]:hover {
-    border-radius: 115px;
-    background: #161616;
+    border-radius: 115px!important;
+    background: #161616!important;
 }
 
 [aria-label="Bağlantıyı Kes"] {
-  border-radius: 115px;
+  border-radius: 115px!important;
 }
 
 [aria-label="Ekranını Paylaş"] {
-  border-radius: 115px;
-  background: #040404;
+  border-radius: 115px!important;
+  background: #040404!important;
 }
 
 [aria-label="Aramaya Katıl"] {
-  border-radius: 115px;
-  background: #040404;
+  border-radius: 115px!important;
+  background: #040404!important;
 }
 
 [aria-label="Görüntülü Aramaya Katıl"] {
-  border-radius: 115px;
-  background: #040404;
+  border-radius: 115px!important;
+  background: #040404!important;
 }
 
 [aria-label="İzlemeyi Bırak"] {
-  border-radius: 115px;
-  background: #040404;
+  border-radius: 115px!important;
+  background: #040404!important;
 }
 /* Endİf */
 .guildSidebar-2OCzWB,.modal-f02hVt {
