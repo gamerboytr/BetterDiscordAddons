@@ -19,6 +19,9 @@
       --rs-width: 2px;
       --aligndms: 0;
   }  
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+    background-image: linear-gradient(to bottom right,var(--themeColor1),var(--themeColor2));
+}
   .sidebar-2K8pFh {
     border-right: 4px solid #ffffff2b;
 }
