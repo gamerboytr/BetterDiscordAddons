@@ -18,7 +18,11 @@
       --rs-large-spacing: 2px;
       --rs-width: 2px;
       --aligndms: 0;
-  }  
+  } 
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+    background-color: var(--themeColor1);
+    background-image: linear-gradient(to bottom right,var(--themeColor1),var(--themeColor2));
+}
 .lookFilled-1Gx00P.colorGreen-29iAKY {
     background-image: linear-gradient(to bottom right,var(--themeColor1),var(--themeColor2));
 }
