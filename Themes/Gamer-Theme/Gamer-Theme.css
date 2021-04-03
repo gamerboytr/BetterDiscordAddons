@@ -506,19 +506,19 @@ div[class="inputWrapper-31_8H8 da-inputWrapper"] > input[class="inputDefault-_dj
       background: #fff;
   }
   /* Sağ Üst Düğmeler */
-  div[class="winButtonClose-1HsbF- winButton-iRh8-Z flexCenter-3_1bcw flex-1O1GKY justifyCenter-3D2jYp alignCenter-1dQNNs da-winButtonClose da-winButton da-flexCenter da-flex da-justifyCenter da-alignCenter"]:hover {
-    background-color: rgba(224, 15, 15, 0.71);
-    transition: 300ms all;
-}
-div[class="winButtonClose-1HsbF- winButton-iRh8-Z flexCenter-3_1bcw flex-1O1GKY justifyCenter-3D2jYp alignCenter-1dQNNs da-winButtonClose da-winButton da-flexCenter da-flex da-justifyCenter da-alignCenter"] {
+div[aria-label="Kapat"]:hover {
+  background-color: rgba(224, 15, 15, 0.71);
   transition: 300ms all;
 }
-div[class="winButtonMinMax-PBQ2gm winButton-iRh8-Z flexCenter-3_1bcw flex-1O1GKY justifyCenter-3D2jYp alignCenter-1dQNNs da-winButtonMinMax da-winButton da-flexCenter da-flex da-justifyCenter da-alignCenter"]:hover {
-    background-color: rgb(56, 56, 56);
-    transition: 300ms all;
+div[aria-label="Kapat"] {
+transition: 300ms all;
 }
-div[class="winButtonMinMax-PBQ2gm winButton-iRh8-Z flexCenter-3_1bcw flex-1O1GKY justifyCenter-3D2jYp alignCenter-1dQNNs da-winButtonMinMax da-winButton da-flexCenter da-flex da-justifyCenter da-alignCenter"] {
-     transition: 300ms all;
+div[aria-label="Küçült"]:hover,div[aria-label="Ekranı Kapla"]:hover {
+  background-color: rgb(56, 56, 56);
+  transition: 300ms all;
+}
+div[aria-label="Küçült"],div[aria-label="Ekranı Kapla"] {
+   transition: 300ms all;
 }
   /*  Endİf */
   div[class="preview-2nSL_2 da-preview group-spacing-16 cardPrimaryOutline-29Ujqw card-3Qj_Yx da-cardPrimaryOutline da-card"] {
