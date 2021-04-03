@@ -19,6 +19,29 @@
       --rs-width: 2px;
       --aligndms: 0;
   } 
+
+  .bd-controls>.bd-addon-button:hover {
+    background: #869ffa!important;
+    border-radius: 0px;
+  }
+  .bd-controls>.bd-addon-button:last-of-type {
+    background: #f04747!important;
+  }
+
+  .bd-addon-list .bd-addon-header {
+    background: #0D0D0D;
+  }
+  .bd-addon-list .bd-addon-card {
+    background: #171819!important;
+  }
+  div[class="circleIconButton-1QV--U selected-1JjBPm"] {
+    background: #1f1f1f!important;
+    color: #ff7b7b!important;
+  }
+  homeIcon-FuNwkv {
+    display: none;
+  }
+
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
     background-color: var(--themeColor1);
     background-image: linear-gradient(to bottom right,var(--themeColor1),var(--themeColor2));
