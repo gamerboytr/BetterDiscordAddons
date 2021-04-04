@@ -2,7 +2,7 @@
  * @name Gamer-Theme
  * @description GamerboyTR Tarafından Yapılmış Olan Gamer'lara Özel Üretim Tema
  * @author GamerboyTR
- * @version 3.2
+ * @version 3.3
  * @authorId 546019971910598658
  * @invite bvFw4YBEAE
  * @website http://gamerboytr.rf.gd
@@ -26,4 +26,5 @@
       --columns: 1; /* Sunucuların En Fazla Yanyana Durma Sayısı (Varsayılan Değer : 1) */
       --guildsize: 40; /* Sunucuların Resminin Büyüklüğü (Varsayılan Değer : 40) */
       --guildgap: 5; /* Sunucuların Arasındaki Boşluk (Varsayılan Değer : 5) */ 
+      --homeImage: url('https://avatars.githubusercontent.com/u/59420445?s=400&v=4'); /* Ana Sayfa Iconu(Discord Logosu - Bu Kısmı Silerseniz Nomal Logo Olur) */
   }
