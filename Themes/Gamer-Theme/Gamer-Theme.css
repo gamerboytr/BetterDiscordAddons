@@ -20,6 +20,29 @@
       --aligndms: 0;
   } 
 
+   .wrapper-r-6rrt {
+	display: flex;
+	margin-left: 60ex;
+  }
+  .sparkles-fvfHK0 {
+	  width: unset;
+  }
+  .featureCard-1RR4Tl {
+	  background: rgba(0, 0, 0, 0.45);
+  }
+  .checkboxWrapper-SkhIWG.row-3QHy4I {
+	  background: var(--backgroundColor);
+	  border: 1px solid #2b2b2b;
+  }
+  .jumpToPresentBar-G1R9s6 {
+	  z-index: 900000000;
+	  background-color: var(--backgroundColor)
+  }
+  div[searchResult] {
+	background-color: #0000007d;
+    border: 1px solid #5f5f5f;
+  }
+
 .perks-ptrQDg {
   background: #171717;
 }
