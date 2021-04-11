@@ -20,6 +20,9 @@
       --aligndms: 0;
   } 
 .typeWindows-1za-n7::after {
+	display:none;
+}
+.typeWindows-1za-n7::after {
 	height: unset!important;
 }
 .searchHeader-2XoQg7 {
