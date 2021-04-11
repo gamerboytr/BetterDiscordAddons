@@ -19,7 +19,30 @@
       --rs-width: 2px;
       --aligndms: 0;
   } 
+.typeWindows-1za-n7::after {
+	height: unset!important;
+}
+.searchHeader-2XoQg7 {
+	background-color: #171717;
+}
 
+/* Açık Mod */
+.theme-light {
+  --backgroundImage: transparent;
+}
+.theme-light .appMount-3lHmkl, body {
+    background-color: #fff!important;
+}
+.theme-light .panels-j1Uci_ {
+  background: #f5f7f8!important;
+}
+.theme-light .scrollableContainer-2NUZem {
+    background: #f5f7f8;
+}
+.theme-light .channelTextArea-rNsIhG {
+  background: #f5f7f8;
+}
+/* Endİf */
    .wrapper-r-6rrt {
 	display: flex;
 	margin-left: 60ex;
