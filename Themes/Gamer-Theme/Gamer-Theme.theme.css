@@ -13,7 +13,7 @@
    :root {
       --themeColor1: #ff3838; /* 1. Tema Rengi (Varsayılan Değer : #ff3838) */
       --themeColor2: #5B86E5; /* 2. Tema Rengi (Varsayılan Değer : #5B86E5) */
-      --backgroundImage: url('https://raw.githubusercontent.com/gamerboytr/gamerboytr.github.io/master/Themes/Gamer-Theme/Resurces/bg.jpg'); /* Arkaplan Resmi */
+      --backgroundImage: url('https://media.discordapp.net/attachments/824207543634493440/833580120060723220/mustafa_kemal_ataturk_wallpaper_by_kayakartalii_dcpegjp-fullview.png'); /* Arkaplan Resmi */
       --backgroundBlur: 3px; /* Arkaplan Bulanıklığı (Varsayılan Değer : 3px) */
       --backgroundOpacity: 0.2; /* Arkaplan Görünürlüğü (Varsayılan Değer : 0.2) */
       --rs-avatar-shape: 50%; /* Profildeki Durum Göstergesinin Ovelliği (Varsayılan Değer : 50%) */
