@@ -27,4 +27,6 @@
       --guildsize: 40; /* Sunucuların Resminin Büyüklüğü (Varsayılan Değer : 40) */
       --guildgap: 5; /* Sunucuların Arasındaki Boşluk (Varsayılan Değer : 5) */ 
       --homeImage: url('https://avatars.githubusercontent.com/u/59420445?s=400&v=4'); /* Ana Sayfa Iconu(Discord Logosu - Bu Kısmı Silerseniz Nomal Logo Olur) */
+     	--settingsmodalwidth: 1300px; /* Ayarların Genişliği (Varsayılan Değer : 1300px) */
+    	--settingsmodalheight: 80vh; /* Ayarların Yüksekliği (Varsayılan Değer : 80vh) */
   }
