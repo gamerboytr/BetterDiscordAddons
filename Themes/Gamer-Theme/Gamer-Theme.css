@@ -7,6 +7,8 @@
   @import url('https://gamerboytr.github.io/Themes/BetterIcons/BetterIcons.css');
   @import url('https://nyri4.github.io/Discolored/main.css');
   @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/EmojiReplace.theme.css');
+  @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css");
+  @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
   /* Endİf */
   
     :root {
@@ -18,7 +20,298 @@
       --rs-large-spacing: 2px;
       --rs-width: 2px;
       --aligndms: 0;
+      --settingsmodalbackground: transparent;
   } 
+
+
+/* Big Uptade */
+
+.typeWindows-1za-n7 > .wordmark-2iDDfm {
+	position: static;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 1;
+	pointer-events: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	order: 1;
+}
+.typeWindows-1za-n7 > .wordmark-2iDDfm:before {
+	content: "Gamer-Theme";
+	color: rgba(255, 255, 255, 0.7);
+	font-family: Noto Sans;
+	font-size: 14px;
+	text-shadow: 0 0 3px #000;
+}
+.typeWindows-1za-n7 > .wordmark-2iDDfm:after {
+	content: "v3.5";
+	color: rgba(255, 255, 255, 0.3);
+	font-family: Consolas, Liberation Mono, Menlo, Courier, monospace;
+	font-size: 10px;
+}
+.typeWindows-1za-n7 > .wordmark-2iDDfm:before,
+.typeWindows-1za-n7 > .wordmark-2iDDfm:after {
+	margin-left: 3px;
+	font-weight: 600;
+	white-space: nowrap;
+	order: 1;
+}
+
+.typeWindows-1za-n7 > .wordmark-2iDDfm > svg {
+	filter: drop-shadow(0 0 5px #2780e6);
+	-webkit-filter: drop-shadow(0 0 5px #2780e6);
+	padding-left: 0px;
+	height: 85px;
+}
+.typeWindows-1za-n7 > .wordmark-2iDDfm > svg > path {
+	fill: #2780e6;
+}
+.container-3baos1 {
+	position: relative;
+	margin-bottom: 10px;
+}
+.container-3baos1:before,
+.container-3baos1:after {
+	bottom: -8px;
+	position: absolute;
+	color: rgba(255, 255, 255, 0.3);
+	font-size: 11px;
+	font-weight: 700;
+	transition: all 0.5s ease-in-out;
+}
+.container-3baos1:before {
+	content: "Gamer-Theme";
+	right: 50%;
+	text-align: right;
+	transform: translateX(50%);
+	-webkit-transform: translateX(50%);
+	-moz-transform: translateX(50%);
+	-ms-transform: translateX(50%);
+	-o-transform: translateX(50%);
+}
+.container-3baos1:after {
+	content: "v3.5";
+	left: 50%;
+	text-align: left;
+	opacity: 0;
+	transform: translateX(50%) rotateX(90deg);
+	-webkit-transform: translateX(50%) rotateX(90deg);
+	-moz-transform: translateX(50%) rotateX(90deg);
+	-ms-transform: translateX(50%) rotateX(90deg);
+	-o-transform: translateX(50%) rotateX(90deg);
+}
+.container-3baos1:hover:before {
+	margin-right: 1px;
+	transform: none;
+}
+.container-3baos1:hover:after {
+	margin-left: 1px;
+	opacity: 1;
+	transform: none;
+}
+.bd-switch-checked {
+	background-color: transparent;
+	background-image: none;
+}
+
+.bd-switch input:checked + .bd-switch-body {
+	background-color: #ff3838;
+	background-image: linear-gradient(to bottom right, #ff3838, #5b86e5);
+}
+.bd-switch input:checked:hover + .bd-switch-body {
+	background-color: #ff3838;
+	background-image: linear-gradient(to bottom right, #ff4d4d, #6a90e0);
+}
+.button-14-BFJ > .contents-18-Yxp > svg {
+	background-position: center;
+	background-size: 18px;
+	background-repeat: no-repeat;
+	color: #fff;
+	opacity: 0.4;
+	transition: all 0.1s ease-in-out;
+}
+.button-14-BFJ > .contents-18-Yxp:hover > svg {
+	background-position: center;
+	background-size: 18px;
+	background-repeat: no-repeat;
+	color: #fff;
+	opacity: 0.8;
+	transition: all 0.1s ease-in-out;
+}
+button.colorBrand-3pXr91[aria-checked="true"] svg {
+	opacity: 0.8;
+}
+.container-3baos1 > .flex-1O1GKY,
+.container-1giJp5 > .flex-1O1GKY {
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 15px;
+}
+.container-3baos1 > .flex-1O1GKY > :nth-child(n + 2):before,
+.container-1giJp5 > .flex-1O1GKY > :nth-child(n + 2):before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 2px;
+	bottom: 2px;
+	width: 1px;
+	background: rgba(255, 255, 255, 0.2);
+}
+button[aria-label="Kullanıcı Ayarları"] > div:hover > svg {
+	animation: settingsspin 5s linear infinite;
+	-webkit-animation: settingsspin 5s linear infinite;
+}
+@keyframes settingsspin {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+::-webkit-scrollbar {
+	width: 14px !important;
+}
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+	border: 3px solid transparent !important;
+	border-radius: 7px !important;
+	background-clip: padding-box !important;
+}
+::-webkit-scrollbar-thumb {
+	background-color: var(--themeColor2) !important;
+}
+::-webkit-scrollbar-thumb:active {
+	background-color: #1e63b3 !important;
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+	background-color: transparent !important;
+}
+.membersWrap-2h-GB4 .scrollerBase-289Jih::-webkit-scrollbar-thumb,
+.membersWrap-2h-GB4 .scrollerBase-289Jih::-webkit-scrollbar-track-piece {
+	visibility: hidden;
+}
+.membersWrap-2h-GB4 .scrollerBase-289Jih:hover::-webkit-scrollbar-thumb,
+.membersWrap-2h-GB4 .scrollerBase-289Jih:hover::-webkit-scrollbar-track-piece {
+	visibility: visible;
+}
+.chat-3bRxxu .scrollerBase-289Jih::-webkit-scrollbar-track-piece,
+.membersWrap-2h-GB4 .scrollerBase-289Jih::-webkit-scrollbar-track-piece {
+	background-color: rgba(0, 0, 0, 0.3) !important;
+}
+textarea::-webkit-scrollbar {
+	display: none;
+}
+.none-2Eo-qx::-webkit-scrollbar {
+	width: 0px !important;
+}
+.thin-1ybCId::-webkit-scrollbar {
+	width: 10px !important;
+}
+.privateChannelsHeaderContainer-3NB1K1,
+.privateChannelsHeaderContainer-3NB1K1:hover span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--themeColor2);
+	font-weight: 700;
+	text-align: center;
+}
+.privateChannels-1nO12o .privateChannelsHeaderContainer-3NB1K1:before {
+	content: "";
+	height: 2px;
+	flex-grow: 1;
+	transition: all 0.3s ease-in-out;
+	background: linear-gradient(to left, var(--themeColor2) 50%, transparent);
+	margin-right: 5px;
+}
+.privateChannels-1nO12o .privateChannelsHeaderContainer-3NB1K1:after {
+	content: "";
+	height: 2px;
+	flex-grow: 1;
+	transition: all 0.3s ease-in-out;
+	background: linear-gradient(to right, var(--themeColor2) 50%, transparent);
+	margin-left: 5px;
+}
+.privateChannels-1nO12o .privateChannelsHeaderContainer-3NB1K1 .headerText-2F0828 {
+	overflow: visible;
+}
+.privateChannels-1nO12o .privateChannelsHeaderContainer-3NB1K1 .privateChannelRecipientsInviteButtonIcon-3A3uTc {
+	color: var(--themeColor2);
+	transition: all 0.1s ease-in-out;
+}
+.privateChannels-1nO12o .privateChannelsHeaderContainer-3NB1K1 .privateChannelRecipientsInviteButtonIcon-3A3uTc:hover {
+	color: #1e63b3;
+}
+/* Light Theme Warning */
+html.theme-light #app-mount::after {
+	content: "Uyarı Beyaz Tema Tam Olarak Tamamlanmadı Lütfen Şu Konumu Takip Edin Ayarlar -> Görünüm -> Koyu Tema";
+	background: #000;
+	position: fixed;
+	z-index: 5;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	max-width: 225px;
+	line-height: normal;
+	padding: 15px 0 15px 60px;
+	margin-left: 10px;
+	right: -350px;
+	margin-bottom: 10px;
+	border-left: 2px solid #f04747;
+	border-radius: 2px;
+	color: rgba(255, 255, 255, 0.65);
+	background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMSAyMWgyMkwxMiAyIDEgMjF6bTEyLTNoLTJ2LTJoMnYyem0wLTRoLTJ2LTRoMnY0eiIvPjwvc3ZnPg==");
+	background-repeat: no-repeat;
+	background-size: 35px;
+	background-position: 10px center;
+	animation: lightwarning 10s;
+}
+@keyframes lightwarning {
+	0% {
+		right: -350px;
+	}
+	50% {
+		right: 10px;
+	}
+	100% {
+		right: -350px;
+	}
+}
+.root-SR8cQa[data-user-id="546019971910598658"] .header-QKLPzZ {
+	background: linear-gradient(45deg, #ffe212a8, #ffdfdf00) !important;
+	background-color: linear-gradient(45deg, #ffe212a8, #ffdfdf00) !important;
+}
+.root-SR8cQa[data-user-id="546019971910598658"] span.username-2b1r56::after {
+	content: "Tema Kurucusu";
+	position: absolute;
+	padding-left: 9em;
+}
+.root-SR8cQa[data-user-id="546019971910598658"] .body-3ND3kc::before {
+	content: "";
+	background-image: url(https://i.imgur.com/CAsvn0q.gif) !important;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.75;
+}
+.root-SR8cQa[data-user-id="546019971910598658"] .body-3ND3kc {
+	position: relative;
+}
+.userPopout-3XzG_A[data-user-id="546019971910598658"] .headerNormal-T_seeN {
+	background-image: url(https://i.imgur.com/CAsvn0q.gif) !important;
+	background-color: unset;
+	background-position: center;
+	background-size: cover;
+}
+/* Endİf Big Uptade */
+
 .typeWindows-1za-n7::after {
 	display:none;
 }
