@@ -247,7 +247,7 @@ textarea::-webkit-scrollbar {
 	color: #1e63b3;
 }
 /* Light Theme Warning */
-html.theme-light #app-mount::after {
+html[lang="tr-TR"] html.theme-light #app-mount::after {
 	content: "Uyarı Beyaz Tema Tam Olarak Tamamlanmadı Lütfen Şu Konumu Takip Edin Ayarlar -> Görünüm -> Koyu Tema";
 	background: #000;
 	position: fixed;
@@ -286,7 +286,7 @@ html.theme-light #app-mount::after {
 	background: linear-gradient(45deg, #ffe212a8, #ffdfdf00) !important;
 	background-color: linear-gradient(45deg, #ffe212a8, #ffdfdf00) !important;
 }
-.root-SR8cQa[data-user-id="546019971910598658"] span.username-2b1r56::after {
+html[lang="tr-TR"] .root-SR8cQa[data-user-id="546019971910598658"] span.username-2b1r56::after {
 	content: "Tema Kurucusu";
 	position: absolute;
 	padding-left: 9em;
@@ -503,7 +503,7 @@ div.colorHeaderPrimary-26Jzh-:first-child {
 	padding: 0;
 	position: absolute;
 }
-div.colorHeaderPrimary-26Jzh-:first-child::before {
+html[lang="tr-TR"] div.colorHeaderPrimary-26Jzh-:first-child::before {
 	content: "Tekrar Hoşgeldin Lan Tirreq";
 	visibility: visible;
 	position: relative;
@@ -821,7 +821,7 @@ div[class="inputWrapper-31_8H8 da-inputWrapper"] > input[class="inputDefault-_dj
       border-radius: 115px;
   }
   
-  div[class="problemsText-1Yx-Kl da-problemsText"]::after {
+  html[lang="tr-TR"] div[class="problemsText-1Yx-Kl da-problemsText"]::after {
       content: 'Unutma Bu Temayı Yapan Kişi GamerboyTR :D';
       padding-right: 175px;
       font-size: 20px;
