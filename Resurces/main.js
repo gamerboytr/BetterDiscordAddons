@@ -406,12 +406,12 @@
 						)
 					);
 					headerEle.classList.add("has-screenshots");
-					createAddonCard.cache[addon.resourceUrl].screenshots.urls.push(`${addon.resourceUrl}/screenshot1.png`);
+					createAddonCard.cache[addon.resourceUrl].screenshots.urls.push(`https://github.com/gamerboytr/gamerboytr.github.io/blob/master/Themes/Gamer-Theme/Resurces/screenshot1.png?raw=true`);
 				};
 				if (createAddonCard.cache[addon.resourceUrl].screenshots) addScreenshotsButton();
 				else {
 					const xhttp = new XMLHttpRequest();
-					const url = `${addon.resourceUrl}/screenshot1.png`;
+					const url = `https://github.com/gamerboytr/gamerboytr.github.io/blob/master/Themes/Gamer-Theme/Resurces/screenshot1.png?raw=true`;
 					xhttp.onload = function () {
 						createAddonCard.cache[addon.resourceUrl].screenshots = { status: this.status, fetched: false, urls: [] };
 						if (document.contains(headerEle)) addScreenshotsButton();
