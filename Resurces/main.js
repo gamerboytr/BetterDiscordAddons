@@ -323,25 +323,25 @@
 			return [header, list];
 		};
 		createAddonList.search = {};
-		/*	const createLibraryEntry = (_) => {
+		const createLibraryEntry = (_) => {
 			return createLoadingList("https://mwittrien.github.io/BetterDiscordAddons/Library/README.md", {
 				className: "addon-list",
-				getHeader: "Required Library",
+				getHeader: "Gerekli Kütüphaneler",
 				getChildren: (response) => {
 					let parsedResponse = response.trim().replace(/\r/g, "");
 					let fileName = (parsedResponse.split(" -")[0] || "").replace("# ", "").trim();
 					return createAddonCard({
-						name: fileName,
+						/*	name: fileName,
 						description: (parsedResponse.split("\n").pop() || "").trim(),
 						icon: `<svg width="100%" height="100%" viewBox="0 0 24 24"><path fill="currentColor" d="m 7.3125,2.625 c -0.3238672,0 -0.5859375,0.2620703 -0.5859375,0.5859375 V 14.929687 c 0,0.323868 0.2620703,0.585938 0.5859375,0.585938 2.710313,0 3.840547,1.498711 4.101563,1.914062 V 3.9905599 C 10.603047,3.3127865 9.3007813,2.625 7.3125,2.625 Z M 4.96875,3.796875 c -0.3238672,0 -0.5859375,0.2620703 -0.5859375,0.5859375 V 17.273437 c 0,0.323868 0.2620703,0.585938 0.5859375,0.585938 h 5.30599 C 9.9465755,17.461602 9.0865625,16.6875 7.3125,16.6875 c -0.9692969,0 -1.7578125,-0.788516 -1.7578125,-1.757813 V 3.796875 Z m 9.375,0 c -0.662031,0 -1.266641,0.2287891 -1.757812,0.6005859 V 18.445312 c 0,-0.323281 0.262656,-0.585937 0.585937,-0.585937 h 5.859375 c 0.323868,0 0.585937,-0.26207 0.585937,-0.585938 V 4.3828125 c 0,-0.3238672 -0.262069,-0.5859375 -0.585937,-0.5859375 z M 2.5859375,4.96875 C 2.2620703,4.96875 2,5.2308203 2,5.5546875 V 19.617187 c 0,0.323868 0.2620703,0.585938 0.5859375,0.585938 H 9.171224 c 0.2420313,0.68207 0.892995,1.171875 1.656901,1.171875 h 2.34375 c 0.763906,0 1.414831,-0.489805 1.656901,-1.171875 h 6.585286 C 21.73793,20.203125 22,19.941055 22,19.617187 V 5.5546875 C 22,5.2308203 21.73793,4.96875 21.414062,4.96875 h -0.585937 v 12.304687 c 0,0.969297 -0.827578,1.757813 -1.796875,1.757813 H 13.656901 C 13.41487,19.71332 12.763907,20.203125 12,20.203125 c -0.763906,0 -1.414831,-0.489805 -1.656901,-1.171875 H 4.96875 c -0.9692968,0 -1.796875,-0.788516 -1.796875,-1.757813 V 4.96875 Z"/></svg>`,
 						resourceUrl: "https://mwittrien.github.io/BetterDiscordAddons/Library/_res",
 						websiteUrl: "https://github.com/mwittrien/BetterDiscordAddons/tree/master/Library",
 						sourceUrl: `https://mwittrien.github.io/BetterDiscordAddons/Library/0${fileName}.plugin.js`,
-						download: "?library",
+						download: "?library", */
 					});
 				},
 			});
-		}; */
+		};
 		const createAddonCard = (addon) => {
 			let card = createElement(`<div class="addon-card">
 				<div class="addon-header">
@@ -598,7 +598,7 @@
 		const sections = [
 			{ section: "Title", title: "Bölümler" },
 			{
-				section: "General",
+				section: "Genel",
 				renderSection: (_) => [
 					createElement(`<div class="welcome-message">Selam Küçük Temalar Ve Pluginler Depoma Hoş Geldin :D</div>`),
 					createElement(`<div class="divider"></div>`),
@@ -607,7 +607,7 @@
 				],
 			},
 			{ section: "Separator" },
-			//	{ section: "Plugins", renderSection: (_) => [createAddonList("Plugins", ".plugin.js"), createElement(`<div class="divider"></div>`), createLibraryEntry()] },
+			{ section: "Eklentiler", renderSection: (_) => [createAddonList("Plugins", ".plugin.js"), createElement(`<div class="divider"></div>`)] },
 			{ section: "Temalar", renderSection: (_) => createAddonList("Themes", ".theme.css") },
 		];
 		let items = [];
@@ -619,7 +619,7 @@
 			let sectionElements = [data.renderSection()].flat(10).filter((n) => n);
 			for (let element of sectionElements) content.appendChild(element);
 			selectedSection = data.section;
-			document.title = `BetterDiscord Addons - ${data.section}`;
+			document.title = `GamerboyTR - ${data.section}`;
 		};
 		let parsedSection = ((window.location.search.split(`?section=`)[1] || "").split("?")[0] || "").toLowerCase();
 		renderContent((parsedSection && sections.find((data) => data.section != "Title" && data.section != "Separator" && data.section.toLowerCase() == parsedSection)) || sections.find((data) => data.section != "Title" && data.section != "Separator"));
