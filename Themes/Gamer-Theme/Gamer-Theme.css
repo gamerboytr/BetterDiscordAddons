@@ -160,7 +160,7 @@ button.colorBrand-3pXr91[aria-checked="true"] svg {
 	width: 1px;
 	background: rgba(255, 255, 255, 0.2);
 }
-button[aria-label="Kullanıcı Ayarları"] > div:hover > svg {
+button[aria-label="Kullanıcı Ayarları"] > div:hover > svg,button[aria-label="User Settings"] > div:hover > svg {
 	animation: settingsspin 5s linear infinite;
 	-webkit-animation: settingsspin 5s linear infinite;
 }
@@ -409,54 +409,55 @@ html.theme-light #app-mount::after {
 .colorable-1bkp8v.primaryDark-3mSFDl {
   background:#161616!important;
 }
-[aria-label="Bağlantıyı Kes"]:hover {
-    border-radius: 115px!important;
-    background: #a72424!important;
+button[aria-label="Kapat"],
+button[aria-label="Disconnect"],
+button[aria-label="Dismiss"],
+button[aria-label="Share Your Screen"]:hover,
+button[aria-label="Share Your Screen"] {
+	border-radius: 115px;
 }
 
-[aria-label="Ekranını Paylaş"]:hover {
-    border-radius: 115px!important;
-    background: #161616!important;
+button[aria-label="Bağlantıyı Kes"] {
+	border-radius: 115px !important;
 }
 
-[aria-label="Aramaya Katıl"]:hover {
-    border-radius: 115px!important;
-    background: #2b7555!important;
+button[aria-label="Ekranını Paylaş"] {
+	border-radius: 115px !important;
+	background: #040404 !important;
 }
 
-[aria-label="Görüntülü Aramaya Katıl"]:hover {
-    border-radius: 115px!important;
-    background: #2b7555!important;
+button[aria-label="Join Call"],
+button[aria-label="Join Video Call"] {
+	border-radius: 115px !important;
+	background: #41ab7d !important;
 }
 
-[aria-label="İzlemeyi Bırak"]:hover {
-    border-radius: 115px!important;
-    background: #a72424!important;
+button[aria-label="İzlemeyi Bırak"],
+button[aria-label="Stop Watching"] {
+	border-radius: 115px !important;
+	background: #ef464c !important;
+}
+/* Üzerine Gelindiğinde */
+button[aria-label="Disconnect"]:hover,
+button[aria-label="Dismiss"]:hover {
+	border-radius: 115px !important;
+	background: #a62328 !important;
 }
 
-[aria-label="Bağlantıyı Kes"] {
-  border-radius: 115px!important;
+button[aria-label="Aramaya Katıl"]:hover,
+button[aria-label="Görüntülü Aramaya Katıl"]:hover,
+button[aria-label="Join Call"]:hover,
+button[aria-label="Join Video Call"]:hover {
+	border-radius: 115px !important;
+	background: #2b7555 !important;
 }
 
-[aria-label="Ekranını Paylaş"] {
-  border-radius: 115px!important;
-  background: #040404!important;
+button[aria-label="İzlemeyi Bırak"]:hover,
+button[aria-label="Stop Watching"]:hover {
+	border-radius: 115px !important;
+	background: #a72424 !important;
 }
 
-[aria-label="Aramaya Katıl"] {
-  border-radius: 115px!important;
-  background: #44B583!important;
-}
-
-[aria-label="Görüntülü Aramaya Katıl"] {
-  border-radius: 115px!important;
-  background: #44B583!important;
-}
-
-[aria-label="İzlemeyi Bırak"] {
-  border-radius: 115px!important;
-  background: #EF464C!important;
-}
 /* Endİf */
 .guildSidebar-2OCzWB,.modal-f02hVt {
   background: transparent!important;
@@ -718,10 +719,7 @@ div[class="inputWrapper-31_8H8 da-inputWrapper"] > input[class="inputDefault-_dj
       color: rgba(255, 255, 255, 0.747);
   }
   
-  button[aria-label="Disconnect"] {
-      border-radius: 115px
-  }
-  
+ 
   svg[viewBox="0 0 12 12"] {
       width: 15px;
   }
@@ -847,18 +845,15 @@ div[class="inputWrapper-31_8H8 da-inputWrapper"] > input[class="inputDefault-_dj
       background: #fff;
   }
   /* Sağ Üst Düğmeler */
-div[aria-label="Kapat"]:hover {
+div[aria-label="Kapat"]:hover,div[aria-label="Close"]:hover {
   background-color: rgba(224, 15, 15, 0.71);
   transition: 300ms all;
 }
-div[aria-label="Kapat"] {
-transition: 300ms all;
-}
-div[aria-label="Küçült"]:hover,div[aria-label="Ekranı Kapla"]:hover {
+div[aria-label="Küçült"]:hover,div[aria-label="Ekranı Kapla"]:hover,div[aria-label="Minimize"]:hover,div[aria-label="Maximize"]:hover {
   background-color: rgb(56, 56, 56);
   transition: 300ms all;
 }
-div[aria-label="Küçült"],div[aria-label="Ekranı Kapla"] {
+div[aria-label="Küçült"],div[aria-label="Ekranı Kapla"],div[aria-label="Kapat"],div[aria-label="Minimize"],div[aria-label="Maximize"],div[aria-label="Close"] {
    transition: 300ms all;
 }
   /*  Endİf */
