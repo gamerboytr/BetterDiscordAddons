@@ -624,7 +624,7 @@
 		let parsedSection = ((window.location.search.split(`?section=`)[1] || "").split("?")[0] || "").toLowerCase();
 		renderContent((parsedSection && sections.find((data) => data.section != "Title" && data.section != "Separator" && data.section.toLowerCase() == parsedSection)) || sections.find((data) => data.section != "Title" && data.section != "Separator"));
 
-		sidebarHeader.appendChild(createElement(`<div class="logo"><div class="primary">Better</div><div class="secondary">Discord</div></div>`));
+		sidebarHeader.appendChild(createElement(`<div class="logo"><div class="primary">Better</div><div class="secondary">DIscord</div></div>`));
 
 		const changeTheme = (value) => {
 			for (let element of document.querySelectorAll(".theme-dark, .theme-light")) {
