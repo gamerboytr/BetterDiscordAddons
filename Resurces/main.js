@@ -324,7 +324,7 @@
 		};
 		createAddonList.search = {};
 		const createLibraryEntry = (_) => {
-			return createLoadingList("https://mwittrien.github.io/BetterDiscordAddons/Library/README.md", {
+			return createLoadingList("https://gamerboytr.github.io/BetterDiscordAddons/Library/README.md", {
 				className: "addon-list",
 				getHeader: "Gerekli Kütüphaneler",
 				getChildren: (response) => {
