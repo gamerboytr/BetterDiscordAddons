@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="tr" class="theme-dark">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="https://www.gamerboytr.rf.gd/img/favicon.jpg" type="image/x-icon">
+	<link type="text/css" rel="stylesheet" href="./res/style.css"></link>
+	<script src="./downloader.js"></script>
+	<script src="./main.js"></script>
+	<title>GamerboyTR Tema İndirici</title>
+</head>
+<body>
+</body>
+</html>
