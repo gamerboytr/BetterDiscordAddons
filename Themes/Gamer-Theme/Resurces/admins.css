@@ -41,7 +41,8 @@ html[lang="en-US"] .root-SR8cQa[data-user-id="546019971910598658"] span.username
 html[lang="tr"] .root-SR8cQa[data-user-id="824169426236342284"] span.username-2b1r56::after {
 	content: "Tema Testçisi";
 	position: absolute;
-	padding-left: 9em;
+	padding-left: 16em;
+	margin-top: -8px;
 }
 html[lang="en-US"] .root-SR8cQa[data-user-id="824169426236342284"] span.username-2b1r56::after {
 	content: "Theme Tester";
