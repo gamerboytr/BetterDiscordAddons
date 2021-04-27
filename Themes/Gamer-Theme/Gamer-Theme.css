@@ -306,39 +306,6 @@ html[lang="en-US"].theme-light #app-mount::after {
 		right: -350px;
 	}
 }
-.root-SR8cQa[data-user-id="546019971910598658"] .header-QKLPzZ {
-	background: linear-gradient(45deg, #ffe212a8, #ffdfdf00) !important;
-	background-color: linear-gradient(45deg, #ffe212a8, #ffdfdf00) !important;
-}
-html[lang="tr"] .root-SR8cQa[data-user-id="546019971910598658"] span.username-2b1r56::after {
-	content: "Tema Kurucusu";
-	position: absolute;
-	padding-left: 9em;
-}
-html[lang="en-US"] .root-SR8cQa[data-user-id="546019971910598658"] span.username-2b1r56::after {
-	content: "Theme Owner";
-	position: absolute;
-	padding-left: 9em;
-}
-.root-SR8cQa[data-user-id="546019971910598658"] .body-3ND3kc::before {
-	content: "";
-	background-image: url(https://i.imgur.com/CAsvn0q.gif) !important;
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	bottom: 0px;
-	left: 0px;
-	opacity: 0.75;
-}
-.root-SR8cQa[data-user-id="546019971910598658"] .body-3ND3kc {
-	position: relative;
-}
-.userPopout-3XzG_A[data-user-id="546019971910598658"] .headerNormal-T_seeN {
-	background-image: url(https://i.imgur.com/CAsvn0q.gif) !important;
-	background-color: unset;
-	background-position: center;
-	background-size: cover;
-}
 /* Endİf Big Uptade */
 
 .typeWindows-1za-n7::after {
