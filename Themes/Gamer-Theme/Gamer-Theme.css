@@ -28,6 +28,10 @@ button[class="button-38aScr lookOutlined-3sRXeN colorBrand-3pXr91 sizeMedium-1AC
 color:#fff
 }
 
+button[class="shinyButton-3uFlM- button-1PXUl0 button-38aScr lookFilled-1Gx00P colorPrimary-3b3xI6 sizeMedium-1AC_Sl grow-q77ONN"] {
+    background-image: linear-gradient(to bottom right,var(--themeColor1),var(--themeColor2));
+}
+
 /* Big Uptade */
 
 .typeWindows-1za-n7 > .wordmark-2iDDfm {
