@@ -711,11 +711,9 @@ div[class="inputWrapper-31_8H8 da-inputWrapper"] > input[class="inputDefault-_dj
   div.hero-EvfTTA {
       max-width: none;
   }
-  
-  path[style] {
-      visibility: hidden;
-  }
-  
+.overrideList-Xc_VCf path {
+color:#fff
+}
   div.grid-1nZz7S {
       background: #2f3136ad;
   }
