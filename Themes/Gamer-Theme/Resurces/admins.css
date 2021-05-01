@@ -7,6 +7,7 @@ html[lang="tr"] .root-SR8cQa[data-user-id="546019971910598658"] span.username-2b
 	content: "Tema Kurucusu";
 	position: absolute;
 	padding-left: 9em;
+	top: 20px;
 }
 html[lang="en-US"] .root-SR8cQa[data-user-id="546019971910598658"] span.username-2b1r56::after {
 	content: "Theme Owner";
@@ -42,13 +43,13 @@ html[lang="tr"] .root-SR8cQa[data-user-id="824169426236342284"] span.username-2b
 	content: "Tema Testçisi";
 	position: absolute;
 	padding-left: 16em;
-	margin-top: -8px;
+	top: 23px;
 }
 html[lang="en-US"] .root-SR8cQa[data-user-id="824169426236342284"] span.username-2b1r56::after {
 	content: "Theme Tester";
 	position: absolute;
 	padding-left: 16em;
-	margin-top: -8px;
+	margin-top: -10px !important;
 }
 .root-SR8cQa[data-user-id="824169426236342284"] .body-3ND3kc::before {
 	content: "";
@@ -71,14 +72,14 @@ html[lang="en-US"] .root-SR8cQa[data-user-id="824169426236342284"] span.username
 }
 /* 爪卂乃乇ㄥ#5770 */
 .root-SR8cQa[data-user-id="780073888742375435"] .header-QKLPzZ {
-	background: linear-gradient(45deg, #1265ffa8, #ffdfdf00) !important;
-	background-color: linear-gradient(45deg, #1265ffa8, #ffdfdf00) !important;
+	background: linear-gradient(45deg, rgb(0, 107, 0), #ffdfdf00) !important;
+	background-color: linear-gradient(45deg, rgb(0, 107, 0), #ffdfdf00) !important;
 }
 html[lang="tr"] .root-SR8cQa[data-user-id="780073888742375435"] span.username-2b1r56::after {
 	content: "Değerli Üye";
 	position: absolute;
-	padding-left: 16em;
-	margin-top: -8px;
+	padding-left: 15em;
+	top: 20px;
 }
 html[lang="en-US"] .root-SR8cQa[data-user-id="780073888742375435"] span.username-2b1r56::after {
 	content: "Dear Member";
@@ -92,6 +93,7 @@ html[lang="en-US"] .root-SR8cQa[data-user-id="780073888742375435"] span.username
 	position: absolute;
 	top: 0px;
 	right: 0px;
+	background-size: cover;
 	bottom: 0px;
 	left: 0px;
 	opacity: 0.75;
