@@ -24,6 +24,47 @@
       --settingsmodalbackground: transparent;
   } 
 
+div[aria-controls="Nitro Server Boost-tab"]::before {
+	color: #ff73fa;
+}
+.memberBadgeIcon-1hpSQc {
+	color: #ff73fa;
+}
+div[class="item-26Dhrx marginBottom8-AtZOdT horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG"] {
+	background-color: #0d0d0d;
+}
+.item-26Dhrx[area-checked="true"] {
+	background-color: #000;
+}
+.overlayToggleIconOn-3UNmty path {
+	background-image: linear-gradient(to bottom right, var(--themeColor1), var(--themeColor2));
+}
+.bd-sidebar-header {
+	display: block;
+}
+.bd-sidebar-header .bd-changelog-button {
+	display: none;
+}
+
+.bd-button:hover {
+	color: #fff;
+	font-weight: 600;
+}
+#bd-editor-controls {
+	background: #000;
+}
+#bd-editor-panel .view-lines,
+#bd-editor-panel .margin-view-overlays {
+	background: #0c0c0c;
+}
+#bd-editor-panel .minimap-decorations-layer {
+	background: #0f0e0e;
+}
+#bd-editor-panel .decorationsOverviewRuler {
+	background: #000;
+}
+
+
 button[class="button-38aScr lookOutlined-3sRXeN colorBrand-3pXr91 sizeMedium-1AC_Sl grow-q77ONN"] > div {
 color:#fff
 }
