@@ -116,13 +116,13 @@ html[lang="en-US"] .root-SR8cQa[data-user-id="780073888742375435"] span.username
 html[lang="tr"] .root-SR8cQa[data-user-id="795617566193090621"] span.username-2b1r56::after {
 	content: "Değerli Üye";
 	position: absolute;
-	padding-left: 15em;
+	padding-left: 12em;
 	top: 20px;
 }
 html[lang="en-US"] .root-SR8cQa[data-user-id="795617566193090621"] span.username-2b1r56::after {
 	content: "Dear Member";
 	position: absolute;
-	padding-left: 15em;
+	padding-left: 12em;
 	top: 20px;
 }
 .root-SR8cQa[data-user-id="795617566193090621"] .body-3ND3kc::before {
