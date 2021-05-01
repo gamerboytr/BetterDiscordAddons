@@ -69,3 +69,39 @@ html[lang="en-US"] .root-SR8cQa[data-user-id="824169426236342284"] span.username
 	background-position: center;
 	background-size: cover;
 }
+/* 爪卂乃乇ㄥ#5770 */
+.root-SR8cQa[data-user-id="780073888742375435"] .header-QKLPzZ {
+	background: linear-gradient(45deg, #1265ffa8, #ffdfdf00) !important;
+	background-color: linear-gradient(45deg, #1265ffa8, #ffdfdf00) !important;
+}
+html[lang="tr"] .root-SR8cQa[data-user-id="780073888742375435"] span.username-2b1r56::after {
+	content: "Değerli Üye";
+	position: absolute;
+	padding-left: 16em;
+	margin-top: -8px;
+}
+html[lang="en-US"] .root-SR8cQa[data-user-id="780073888742375435"] span.username-2b1r56::after {
+	content: "Dear Member";
+	position: absolute;
+	padding-left: 16em;
+	margin-top: -8px;
+}
+.root-SR8cQa[data-user-id="780073888742375435"] .body-3ND3kc::before {
+	content: "";
+	background-image: url(https://i.imgur.com/siZ4kpF.gif) !important;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.75;
+}
+.root-SR8cQa[data-user-id="780073888742375435"] .body-3ND3kc {
+	position: relative;
+}
+.userPopout-3XzG_A[data-user-id="780073888742375435"] .headerNormal-T_seeN {
+	background-image: url(https://i.imgur.com/siZ4kpF.gif) !important;
+	background-color: unset;
+	background-position: center;
+	background-size: cover;
+}
