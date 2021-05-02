@@ -847,13 +847,13 @@ color:#fff
       border-radius: 115px;
   }
   
-  html[lang="tr"] div[class="problemsText-1Yx-Kl da-problemsText"]::after {
+  html[lang="tr"] div.problemsText-1Yx-Kl::after {
       content: 'Unutma Bu Temayı Yapan Kişi GamerboyTR :D';
       padding-right: 175px;
       font-size: 20px;
       visibility: visible;
   }
-  html[lang="en-US"] div[class="problemsText-1Yx-Kl da-problemsText"]::after {
+  html[lang="en-US"] div.problemsText-1Yx-Kl::after {
       content: 'Remember The Person Who Made This Theme GamerboyTR :D';
       padding-right: 175px;
       font-size: 20px;
