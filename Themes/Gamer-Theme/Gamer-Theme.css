@@ -470,7 +470,7 @@ button[aria-label="Ekranını Paylaş"],
 button[aria-label="Aramaya Katıl"],
 button[aria-label="Görüntülü Aramaya Katıl"] {
 	border-radius: 115px !important;
-	background: #040404 !important;
+	background: #41ab7d !important;
 }
 
 button[aria-label="Join Call"],
