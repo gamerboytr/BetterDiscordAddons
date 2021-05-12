@@ -21,7 +21,7 @@ CSS Dili İle Oluşturulmuştur.<br>
 ### Nasıl İndiririm? ###
 İlk Olarak **[Better Discordun](https://betterdiscord.net/)** Ana Sayfasına Gidip Better Discordu Kurunuz,Ondan Sonra Ayarlara
 Girip En Alt Kısımdaki **Themes** Ayalarına Tıklayın,Ve Open Themes Folder Diyin,
-Açılan Pencereye **[Gamer-Theme.theme.css](https://)** Dosyasını Atın.
+Açılan Pencereye **[Gamer-Theme.theme.css](https://gamerboytr.github.io/BetterDiscordAddons/downloader/?theme=Gamer-Theme)** Dosyasını Atın.
 
 ### Veya Discord Uygulaması Yok İse
 
