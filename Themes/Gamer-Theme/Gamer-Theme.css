@@ -24,6 +24,32 @@
       --settingsmodalbackground: transparent;
   } 
 
+.colorDefault-2K3EoJ .checkbox-3s5GYZ {
+	color: var(--brand-experiment-560) !important;
+}
+::-webkit-input-placeholder,
+body:not([class*="hljs"]):not(code):not([class*="ace_"]) {
+	font-family: var(--font-primary) !important;
+}
+.theme-dark div[tab="Themes"].tabContent-nZ-1U5 > .list-QuW8QR > .card-x5zW6z,
+.theme-dark div[tab="Plugins"].tabContent-nZ-1U5 > .list-QuW8QR > .card-x5zW6z {
+	background-color: var(--backgroundColor) !important;
+	border-color: var(--backgroundColor) !important;
+}
+.theme-dark div[tab="Themes"].tabContent-nZ-1U5 .tag-PbPfwP,
+.theme-dark div[tab="Plugins"].tabContent-nZ-1U5 .tag-PbPfwP {
+	background: #1f1f1f !important;
+}
+.theme-dark .iconWrapper-eK7GO6 {
+	background-color: var(--backgroundColor) !important;
+}
+.markup-2BOw-j code {
+	background: #0d0d0da8;
+	border: 1px solid #000000d7;
+	opacity: 0.9;
+}
+
+
 div[aria-controls="Nitro Server Boost-tab"]::before {
 	color: #ff73fa;
 }
