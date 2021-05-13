@@ -25,6 +25,13 @@
       --font-display: var(--font-primary);
   } 
 
+.nowPlayingColumn-2sl4cE {
+	border: 1px solid var(--backgroundColor);
+}
+.container-lRFx4q {
+	background-color: transparent !important;
+}
+
 .colorDefault-2K3EoJ .checkbox-3s5GYZ {
 	color: var(--brand-experiment-560) !important;
 }
