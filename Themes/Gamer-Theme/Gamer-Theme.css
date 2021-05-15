@@ -1061,7 +1061,7 @@ div[aria-label="Küçült"],div[aria-label="Ekranı Kapla"],div[aria-label="Kapa
               line-height: 16px;
               visibility: visible;
               position: relative;
-              bottom: -15ex;
+              bottom: -25ex;
           }
   /* Media */   
       @media only screen and (min-width: 1920px) {
