@@ -25,6 +25,20 @@
       --font-display: var(--font-primary);
   } 
 
+#status-picker-invisible .status-1AY8sU {
+	background-color: var(--rs-invisible-color) !important;
+}
+#status-picker-dnd .status-1AY8sU {
+	background-color: var(--rs-dnd-color) !important;
+}
+#status-picker-idle .status-1AY8sU {
+	background-color: var(--rs-idle-color) !important;
+}
+#status-picker-online .status-1AY8sU {
+	background-color: var(--rs-online-color) !important;
+}
+
+
 .callContainer-3UuV6S,
 .container-pTf0Ly,
 .participants-soO0aD,
