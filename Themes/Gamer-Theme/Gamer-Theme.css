@@ -25,6 +25,12 @@
       --font-display: var(--font-primary);
   } 
 
+.tooltipContent-bqVLWK,
+.layer-v9HyYc {
+	z-index:1;
+}
+
+
 #status-picker-invisible .status-1AY8sU {
 	background-color: var(--rs-invisible-color) !important;
 }
