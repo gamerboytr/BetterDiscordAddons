@@ -808,7 +808,8 @@ div[class="inputWrapper-31_8H8 da-inputWrapper"] > input[class="inputDefault-_dj
   }
   
   .unread-1xRYoj {
-      background-color: var(--background-accent);
+      background-image: linear-gradient(to left, var(--themeColor2), var(--themeColor1));
+}
   }
   
   .wrapper-3WhCwL {
