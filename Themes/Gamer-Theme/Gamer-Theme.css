@@ -23,7 +23,37 @@
       --aligndms: 0;
       --settingsmodalbackground: transparent;
       --font-display: var(--font-primary);
+      --version: "3.7";
   } 
+
+.section-2gLsgF {
+	background-color: #060606;
+}
+div[class="itemCard-v9viV7 wrapper-3D2qGf outer-1AjyKL padded-302COx interactive-3B9GmY"]:hover .section-2gLsgF {
+	background-color: #000;
+}
+.body-3ND3kc {
+	background-color: var(--backgroundColor);
+}
+.expandedFolderBackground-1cujaW,
+.folder-1hbNCn {
+	background-color: #00000082;
+}
+.folder-1hbNCn.hover-qTxTR_ {
+	background-color: #1f1f1f82;
+}
+.childWrapper-anI2G9 {
+	background-color: #000;
+}
+/* İnt Gidince Gelen Ekran */
+.container-16j22k {
+	background-color: var(--backgroundColor);
+}
+/* Endİf */
+
+.hoverRoll-YK53gQ.forceHover-10IIq8 {
+	cursor: pointer;
+}
 
 .tooltipContent-bqVLWK,
 .layer-v9HyYc {
@@ -218,7 +248,7 @@ button[class="shinyButton-3uFlM- button-1PXUl0 button-38aScr lookFilled-1Gx00P c
 	text-shadow: 0 0 3px #000;
 }
 .typeWindows-1za-n7 > .wordmark-2iDDfm:after {
-	content: "v3.5";
+	content: "v" var(--version);
 	color: rgba(255, 255, 255, 0.3);
 	font-family: Consolas, Liberation Mono, Menlo, Courier, monospace;
 	font-size: 10px;
@@ -261,7 +291,7 @@ button[class="shinyButton-3uFlM- button-1PXUl0 button-38aScr lookFilled-1Gx00P c
 	font-family:'Open sans', sans-serif;
 }
 .container-3baos1:after {
-	content: "v3.5";
+	content: "v" var(--version);
 	left: 50%;
 	text-align: left;
 	opacity: 0;
@@ -497,6 +527,160 @@ html[lang="en-US"].theme-light #app-mount::after {
 }
 .theme-light .channelTextArea-rNsIhG {
   background: #f5f7f8;
+}
+.theme-light .menu-3sdvDG {
+	background-color: #fff !important;
+}
+.theme-light .circleIconButton-1QV--U {
+	background-color: #fff !important;
+}
+.theme-light .childWrapper-anI2G9 {
+	background-color: #fff;
+}
+.theme-light .typeWindows-1za-n7 > .wordmark-2iDDfm:before {
+	content: "Gamer-Theme, White Mode";
+}
+.theme-light .typeWindows-1za-n7 > .wordmark-2iDDfm:after {
+	content: var(--version) ", White Mode 1.2";
+}
+.theme-light .popout-38lTFE,
+.theme-light .wrapper-3D2qGf {
+	background-color: var(--background-secondary) !important;
+}
+.theme-light .section-2gLsgF {
+	background-color: var(--background-secondary-alt) !important;
+}
+.theme-light .wrapper-2aW0bm {
+	background-color: #fff;
+}
+.theme-light div.grid-1nZz7S {
+	background: #fff;
+}
+.theme-light .content-1o0f9g {
+	background: rgba(255, 255, 255);
+	color: #000;
+}
+.theme-light .cozy-3raOZG .timestamp-3ZCmNB {
+	color: var(--text-muted) !important;
+}
+.theme-light .wrapper-2TxpI8 {
+	background-color: #f2f3f5 !important;
+	border-color: var(--background-secondary-alt);
+}
+.theme-light .audioControls-2HsaU6,
+.theme-light .videoControls-2kcYic {
+	background-color: rgba(35, 33, 33, 0.65);
+}
+.theme-light .bd-search-wrapper,
+.theme-light .container-2XeR5Z,
+.theme-light .container-cMG81i,
+.theme-light .searchBar-3dMhjb,
+.theme-light .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+	background-color: var(--background-tertiary) !important;
+}
+.theme-light .clickable-1JJAn8:hover .layout-2DM8Md,
+.theme-light .selected-aXhQR6 .layout-2DM8Md {
+	background-color: var(--background-modifier-selected) !important;
+}
+.theme-light .headerNormal-T_seeN,
+.theme-light .topSectionNormal-2-vo2m {
+	background-color: #f6f6f7 !important;
+}
+.theme-light .container-enaOkj,
+.theme-light .footer-1kmXd4,
+.theme-light .footer-2gL1pp,
+.theme-light .message-2qRu38,
+.theme-light .messagesPopoutWrap-1MQ1bW,
+.theme-light .separator-2-RRj_,
+.theme-light .content-1LAB8Z {
+	background-color: #f6f6f7 !important;
+}
+.theme-light .content-1LAB8Z {
+	border-radius: 0px;
+}
+.theme-light .body-3iLsc4,
+.theme-light .footer-1fjuF6,
+.theme-light .copyInput-2rOSt7,
+.theme-light .copyInputDefault-21sXtF,
+.theme-light .input-cIJ7To {
+	background-color: #fff !important;
+}
+.theme-light .accountList-33MS45,
+.theme-light .background-1QDuV2,
+.theme-light .bottomDivider-1K9Gao,
+.theme-light .card-FDVird:before,
+.theme-light .cardPrimary-1Hv-to,
+.theme-light .cardPrimaryEditable-3KtE4g,
+.theme-light .cardPrimaryOutline-29Ujqw,
+.theme-light .codeRedemptionRedirect-1wVR4b,
+.theme-light .connection-1fbD7X,
+.theme-light .container-1nZlH6,
+.theme-light .css-13kbzi0-control,
+.theme-light .css-15ejc46-control,
+.theme-light .css-181m2lf-menu,
+.theme-light .css-1yegjoj-control,
+.theme-light .css-2yldzf-control,
+.theme-light .css-2yldzf-control:hover,
+.theme-light .paginator-166-09,
+.theme-light .paymentPane-3bwJ6A {
+	background-color: #fff !important;
+}
+.theme-light .colorHeaderPrimary-26Jzh- {
+	color: #000 !important;
+}
+.theme-light .connectionHeader-2MDqhu,
+.theme-light .expandedInfo-3kfShd,
+.theme-light .fieldList-21DyL8,
+.theme-light .integration-3kMeY4,
+.theme-light .pageButtonNext-V2kUq0,
+.theme-light .pageButtonPrev-1Y-47D,
+.theme-light .pageIndicator-1gAbyA,
+.theme-light .phoneField-38N1bJ {
+	background-color: rgba(29, 29, 29, 0.3) !important;
+	border-color: rgba(29, 29, 29, 0.3) !important;
+}
+.theme-light .bd-addon-list .bd-addon-header {
+	background: var(--background-secondary-alt) !important;
+}
+.theme-light .bd-description-wrap,
+.theme-light .bd-footer {
+	background: var(--background-secondary) !important;
+}
+.theme-light .bd-switch,
+.theme-light .themeDefault-24hCdX {
+	background: transparent !important;
+}
+.theme-light .sidebarRegion-VFTUkN {
+	background-color: rgba(255, 255, 255, 0.15) !important;
+}
+.theme-light .brand-1Zl8en.item-PXvHYJ,
+.theme-light .themed-OHr7kt.item-PXvHYJ {
+	color: #1b1c1d;
+}
+.theme-light .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+	color: #000 !important;
+	background-color: rgba(255, 255, 255, 0.65) !important;
+}
+.theme-light .brand-1Zl8en.item-PXvHYJ:hover,
+.theme-light .themed-OHr7kt.item-PXvHYJ:hover {
+	background-color: #fff !important;
+}
+.theme-light div[class="item-26Dhrx marginBottom8-AtZOdT horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG"] {
+	background-color: var(--background-secondary) !important;
+}
+.theme-light div[class="item-26Dhrx marginBottom8-AtZOdT horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG"]:hover {
+	background-color: var(--background-secondary-alt) !important;
+}
+.theme-light #bd-editor-controls {
+	background: var(--background-secondary-alt);
+}
+.theme-light #bd-editor-panel .view-lines,
+.theme-light #bd-editor-panel .margin-view-overlays,
+.theme-light #bd-editor-panel .minimap-decorations-layer {
+	background: #fff !important;
+}
+.theme-light .container-16j22k {
+	background-color: #fff;
 }
 /* Endİf */
    .wrapper-r-6rrt {
