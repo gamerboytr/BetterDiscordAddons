@@ -25,7 +25,15 @@
       --font-display: var(--font-primary);
       --version: "3.7";
   } 
-
+/* old Logo */
+.typeWindows-1za-n7 > .wordmark-2iDDfm > svg {
+	background: url(https://svgshare.com/i/XLE.svg) center/100% no-repeat;
+	margin-top: 1px
+}
+.typeWindows-1za-n7 > .wordmark-2iDDfm > svg > g {
+	display: none;
+}
+/* Endİf */
 .section-2gLsgF {
 	background-color: #060606;
 }
