@@ -145,3 +145,40 @@ html[lang="en-US"] .root-SR8cQa[data-user-id="795617566193090621"] span.username
 	background-position: center;
 	background-size: cover;
 }
+/* TurkishMethods#0001 */
+.root-SR8cQa[data-user-id="830808204711559219"] .header-QKLPzZ {
+	background: linear-gradient(45deg, #ffe212a8, #ffdfdf00) !important;
+}
+html[lang="tr"] .root-SR8cQa[data-user-id="830808204711559219"] span.username-2b1r56::after {
+	content: "TurkishMethods Kurucusu";
+	position: absolute;
+	padding-left: 7em;
+	top: 20px;
+	width:100%;
+}
+html[lang="en-US"] .root-SR8cQa[data-user-id="830808204711559219"] span.username-2b1r56::after {
+	content: "Owner Of TurkishMethods";
+	position: absolute;
+	padding-left: 7em;
+	top: 20px;
+	width:100%;
+}
+.root-SR8cQa[data-user-id="830808204711559219"] .body-3ND3kc::before {
+	content: "";
+	background-image: url(https://i.imgur.com/CAsvn0q.gif) !important;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.75;
+}
+.root-SR8cQa[data-user-id="830808204711559219"] .body-3ND3kc {
+	position: relative;
+}
+.userPopout-3XzG_A[data-user-id="830808204711559219"] .headerNormal-T_seeN {
+	background-image: url(https://i.imgur.com/CAsvn0q.gif) !important;
+	background-color: unset;
+	background-position: center;
+	background-size: cover;
+}
