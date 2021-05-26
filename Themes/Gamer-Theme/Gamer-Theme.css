@@ -25,6 +25,14 @@
       --font-display: var(--font-primary);
       --version: "3.7";
   } 
+.stageSection-3mAD8V {
+	background: transparent!important;
+}
+.theme-dark .container-S9SaVf,
+.footer-3OAEzG,
+.guildPopout-3CgKqR  {
+	background-color:var(--backgroundColor)!important;
+}
 /* old Logo */
 .typeWindows-1za-n7 > .wordmark-2iDDfm > svg {
 	background: url(https://svgshare.com/i/XLE.svg) center/100% no-repeat;
