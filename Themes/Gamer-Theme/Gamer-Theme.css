@@ -28,6 +28,11 @@
 .stageSection-3mAD8V {
 	background: transparent!important;
 }
+/* Settings Bug */
+.side-8zPYf6 .item-PXvHYJ:not(.role-3wi9Tf)::before {
+	transform: translateY(0)!important;
+}
+/* Endİf */
 .theme-dark .container-S9SaVf,
 .footer-3OAEzG,
 .guildPopout-3CgKqR  {
