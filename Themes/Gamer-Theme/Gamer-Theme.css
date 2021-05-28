@@ -25,6 +25,10 @@
       --font-display: var(--font-primary);
       --version: "3.7";
   } 
+.headerTop-2y3V6H {
+	background-color: var(--backgroundColor);
+}
+
 .searchResult-9tQ1uo {
 	background-color: var(--backgroundColor)!important;
 }
