@@ -25,6 +25,19 @@
       --font-display: var(--font-primary);
       --version: "3.7";
   } 
+.searchResult-9tQ1uo {
+	background-color: var(--backgroundColor)!important;
+}
+.button-11zvza {
+	background-color: #131313!important;
+}
+.theme-dark .tab-2j5AEF.selected-2LAck8 {
+    background-color: var(--backgroundColor);
+}
+.selected-1JjBPm {
+	background-color: #212121!important;
+	color: #ff5c5c;
+}
 .stageSection-3mAD8V {
 	background: transparent!important;
 }
