@@ -28,12 +28,23 @@ Açılan Pencereye **[Gamer-Theme.theme.css](https://gamerboytr.github.io/Better
 Stylish Eklentisini Tarayıcınıza Kurun.Eklentiye Tıklayın ve Üstteki 3 Noktaya Tılayıp **Create New Style** Diyin.Kod Kısmına Aşağıdaki Kodu Yapıştırın,**Şuraya uygulanır** Kısmının Yanındaki Kutucuğu **Şununla Başlayan URL'ler** Yapıp Yazma Yerine **https://discord.com** yazın Ve Sol Kısımdaki Kaydet Butonuna Basın.
 
 ```css
-@import url("https://gamerboytr.github.io/Themes/Gamer-Theme/Gamer-Theme.css");
+/**
+ * @name Gamer-Theme
+ * @description GamerboyTR Tarafından Yapılmış Olan Gamer'lara Özel Üretim Tema
+ * @author GamerboyTR
+ * @version 3.8.0
+ * @authorId 546019971910598658
+ * @invite bvFw4YBEAE
+ * @website http://www.gamerboytr.ml
+ * @source https://gamerboytr.github.io/BetterDiscordAddons/Themes/Gamer-Theme/Gamer-Theme.css
+ */
+
+@import url("https://gamerboytr.github.io/BetterDiscordAddons/Themes/Gamer-Theme/Gamer-Theme.css");
 :root {
 	--themeColor1: #ff3838; /* 1. Tema Rengi (Varsayılan Değer : #ff3838) */
 	--themeColor2: #5b86e5; /* 2. Tema Rengi (Varsayılan Değer : #5B86E5) */
 	--backgroundImage: url("https://media.discordapp.net/attachments/824207543634493440/833580120060723220/mustafa_kemal_ataturk_wallpaper_by_kayakartalii_dcpegjp-fullview.png"); /* Arkaplan Resmi */
-	--backgroundBlur: 0px; /* Arkaplan Bulanıklığı (Varsayılan Değer : 3px) */
+	--backgroundBlur: 3px; /* Arkaplan Bulanıklığı (Varsayılan Değer : 3px) */
 	--backgroundOpacity: 0.2; /* Arkaplan Görünürlüğü (Varsayılan Değer : 0.2) */
 	--rs-avatar-shape: 50%; /* Profildeki Durum Göstergesinin Ovelliği (Varsayılan Değer : 50%) */
 	--rs-online-color: #43b581; /* Çevrimiçi Rengi  (Varsayılan Değer : #43b581) */
@@ -45,7 +56,7 @@ Stylish Eklentisini Tarayıcınıza Kurun.Eklentiye Tıklayın ve Üstteki 3 Nok
 	--columns: 1; /* Sunucuların En Fazla Yanyana Durma Sayısı (Varsayılan Değer : 1) */
 	--guildsize: 40; /* Sunucuların Resminin Büyüklüğü (Varsayılan Değer : 40) */
 	--guildgap: 5; /* Sunucuların Arasındaki Boşluk (Varsayılan Değer : 5) */
-	--homeImage: url("https://avatars.githubusercontent.com/u/59420445?s=120&v=4"); /* Ana Sayfa Iconu(Discord Logosu - Bu Kısmı Silerseniz Nomal Logo Olur) */
+	--homeImage: url("https://avatars.githubusercontent.com/u/59420445?s=400&v=4"); /* Ana Sayfa Iconu(Discord Logosu - Bu Kısmı Silerseniz Nomal Logo Olur) */
 	--settingsmodalwidth: 1300px; /* Ayarların Genişliği (Varsayılan Değer : 1300px) */
 	--settingsmodalheight: 80vh; /* Ayarların Yüksekliği (Varsayılan Değer : 80vh) */
 }
