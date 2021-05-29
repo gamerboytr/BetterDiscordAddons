@@ -24,6 +24,7 @@
       --settingsmodalbackground: transparent;
       --font-display: var(--font-primary);
       --version: "3.8.0"!important;
+      --whitethemeversion: "1.3"!important;
   } 
 
 .activity-fViXj7 {
@@ -650,7 +651,7 @@ html.theme-light .typeWindows-1za-n7 > .wordmark-2iDDfm:before {
 	content: "Gamer-Theme, White Mode";
 }
 html.theme-light .typeWindows-1za-n7 > .wordmark-2iDDfm:after {
-	content: var(--version) ", White Mode 1.2";
+	content: var(--version) ", White Mode " var(--whitethemeversion);
 }
 html.theme-light .popout-38lTFE,
 html.theme-light .wrapper-3D2qGf {
@@ -790,6 +791,10 @@ html.theme-light #bd-editor-panel .minimap-decorations-layer {
 }
 html.theme-light .container-16j22k {
 	background-color: #fff;
+}
+html.theme-light .container-3baos1:before, 
+.container-3baos1:after {
+    color: rgba(0, 0, 0, 0.3);
 }
 /* Endİf */
    .wrapper-r-6rrt {
