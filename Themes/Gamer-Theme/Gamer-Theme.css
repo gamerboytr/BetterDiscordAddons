@@ -25,6 +25,77 @@
       --font-display: var(--font-primary);
       --version: "3.7";
   } 
+
+.activity-fViXj7 {
+	background-color: var(--backgroundColor) !important;
+}
+.replyBar-1YLQ2F,
+.threadSuggestionBar-2ufK2Z {
+	background: #040404 !important;
+}
+
+#status-picker-dnd.focused-3afm-j .status-1AY8sU,
+#status-picker-idle.focused-3afm-j .status-1AY8sU,
+#status-picker-online.focused-3afm-j .status-1AY8sU,
+#status-picker-invisible.focused-3afm-j .status-1AY8sU {
+	background-color: currentColor !important;
+}
+
+#user-settings-cog-Nitro_Server_Boost::before {
+	content: "";
+	position: absolute;
+	flex: 0 0 auto;
+	padding-left: 82ex;
+	width: calc(var(--usesettingsicons) * var(--settingsiconssize));
+	height: calc(var(--usesettingsicons) * var(--settingsiconssize));
+	margin-right: calc(var(--usesettingsicons) * var(--settingsiconsgap));
+	background: currentColor;
+	-webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/boosts.svg) center/contain no-repeat;
+}
+a[title="Twitter"]:hover svg path {
+	fill: #1da1f2 !important;
+}
+a[title="Facebook"]:hover svg path {
+	fill: #4267b2 !important;
+}
+a[title="Instagram"]:hover svg path {
+	fill: linear-gradient(blue, red) !important;
+}
+
+/* Server Oluşturma */
+.theme-dark .content-1LAB8Z,
+.theme-dark .footer-2gL1pp {
+	background-color: var(--backgroundColor) !important;
+}
+
+.container-1CE3eW .title-3w8xhj,
+.container-1CE3eW .subtitle-Nw1LLR,
+.container-1CE3eW .footerTitle-2CYZch,
+.container-1CE3eW .contents-18-Yxp,
+.container-1CE3eW .title-LqAd9K,
+.container-1CE3eW .title-Z_XiOC,
+.container-1CE3eW .sampleLink-2NLvZg,
+.container-1CE3eW .title-XLSR78 {
+	color: #fff;
+}
+.container-1CE3eW .input-cIJ7To {
+	background-color: var(--backgroundColor) !important;
+	border-color: #000;
+	color: rgb(172, 172, 172);
+	font-weight: 400;
+}
+.container-1CE3eW .input--jS-j2 {
+	background-color: transparent !important;
+}
+.container-1CE3eW .input--jS-j2 > input {
+	border: 1px solid #000;
+	color: rgb(194, 194, 194);
+	font-weight: 400;
+}
+.container-1CE3eW .input--jS-j2 > input::placeholder {
+	color: rgb(194, 194, 194);
+}
+
 .headerTop-2y3V6H {
 	background-color: var(--backgroundColor);
 }
