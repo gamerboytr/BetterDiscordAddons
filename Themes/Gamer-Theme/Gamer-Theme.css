@@ -753,7 +753,7 @@ html[lang="en-US"].theme-light #app-mount::after {
 	background-color: #fff;
 }
 .theme-light .container-3baos1:before, 
-.container-3baos1:after {
+.theme-light .container-3baos1:after {
     color: rgba(0, 0, 0, 0.3);
 }
 /* Endİf */
