@@ -26,6 +26,11 @@
       --version: "3.8.2"!important;
       --whitethemeversion: "1.3"!important;
   } 
+/* İndir uyarısı Gizleme */
+notice-3bPHh- colorDefault-22HBa0 {
+display:none!important;
+}
+/* Endİf */
 /* Durum */
 .scroller-3gAZLs.list-6NCENv.thin-1ybCId,
 .option-3KoAJB {
