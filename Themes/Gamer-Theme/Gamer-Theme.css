@@ -56,7 +56,11 @@ display:none!important;
 #status-picker-dnd.focused-3afm-j .status-1AY8sU,
 #status-picker-idle.focused-3afm-j .status-1AY8sU,
 #status-picker-online.focused-3afm-j .status-1AY8sU,
-#status-picker-invisible.focused-3afm-j .status-1AY8sU {
+#status-picker-invisible.focused-3afm-j .status-1AY8sU,
+#status-picker-dnd:focus .status-1AY8sU,
+#status-picker-idle:focus .status-1AY8sU,
+#status-picker-online:focus .status-1AY8sU,
+#status-picker-invisible:focus .status-1AY8sU {
 	background-color: currentColor !important;
 }
 
