@@ -23,9 +23,17 @@
       --aligndms: 0;
       --settingsmodalbackground: transparent;
       --font-display: var(--font-primary);
-      --version: "3.9.0"!important;
+      --version: "3.9.1"!important;
       --whitethemeversion: "1.3"!important;
   } 
+/* Block */
+.container-1fnzfI .divider-3yU4s2 + button + button {
+	background-color: #cc1b1b!important;
+}
+.container-1fnzfI .divider-3yU4s2 + button + button:hover {
+	background-color: #af1d1d!important;
+}
+/* Endİf */
 .wrapper-3NnKdC:active,
 .wrapper-3NnKdC:focus,
 .wrapper-3NnKdC > :focus-within {
