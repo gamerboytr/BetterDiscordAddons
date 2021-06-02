@@ -259,12 +259,12 @@ body:not([class*="hljs"]):not(code):not([class*="ace_"]) {
 	background-color: var(--backgroundColor) !important;
 }
 .modalTextContainer-ITvzbi, .textContainer-C0szpm, .markup-2BOw-j code.hljs, .markup-2BOw-j code.hljs.inline {
-	background: #0d0d0da8;
-	border: 1px solid #000000d7;
-	opacity: 0.9;
+	background: #0d0d0da8!important;
+	border: 1px solid #000000d7!important;
+	opacity: 0.9!important;
 }
 .hljs::before {
-	background: var(--backgroundColor)!important;
+	background-color: var(--backgroundColor)!important;
 }
 
 div[aria-controls="Nitro Server Boost-tab"]::before {
