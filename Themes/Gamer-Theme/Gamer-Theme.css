@@ -26,6 +26,9 @@
       --version: "3.9.3"!important;
       --whitethemeversion: "1.3"!important;
   } 
+activity-1ythUs {
+    background-color: var(--backgroundColor)!important;
+}
 .topSectionNormal-2-vo2m {
 	background-color: #060606 !important;
 }
