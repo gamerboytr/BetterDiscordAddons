@@ -408,12 +408,12 @@
 						)
 					);
 					headerEle.classList.add("has-screenshots");
-					createAddonCard.cache[addon.resourceUrl].screenshots.urls.push(`https://gamerboytr.github.io/BetterDiscordAddons/Themes/Gamer-Theme/Resurces/screenshot1.png`);
+					createAddonCard.cache[addon.resourceUrl].screenshots.urls.push(`${addon.resourceUrl}/screenshot1.png`);
 				};
 				if (createAddonCard.cache[addon.resourceUrl].screenshots) addScreenshotsButton();
 				else {
 					const xhttp = new XMLHttpRequest();
-					const url = `https://gamerboytr.github.io/BetterDiscordAddons/Themes/Gamer-Theme/Resurces/screenshot1.png`;
+					const url = `${addon.resourceUrl}/screenshot1.png`;
 					xhttp.onload = function () {
 						createAddonCard.cache[addon.resourceUrl].screenshots = { status: this.status, fetched: false, urls: [] };
 						if (document.contains(headerEle)) addScreenshotsButton();
