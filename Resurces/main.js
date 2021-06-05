@@ -413,7 +413,7 @@
 				if (createAddonCard.cache[addon.resourceUrl].screenshots) addScreenshotsButton();
 				else {
 					const xhttp = new XMLHttpRequest();
-					const url = `https://github.com/gamerboytr/BetterDiscordAddons/blob/master/Themes/Gamer-Theme/Resurces/screenshot1.png?raw=true`;
+					const url = `https://github.com/gamerboytr/BetterDiscordAddons/blob/master/Themes/Gamer-Theme/Resurces/screenshot1.png`;
 					xhttp.onload = function () {
 						createAddonCard.cache[addon.resourceUrl].screenshots = { status: this.status, fetched: false, urls: [] };
 						if (document.contains(headerEle)) addScreenshotsButton();
