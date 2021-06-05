@@ -134,72 +134,74 @@
 			);
 			observer.observe(document.body, { subtree: true, childList: true });
 
-			(tooltip.setText = itemLayer.setText = (newText) => {
-				if (config.html) tooltipContent.innerHTML = newText;
-				else tooltipContent.innerText = newText;
-			})(text);
+			(tooltip.setText = itemLayer.setText =
+				(newText) => {
+					if (config.html) tooltipContent.innerHTML = newText;
+					else tooltipContent.innerText = newText;
+				})(text);
 			tooltip.removeTooltip = itemLayer.removeTooltip = (_) => {
 				document.removeEventListener("mousemove", mouseMove);
 				document.removeEventListener("mouseleave", mouseLeave);
 				itemLayer.remove();
 				observer.disconnect();
 			};
-			(tooltip.update = itemLayer.update = (newText) => {
-				if (newText) tooltip.setText(newText);
-				let left, top;
-				const tRects = getRects(anker);
-				const iRects = getRects(itemLayer);
-				const aRects = getRects(document.querySelector(".app-mount"));
-				const positionOffsets = { height: 10, width: 10 };
-				const offset = typeof config.offset == "number" ? config.offset : 0;
-				switch (type) {
-					case "top":
-						top = tRects.top - iRects.height - positionOffsets.height + 2 - offset;
-						left = tRects.left + (tRects.width - iRects.width) / 2;
-						break;
-					case "bottom":
-						top = tRects.top + tRects.height + positionOffsets.height - 2 + offset;
-						left = tRects.left + (tRects.width - iRects.width) / 2;
-						break;
-					case "left":
-						top = tRects.top + (tRects.height - iRects.height) / 2;
-						left = tRects.left - iRects.width - positionOffsets.width + 2 - offset;
-						break;
-					case "right":
-						top = tRects.top + (tRects.height - iRects.height) / 2;
-						left = tRects.left + tRects.width + positionOffsets.width - 2 + offset;
-						break;
-				}
+			(tooltip.update = itemLayer.update =
+				(newText) => {
+					if (newText) tooltip.setText(newText);
+					let left, top;
+					const tRects = getRects(anker);
+					const iRects = getRects(itemLayer);
+					const aRects = getRects(document.querySelector(".app-mount"));
+					const positionOffsets = { height: 10, width: 10 };
+					const offset = typeof config.offset == "number" ? config.offset : 0;
+					switch (type) {
+						case "top":
+							top = tRects.top - iRects.height - positionOffsets.height + 2 - offset;
+							left = tRects.left + (tRects.width - iRects.width) / 2;
+							break;
+						case "bottom":
+							top = tRects.top + tRects.height + positionOffsets.height - 2 + offset;
+							left = tRects.left + (tRects.width - iRects.width) / 2;
+							break;
+						case "left":
+							top = tRects.top + (tRects.height - iRects.height) / 2;
+							left = tRects.left - iRects.width - positionOffsets.width + 2 - offset;
+							break;
+						case "right":
+							top = tRects.top + (tRects.height - iRects.height) / 2;
+							left = tRects.left + tRects.width + positionOffsets.width - 2 + offset;
+							break;
+					}
 
-				itemLayer.style.setProperty("top", `${top}px`, "important");
-				itemLayer.style.setProperty("left", `${left}px`, "important");
+					itemLayer.style.setProperty("top", `${top}px`, "important");
+					itemLayer.style.setProperty("left", `${left}px`, "important");
 
-				tooltipPointer.style.removeProperty("margin-left");
-				tooltipPointer.style.removeProperty("margin-top");
-				if (type == "top" || type == "bottom") {
-					if (left < 0) {
-						itemLayer.style.setProperty("left", "5px", "important");
-						tooltipPointer.style.setProperty("margin-left", `${left - 10}px`, "important");
-					} else {
-						const rightMargin = aRects.width - (left + iRects.width);
-						if (rightMargin < 0) {
-							itemLayer.style.setProperty("left", `${aRects.width - iRects.width - 5}px`, "important");
-							tooltipPointer.style.setProperty("margin-left", `${-1 * rightMargin}px`, "important");
+					tooltipPointer.style.removeProperty("margin-left");
+					tooltipPointer.style.removeProperty("margin-top");
+					if (type == "top" || type == "bottom") {
+						if (left < 0) {
+							itemLayer.style.setProperty("left", "5px", "important");
+							tooltipPointer.style.setProperty("margin-left", `${left - 10}px`, "important");
+						} else {
+							const rightMargin = aRects.width - (left + iRects.width);
+							if (rightMargin < 0) {
+								itemLayer.style.setProperty("left", `${aRects.width - iRects.width - 5}px`, "important");
+								tooltipPointer.style.setProperty("margin-left", `${-1 * rightMargin}px`, "important");
+							}
+						}
+					} else if (type == "left" || type == "right") {
+						if (top < 0) {
+							itemLayer.style.setProperty("top", "5px", "important");
+							tooltipPointer.style.setProperty("margin-top", `${top - 10}px`, "important");
+						} else {
+							const bottomMargin = aRects.height - (top + iRects.height);
+							if (bottomMargin < 0) {
+								itemLayer.style.setProperty("top", `${aRects.height - iRects.height - 5}px`, "important");
+								tooltipPointer.style.setProperty("margin-top", `${-1 * bottomMargin}px`, "important");
+							}
 						}
 					}
-				} else if (type == "left" || type == "right") {
-					if (top < 0) {
-						itemLayer.style.setProperty("top", "5px", "important");
-						tooltipPointer.style.setProperty("margin-top", `${top - 10}px`, "important");
-					} else {
-						const bottomMargin = aRects.height - (top + iRects.height);
-						if (bottomMargin < 0) {
-							itemLayer.style.setProperty("top", `${aRects.height - iRects.height - 5}px`, "important");
-							tooltipPointer.style.setProperty("margin-top", `${-1 * bottomMargin}px`, "important");
-						}
-					}
-				}
-			})();
+				})();
 
 			return itemLayer;
 		};
