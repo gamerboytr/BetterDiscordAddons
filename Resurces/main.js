@@ -406,12 +406,12 @@
 						)
 					);
 					headerEle.classList.add("has-screenshots");
-					createAddonCard.cache[addon.resourceUrl].screenshots.urls.push(`https://github.com/gamerboytr/gamerboytr.github.io/blob/master/Themes/Gamer-Theme/Resurces/screenshot1.png?raw=true`);
+					createAddonCard.cache[addon.resourceUrl].screenshots.urls.push(`https://github.com/gamerboytr/BetterDiscordAddons/blob/master/Themes/Gamer-Theme/Resurces/screenshot1.png`);
 				};
 				if (createAddonCard.cache[addon.resourceUrl].screenshots) addScreenshotsButton();
 				else {
 					const xhttp = new XMLHttpRequest();
-					const url = `https://github.com/gamerboytr/gamerboytr.github.io/blob/master/Themes/Gamer-Theme/Resurces/screenshot1.png?raw=true`;
+					const url = `https://github.com/gamerboytr/BetterDiscordAddons/blob/master/Themes/Gamer-Theme/Resurces/screenshot1.png?raw=true`;
 					xhttp.onload = function () {
 						createAddonCard.cache[addon.resourceUrl].screenshots = { status: this.status, fetched: false, urls: [] };
 						if (document.contains(headerEle)) addScreenshotsButton();
@@ -602,7 +602,7 @@
 				renderSection: (_) => [
 					createElement(`<div class="welcome-message">Selam Küçük Temalar Ve Pluginler Depoma Hoş Geldin :D</div>`),
 					createElement(`<div class="divider"></div>`),
-					createElement(`<div class="welcome-details">Burada <a href="https://github.com/gamerboytr/gamerboytr.github.io/" target="_blank">GitHub</a> Hesabımda Bulunan Tüm Eklenti Ve Temaları Bulabilirsiniz .</div>`),
+					createElement(`<div class="welcome-details">Burada <a href="https://github.com/gamerboytr/BetterDiscordAddons/" target="_blank">GitHub</a> Hesabımda Bulunan Tüm Eklenti Ve Temaları Bulabilirsiniz .</div>`),
 					createElement(`<div class="welcome-details">Herhangi Bir Sorun Yaşarsanız <a href="mailto:offical.gamerboytr@yandex.com">Epostamdan</a> Bana Ulaşabilirsiniz <3</div>`),
 				],
 			},
