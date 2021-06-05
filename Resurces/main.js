@@ -602,7 +602,7 @@
 				renderSection: (_) => [
 					createElement(`<div class="welcome-message">Selam Küçük Temalar Ve Pluginler Depoma Hoş Geldin :D</div>`),
 					createElement(`<div class="divider"></div>`),
-					createElement(`<div class="welcome-details">Burada <a href="https://github.com/gamerboytr/gamerboytr.github.io/" target="_blank">GitHub</a>Hesabımda Bulunan Tüm Eklenti Ve Temaları Bulabilirsiniz .</div>`),
+					createElement(`<div class="welcome-details">Burada <a href="https://github.com/gamerboytr/gamerboytr.github.io/" target="_blank">GitHub</a> Hesabımda Bulunan Tüm Eklenti Ve Temaları Bulabilirsiniz .</div>`),
 					createElement(`<div class="welcome-details">Herhangi Bir Sorun Yaşarsanız <a href="mailto:offical.gamerboytr@yandex.com">Epostamdan</a> Bana Ulaşabilirsiniz <3</div>`),
 				],
 			},
