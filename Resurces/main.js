@@ -96,10 +96,35 @@
 			return button;
 		};
 
+		const createInvite = (data = {}) => {
+			const invite = createElement(`<div class="invite">
+				<div class="invite-header">${data.header || ""}</div>
+				<div class="invite-content">
+					<div class="invite-icon" tabindex="0" role="button" style="background-image: url(${data.icon});"></div>
+					<div class="invite-info">
+						<div class="invite-name">${data.name || ""}</div>
+						<strong class="invite-details">${data.details || ""}</strong>
+					</div>
+				</div>
+			</div>`);
+			invite.querySelector(".invite-content").appendChild(
+				createButton({
+					contents: "Join",
+					className: "invite-button",
+					color: "green",
+					size: "none",
+					onClick: (_) => {
+						data.invite && window.open(`https://discord.com/invite/${data.invite}`, "_blank");
+					},
+				})
+			);
+			return invite;
+		};
+
 		const createTooltip = (anker, text, config = {}) => {
-			let itemLayerContainer = document.querySelector(".layer-items");
+			const itemLayerContainer = document.querySelector(".layer-items");
 			if (!itemLayerContainer) return;
-			let itemLayer = createElement(`<div class="layer-item layer-item-disabled">
+			const itemLayer = createElement(`<div class="layer-item layer-item-disabled">
 				<div class="tooltip">
 					<div class="tooltip-pointer"></div>
 					<div class="tooltip-content"></div>
@@ -107,28 +132,37 @@
 			</div>`);
 			itemLayerContainer.appendChild(itemLayer);
 
-			let tooltip = itemLayer.firstElementChild;
-			let tooltipContent = itemLayer.querySelector(".tooltip-content");
-			let tooltipPointer = itemLayer.querySelector(".tooltip-pointer");
+			const tooltip = itemLayer.firstElementChild;
+			const tooltipContent = itemLayer.querySelector(".tooltip-content");
+			const tooltipPointer = itemLayer.querySelector(".tooltip-pointer");
 
 			if (config.id) tooltip.id = config.id.split(" ").join("");
 			let type = config.type || "top";
 			tooltip.classList.add(`tooltip-${type}`);
 			tooltip.classList.add(config.color ? `tooltip-${config.color}` : "tooltip-primary");
 
-			let mouseMove = (e) => {
-				let parent = e.target.parentElement.querySelector(":hover");
+			const wheel = (e) => {
+				const tRects1 = getRects(anker);
+				if (wheel.timeout) clearTimeout(wheel.timeout);
+				wheel.timeout = setTimeout((_) => {
+					const tRects2 = getRects(anker);
+					if (tRects1.x != tRects2.x || tRects1.y != tRects2.y) removeTooltip();
+				}, 500);
+			};
+			const mouseMove = (e) => {
+				const parent = e.target.parentElement.querySelector(":hover");
 				if (parent && anker != parent && !anker.contains(parent)) itemLayer.removeTooltip();
 			};
-			let mouseLeave = (e) => {
+			const mouseLeave = (e) => {
 				itemLayer.removeTooltip();
 			};
+			document.addEventListener("wheel", wheel);
 			document.addEventListener("mousemove", mouseMove);
 			document.addEventListener("mouseleave", mouseLeave);
 
-			let observer = new MutationObserver((changes) =>
+			const observer = new MutationObserver((changes) =>
 				changes.forEach((change) => {
-					let nodes = Array.from(change.removedNodes);
+					const nodes = Array.from(change.removedNodes);
 					if (nodes.indexOf(itemLayer) > -1 || nodes.indexOf(anker) > -1 || nodes.some((n) => n.contains(anker))) itemLayer.removeTooltip();
 				})
 			);
@@ -140,6 +174,7 @@
 					else tooltipContent.innerText = newText;
 				})(text);
 			tooltip.removeTooltip = itemLayer.removeTooltip = (_) => {
+				document.removeEventListener("wheel", wheel);
 				document.removeEventListener("mousemove", mouseMove);
 				document.removeEventListener("mouseleave", mouseLeave);
 				itemLayer.remove();
@@ -249,12 +284,12 @@
 		};
 		createLoadingList.cache = {};
 		const createAddonList = (type, ending) => {
-			let [header, list] = createLoadingList(`https://raw.githubusercontent.com/gamerboytr/BetterDiscordAddons/master/${type}/README.md`, {
+			let [header, list] = createLoadingList(`https://mwittrien.github.io/BetterDiscordAddons/${type}/README.md`, {
 				className: "addon-list",
 				getHeader: (amount) => {
 					const search = createElement(`<div class="addon-list-search search">
 						<div class="search-inner">
-							<input class="search-input" placeholder="Ara" value="">
+							<input class="search-input" placeholder="Search" value="">
 							<div class="search-icon-layout" tabindex="-1" role="button">
 								<div class="search-icon-container">
 									<svg class="search-icon search-icon-mag" aria-label="Search" aria-hidden="false" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M21.707 20.293L16.314 14.9C17.403 13.504 18 11.799 18 10C18 7.863 17.167 5.854 15.656 4.344C14.146 2.832 12.137 2 10 2C7.863 2 5.854 2.832 4.344 4.344C2.833 5.854 2 7.863 2 10C2 12.137 2.833 14.146 4.344 15.656C5.854 17.168 7.863 18 10 18C11.799 18 13.504 17.404 14.9 16.314L20.293 21.706L21.707 20.293ZM10 16C8.397 16 6.891 15.376 5.758 14.243C4.624 13.11 4 11.603 4 10C4 8.398 4.624 6.891 5.758 5.758C6.891 4.624 8.397 4 10 4C11.603 4 13.109 4.624 14.242 5.758C15.376 6.891 16 8.398 16 10C16 11.603 15.376 13.11 14.242 14.243C13.109 15.376 11.603 16 10 16Z"/></svg>
@@ -313,9 +348,9 @@
 											? "m 11.470703,0.625 c -1.314284,0 -2.3808593,1.0666594 -2.3808592,2.3808594 V 4.4335938 H 5.2792969 c -1.0476168,0 -1.8945313,0.85855 -1.8945313,1.90625 v 3.6191406 h 1.4179688 c 1.41905,0 2.5722656,1.1512126 2.5722656,2.5703126 0,1.4191 -1.1532156,2.572266 -2.5722656,2.572265 H 3.375 v 3.619141 c 0,1.0477 0.8566801,1.904297 1.9042969,1.904297 h 3.6191406 v -1.427734 c 0,-1.4189 1.1532235,-2.572266 2.5722655,-2.572266 1.41905,0 2.570313,1.153366 2.570313,2.572266 V 20.625 h 3.61914 c 1.047626,0 1.90625,-0.856597 1.90625,-1.904297 v -3.810547 h 1.427735 c 1.314292,0 2.380859,-1.066559 2.380859,-2.380859 0,-1.3143 -1.066567,-2.38086 -2.380859,-2.380859 H 19.566406 V 6.3398438 c 0,-1.0477002 -0.858624,-1.90625 -1.90625,-1.90625 H 13.851562 V 3.0058594 c 0,-1.3142 -1.066568,-2.3808594 -2.380859,-2.3808594 z"
 											: "m 14.69524,1.9999881 c -0.17256,0 -0.34519,0.065 -0.47686,0.1969 L 8.8655531,7.5498683 16.449675,15.134198 21.802502,9.7812182 c 0.26333,-0.2633 0.26333,-0.6904 0,-0.9537 L 20.7902,7.8168183 c -0.22885,-0.2289 -0.58842,-0.2633 -0.85606,-0.081 l -2.127134,1.4452499 1.437076,-2.1418399 c 0.17949,-0.2675 0.14486,-0.6251001 -0.083,-0.8528001 l -2.195488,-2.19433 c -0.20264,-0.2026 -0.51169,-0.2562 -0.7698,-0.1318 l -0.37921,0.1839 0.18228,-0.4036001 c 0.11521,-0.2555 0.0599,-0.5553 -0.13834,-0.7535 l -0.68843,-0.6901 c -0.131639,-0.13172 -0.30429,-0.19701 -0.476854,-0.19701 z M 7.8695308,8.5459582 6.3201566,10.095378 c -0.126449,0.1264 -0.196927,0.298 -0.196927,0.4769 0,0.1788 0.07043,0.3505 0.196927,0.4769 l 1.469627,1.46967 c 0.283151,0.2832 0.421272,0.6744 0.377578,1.07255 -0.04365,0.3979 -0.264001,0.7495 -0.602173,0.9651 -4.3184212,2.75283 -4.720939,3.15533 -4.853187,3.28763 -0.9493352,0.9493 -0.9493352,2.494471 0,3.443871 0.9502793,0.9503 2.4954759,0.9484 3.4437772,0 0.132338,-0.1323 0.534965,-0.535 3.2875378,-4.853321 0.215049,-0.3374 0.5670574,-0.5568 0.9651044,-0.6006 0.399307,-0.044 0.790042,0.094 1.072518,0.376 l 1.469626,1.46967 c 0.26328,0.2633 0.69043,0.2633 0.95371,0 l 1.549374,-1.54942 z M 4.4762059,18.571608 c 0.243902,0 0.487705,0.092 0.673783,0.2783 0.3722,0.3722 0.3722,0.975401 0,1.347601 -0.3722,0.3722 -0.97541,0.3722 -1.3475649,0 -0.3722,-0.3722 -0.3722,-0.975401 0,-1.347601 0.1861,-0.1861 0.42988,-0.2783 0.6737819,-0.2783 z"
 									}"/></svg>`,
-									resourceUrl: `https://github.com/gamerboytr/BetterDiscordAddons/tree/master/${type}/${fileName}/Resurces`,
-									websiteUrl: `https://github.com/gamerboytr/BetterDiscordAddons/tree/master/${type}/${fileName}`,
-									sourceUrl: `https://github.com/gamerboytr/BetterDiscordAddons/tree/master/${type}/${fileName}/${fileName}${ending}`,
+									resourceUrl: `https://mwittrien.github.io/BetterDiscordAddons/${type}/${fileName}/_res`,
+									websiteUrl: `https://github.com/mwittrien/BetterDiscordAddons/tree/master/${type}/${fileName}`,
+									sourceUrl: `https://mwittrien.github.io/BetterDiscordAddons/${type}/${fileName}/${fileName}${ending}`,
 									download: `?${type.toLowerCase().slice(0, -1)}=${l[0].split("/").pop()}`,
 								})
 							);
@@ -326,20 +361,20 @@
 		};
 		createAddonList.search = {};
 		const createLibraryEntry = (_) => {
-			return createLoadingList("https://gamerboytr.github.io/BetterDiscordAddons/Library/README.md", {
+			return createLoadingList("https://mwittrien.github.io/BetterDiscordAddons/Library/README.md", {
 				className: "addon-list",
-				getHeader: "Gerekli Kütüphaneler",
+				getHeader: "Required Library",
 				getChildren: (response) => {
 					let parsedResponse = response.trim().replace(/\r/g, "");
-					let fileName = (parsedResponse.split(" -")[0] || "").replace("# ", "").trim();
+					let fileName = "BDFDB";
 					return createAddonCard({
-						/*	name: fileName,
+						name: fileName,
 						description: (parsedResponse.split("\n").pop() || "").trim(),
 						icon: `<svg width="100%" height="100%" viewBox="0 0 24 24"><path fill="currentColor" d="m 7.3125,2.625 c -0.3238672,0 -0.5859375,0.2620703 -0.5859375,0.5859375 V 14.929687 c 0,0.323868 0.2620703,0.585938 0.5859375,0.585938 2.710313,0 3.840547,1.498711 4.101563,1.914062 V 3.9905599 C 10.603047,3.3127865 9.3007813,2.625 7.3125,2.625 Z M 4.96875,3.796875 c -0.3238672,0 -0.5859375,0.2620703 -0.5859375,0.5859375 V 17.273437 c 0,0.323868 0.2620703,0.585938 0.5859375,0.585938 h 5.30599 C 9.9465755,17.461602 9.0865625,16.6875 7.3125,16.6875 c -0.9692969,0 -1.7578125,-0.788516 -1.7578125,-1.757813 V 3.796875 Z m 9.375,0 c -0.662031,0 -1.266641,0.2287891 -1.757812,0.6005859 V 18.445312 c 0,-0.323281 0.262656,-0.585937 0.585937,-0.585937 h 5.859375 c 0.323868,0 0.585937,-0.26207 0.585937,-0.585938 V 4.3828125 c 0,-0.3238672 -0.262069,-0.5859375 -0.585937,-0.5859375 z M 2.5859375,4.96875 C 2.2620703,4.96875 2,5.2308203 2,5.5546875 V 19.617187 c 0,0.323868 0.2620703,0.585938 0.5859375,0.585938 H 9.171224 c 0.2420313,0.68207 0.892995,1.171875 1.656901,1.171875 h 2.34375 c 0.763906,0 1.414831,-0.489805 1.656901,-1.171875 h 6.585286 C 21.73793,20.203125 22,19.941055 22,19.617187 V 5.5546875 C 22,5.2308203 21.73793,4.96875 21.414062,4.96875 h -0.585937 v 12.304687 c 0,0.969297 -0.827578,1.757813 -1.796875,1.757813 H 13.656901 C 13.41487,19.71332 12.763907,20.203125 12,20.203125 c -0.763906,0 -1.414831,-0.489805 -1.656901,-1.171875 H 4.96875 c -0.9692968,0 -1.796875,-0.788516 -1.796875,-1.757813 V 4.96875 Z"/></svg>`,
 						resourceUrl: "https://mwittrien.github.io/BetterDiscordAddons/Library/_res",
 						websiteUrl: "https://github.com/mwittrien/BetterDiscordAddons/tree/master/Library",
 						sourceUrl: `https://mwittrien.github.io/BetterDiscordAddons/Library/0${fileName}.plugin.js`,
-						download: "?library", */
+						download: "?library",
 					});
 				},
 			});
@@ -408,12 +443,12 @@
 						)
 					);
 					headerEle.classList.add("has-screenshots");
-					createAddonCard.cache[addon.resourceUrl].screenshots.urls.push(`https://github.com/gamerboytr/BetterDiscordAddons/blob/master/Themes/Gamer-Theme/Resurces/screenshot1.png`);
+					createAddonCard.cache[addon.resourceUrl].screenshots.urls.push(`${addon.resourceUrl}/screenshot1.png`);
 				};
 				if (createAddonCard.cache[addon.resourceUrl].screenshots) addScreenshotsButton();
 				else {
 					const xhttp = new XMLHttpRequest();
-					const url = `https://gamerboytr.github.io/BetterDiscordAddons/Themes/Gamer-Theme/Resurces/screenshot1.png`;
+					const url = `${addon.resourceUrl}/screenshot1.png`;
 					xhttp.onload = function () {
 						createAddonCard.cache[addon.resourceUrl].screenshots = { status: this.status, fetched: false, urls: [] };
 						if (document.contains(headerEle)) addScreenshotsButton();
@@ -560,19 +595,19 @@
 				buttons = [];
 			if (addon.websiteUrl)
 				links.push({
-					text: "İnternet Sitesi",
+					text: "Website",
 					url: addon.websiteUrl,
 					svg: `<svg width="100%" height="100%" viewBox="0 0 20 20"><path fill="currentColor" d="M 9.99,0 C 4.47,0 0,4.48 0,10 0,15.52 4.47,20 9.99,20 15.52,20 20,15.52 20,10 20,4.48 15.52,0 9.99,0 Z m 6.93,6 H 13.97 C 13.65,4.75 13.19,3.55 12.59,2.44 14.43,3.07 15.96,4.35 16.92,6 Z M 10,2.04 c 0.83,1.2 1.48,2.53 1.91,3.96 H 8.09 C 8.52,4.57 9.17,3.24 10,2.04 Z M 2.26,12 C 2.1,11.36 2,10.69 2,10 2,9.31 2.1,8.64 2.26,8 H 5.64 C 5.56,8.66 5.5,9.32 5.5,10 c 0,0.68 0.06,1.34 0.14,2 z m 0.82,2 h 2.95 c 0.32,1.25 0.78,2.45 1.38,3.56 C 5.57,16.93 4.04,15.66 3.08,14 Z M 6.03,6 H 3.08 C 4.04,4.34 5.57,3.07 7.41,2.44 6.81,3.55 6.35,4.75 6.03,6 Z M 10,17.96 C 9.17,16.76 8.52,15.43 8.09,14 h 3.82 C 11.48,15.43 10.83,16.76 10,17.96 Z M 12.34,12 H 7.66 C 7.57,11.34 7.5,10.68 7.5,10 7.5,9.32 7.57,8.65 7.66,8 h 4.68 c 0.09,0.65 0.16,1.32 0.16,2 0,0.68 -0.07,1.34 -0.16,2 z m 0.25,5.56 c 0.6,-1.11 1.06,-2.31 1.38,-3.56 h 2.95 c -0.96,1.65 -2.49,2.93 -4.33,3.56 z M 14.36,12 c 0.08,-0.66 0.14,-1.32 0.14,-2 0,-0.68 -0.06,-1.34 -0.14,-2 h 3.38 C 17.9,8.64 18,9.31 18,10 c 0,0.69 -0.1,1.36 -0.26,2 z"/></svg>`,
 				});
 			if (addon.sourceUrl)
 				links.push({
-					text: "Kaynak",
+					text: "Source",
 					url: addon.sourceUrl,
 					svg: `<svg width="100%" height="100%" viewBox="0 0 20 20"><path fill="currentColor" d="m 10,0.4165232 c -5.525,0 -10,4.4 -10,9.8266668 0,4.3425 2.865,8.025 6.8375,9.323334 0.5,0.0925 0.6833333,-0.211667 0.6833333,-0.4725 0,-0.233334 -0.00833,-0.851667 -0.0125,-1.670834 C 4.7266667,18.01569 4.14,16.104857 4.14,16.104857 c -0.455,-1.134167 -1.1125,-1.4375 -1.1125,-1.4375 -0.9058333,-0.609167 0.07,-0.596667 0.07,-0.596667 1.0041667,0.06833 1.5316667,1.0125 1.5316667,1.0125 0.8916666,1.5025 2.3408333,1.068334 2.9125,0.8175 0.09,-0.635833 0.3475,-1.068333 0.6333333,-1.314166 C 5.9541667,14.34069 3.62,13.49569 3.62,9.7306896 c 0,-1.0725 0.3875,-1.949166 1.0291667,-2.636666 -0.1125,-0.248334 -0.45,-1.2475004 0.0875,-2.6008337 0,0 0.8375,-0.2633333 2.75,1.0075 0.8,-0.2183333 1.65,-0.3266667 2.5,-0.3316667 0.8500003,0.005 1.7000003,0.1133334 2.5000003,0.3316667 1.9,-1.2708333 2.7375,-1.0075 2.7375,-1.0075 0.5375,1.3533333 0.2,2.3524997 0.1,2.6008337 0.6375,0.6875 1.025,1.564166 1.025,2.636666 0,3.7750004 -2.3375,4.6058344 -4.5625,4.8475004 0.35,0.295 0.675,0.8975 0.675,1.818334 0,1.315 -0.0125,2.371666 -0.0125,2.690833 0,0.2575 0.175,0.565 0.6875,0.466667 C 17.1375,18.264024 20,14.579024 20,10.24319 20,4.8165232 15.5225,0.4165232 10,0.4165232 Z"/></svg>`,
 				});
 			if (addon.download)
 				buttons.push({
-					text: "İndir",
+					text: "Download",
 					svg: `<svg width="100%" height="100%" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M7.47 10.78a.75.75 0 001.06 0l3.75-3.75a.75.75 0 00-1.06-1.06L8.75 8.44V1.75a.75.75 0 00-1.5 0v6.69L4.78 5.97a.75.75 0 00-1.06 1.06l3.75 3.75zM3.75 13a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5z"/></svg>`,
 					onClick: (_) => window.DownloadApi.convert(addon.download),
 				});
@@ -598,19 +633,36 @@
 		const content = document.querySelector(".content-region .content");
 
 		const sections = [
-			{ section: "Title", title: "Bölümler" },
+			{ section: "Title", title: "My Stuff" },
 			{
-				section: "Genel",
+				section: "General",
 				renderSection: (_) => [
-					createElement(`<div class="welcome-message">Selam Küçük Temalar Ve Pluginler Depoma Hoş Geldin :D</div>`),
+					createElement(`<div class="welcome-message">Welcome to my little Plugins and Themes Repository</div>`),
 					createElement(`<div class="divider"></div>`),
-					createElement(`<div class="welcome-details">Burada <a href="https://github.com/gamerboytr/BetterDiscordAddons/" target="_blank">GitHub</a> Hesabımda Bulunan Tüm Eklenti Ve Temaları Bulabilirsiniz .</div>`),
-					createElement(`<div class="welcome-details">Herhangi Bir Sorun Yaşarsanız <a href="mailto:offical.gamerboytr@yandex.com">Epostamdan</a> Bana Ulaşabilirsiniz <3</div>`),
+					createElement(`<div class="welcome-details">On here you'll find all my Plugins and Themes that are hosted on my <a href="https://github.com/mwittrien/BetterDiscordAddons/" target="_blank">GitHub</a>.</div>`),
+					createElement(
+						`<div class="welcome-details">If you expierence any Issues or got some Improvement Suggestions for my stuff, then feel free to drop them on <a href="https://github.com/mwittrien/BetterDiscordAddons/issues" target="_blank">here</a>. But please make sure whether there is already an open Thread for your Issue or Suggestion.</div>`
+					),
+					createElement(`<div class="divider"></div>`),
+					createElement(`<div class="welcome-details">If you enjoy using my Stuff and want to support me feel free to donate to me or become a Patron and receive certain benefits depending on which Tier you choose.</div>`),
+					createElement(
+						`<div class="donations"><a class="donation" href="https://www.paypal.me/MircoWittrien" target="_blank"><div class="donation-icon"><svg name="PayPal" width="100%" height="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M 5.6863929,0 C 5.1806043,0 4.7507198,0.3656279 4.6704813,0.85995389 L 1.6795909,19.673995 c -0.058746,0.371103 0.2309887,0.706911 0.6092555,0.706911 h 4.4338638 l 1.1121097,-7.006437 -0.033522,0.22009 c 0.078805,-0.494326 0.5072079,-0.859954 1.0129965,-0.859954 h 2.1061586 c 4.139443,0 7.378419,-1.667588 8.325519,-6.4919233 0.02866,-0.1432829 0.07434,-0.4183163 0.07434,-0.4183163 C 19.589638,4.0390606 19.318112,2.8290903 18.345211,1.7301106 17.276361,0.5193702 15.342278,0 12.867737,0 Z M 21.516831,7.8139196 c -1.028771,4.7498274 -4.3124,7.2629664 -9.522166,7.2629664 H 10.107139 L 8.6962314,24 H 11.76 c 0.442744,0 0.820329,-0.319405 0.889104,-0.753552 l 0.03498,-0.189482 0.705454,-4.428033 0.04519,-0.244868 c 0.06878,-0.434148 0.446338,-0.753554 0.887649,-0.753554 h 0.559699 c 3.620757,0 6.455196,-1.457472 7.283371,-5.677153 0.332416,-1.693603 0.172401,-3.113533 -0.64861,-4.1394384 z"/></svg></div><div class="donation-link">PayPal</div></a><a class="donation" href="https://www.patreon.com/MircoWittrien" target="_blank"><div class="donation-icon"><svg name="Patreon" width="100%" height="100%" viewBox="0 0 24 24"><path fill="currentColor" d="M 0,-1.2209e-4 V 24 H 4.4021963 V -1.2209e-4 Z m 15.010145,0 c -4.974287,0 -9.020427,4.04121619 -9.020427,9.00819799 0,4.9565461 4.04614,8.9837411 9.020427,8.9837421 C 19.970866,17.991818 24,13.959406 24,9.0080759 24,4.0421376 19.969822,-1.2209e-4 15.010145,-1.2209e-4 Z"/></svg></div><div class="donation-link">Patreon</div></a></div>`
+					),
 				],
 			},
 			{ section: "Separator" },
-			{ section: "Eklentiler", renderSection: (_) => [createAddonList("Plugins", ".plugin.js"), createElement(`<div class="divider"></div>`)] },
-			{ section: "Temalar", renderSection: (_) => createAddonList("Themes", ".theme.css") },
+			{ section: "Plugins", renderSection: (_) => [createAddonList("Plugins", ".plugin.js"), createElement(`<div class="divider"></div>`), createLibraryEntry()] },
+			{ section: "Themes", renderSection: (_) => createAddonList("Themes", ".theme.css") },
+			{ section: "Separator" },
+			{
+				section: "Invites",
+				renderSection: (_) => [
+					createInvite({ invite: "Jx3TjNS", name: "DevilBro's Haus", details: "Support Server for all my Stuff", icon: "https://mwittrien.github.io/_res/imgs/db_logo.webp" }),
+					createElement(`<div class="divider"></div>`),
+					createInvite({ invite: "0Tmfo5ZbORCRqbAd", name: "BetterDiscord", details: "First Support Server for BD", icon: "https://mwittrien.github.io/_res/imgs/bd1_logo.webp" }),
+					createInvite({ invite: "sbA3xCJ", name: "BetterDiscord2", details: "Second Support Server for BD", icon: "https://mwittrien.github.io/_res/imgs/bd2_logo.webp" }),
+				],
+			},
 		];
 		let items = [];
 
@@ -621,12 +673,12 @@
 			let sectionElements = [data.renderSection()].flat(10).filter((n) => n);
 			for (let element of sectionElements) content.appendChild(element);
 			selectedSection = data.section;
-			document.title = `GamerboyTR - ${data.section}`;
+			document.title = `BetterDiscord Addons - ${data.section}`;
 		};
 		let parsedSection = ((window.location.search.split(`?section=`)[1] || "").split("?")[0] || "").toLowerCase();
 		renderContent((parsedSection && sections.find((data) => data.section != "Title" && data.section != "Separator" && data.section.toLowerCase() == parsedSection)) || sections.find((data) => data.section != "Title" && data.section != "Separator"));
 
-		sidebarHeader.appendChild(createElement(`<div class="logo"><div class="primary">Better</div><div class="secondary">DIscord</div></div>`));
+		sidebarHeader.appendChild(createElement(`<div class="logo"><div class="primary">Better</div><div class="secondary">Discord</div></div>`));
 
 		const changeTheme = (value) => {
 			for (let element of document.querySelectorAll(".theme-dark, .theme-light")) {
