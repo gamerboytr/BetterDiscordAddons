@@ -98,9 +98,6 @@ div.grid-1nZz7S{
 .colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ {
 	color: #fff!important;
 }
-span.wrapper-3WhCwL {
-	background: linear-gradient(to right,var(--themeColor1) 25%, var(--themeColor2) 75%)!important;
-}
 /* Server Popup */
 .listItemTooltip-1JmWJ7,.emptyChannelIcon-cc932w {
   background-color: var(--backgroundColor)!important;
@@ -254,9 +251,6 @@ a[title="Twitter"]:hover svg path {
 }
 a[title="Facebook"]:hover svg path {
 	fill: #4267b2 !important;
-}
-a[title="Instagram"]:hover svg path {
-	fill: linear-gradient(blue, red) !important;
 }
 a[title="BetterDiscord"]:hover svg,
 a[title="BetterDiscord"] svg,
