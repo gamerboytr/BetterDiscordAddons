@@ -1,7 +1,7 @@
 window.DownloadApi = {
 	converter: {
-		theme: (arg) => `https://raw.githubusercontent.com/gamerboytr/gamerboytr.github.io/master/Themes/${arg}/${arg}.theme.css`,
-		url: (arg) => (arg = arg.startsWith("https://") || arg.startsWith("http://") ? arg : `https://raw.githubusercontent.com/gamerboytr/gamerboytr.github.io/master/${arg}`),
+		theme: (arg) => `https://raw.githubusercontent.com/gamerboytr/BetterDiscordAddons/master/Themes/${arg}/${arg}.theme.css`,
+		url: (arg) => (arg = arg.startsWith("https://") || arg.startsWith("http://") ? arg : `https://raw.githubusercontent.com/gamerboytr/BetterDiscordAddons/master/${arg}`),
 	},
 	convert: (parameterString, error) => {
 		if (typeof parameterString == "string")
