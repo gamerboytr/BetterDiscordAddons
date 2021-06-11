@@ -491,7 +491,7 @@ button[class="shinyButton-3uFlM- button-1PXUl0 button-38aScr lookFilled-1Gx00P c
 	order: 1;
 }
 .typeWindows-1za-n7 > .wordmark-2iDDfm:before {
-	content: "Gamer-Theme";
+	content: "Gamer-Theme Light";
 	color: rgba(255, 255, 255, 0.7);
 	font-family: Noto Sans;
 	font-size: 14px;
@@ -534,7 +534,7 @@ button[class="shinyButton-3uFlM- button-1PXUl0 button-38aScr lookFilled-1Gx00P c
 	transition: all 0.5s ease-in-out;
 }
 .container-3baos1:before {
-	content: "Gamer-Theme";
+	content: "Gamer-Theme Light";
 	right: 50%;
 	text-align: right;
 	transform: translateX(50%);
@@ -788,7 +788,7 @@ html[lang="en-US"].theme-light #app-mount::after {
 	background-color: #fff;
 }
 .theme-light .typeWindows-1za-n7 > .wordmark-2iDDfm:before {
-	content: "Gamer-Theme, White Mode";
+	content: "Gamer-Theme Light, White Mode";
 }
 .theme-light .typeWindows-1za-n7 > .wordmark-2iDDfm:after {
 	content: var(--version) ", White Mode " var(--whitethemeversion);
