@@ -17,12 +17,14 @@
       --rs-invisible-color: #747f8d;
       --rs-large-spacing: 2px;
       --rs-width: 2px;
-      --aligndms: 0;
-      --settingsmodalbackground: transparent;
       --font-display: var(--font-primary);
       --version: "4.0.0"!important;
       --whitethemeversion: "1.3"!important;
   } 
+
+.popoutContainer-1MXdqN,.body-3HBlXn,.footer-1N3bR3 {
+  background-color: var(--backgroundColor)!important;
+}
 
 /* Big Update 2 */
 
@@ -125,32 +127,6 @@ div.grid-1nZz7S{
 .innerDisabled-1YTFPN .buttons-3JBrkn {
   display: none;
 }
-/* Kart Parlatma */
-#Gamer-Theme-card {
-  transition: all .2s ease;
-  position: relative;
-}
-#Gamer-Theme-card:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -200%;
-    width: 200%;
-    height: 200%;
-    transform: skewX(-20deg);
-    background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.3), transparent);
-}
-#Gamer-Theme-card:hover:after {
-    animation: shine 1.6s ease;
-}
-
-
-@keyframes shine {
-    100% {
-        left: 200%;
-    }
-}
-
 /* EndBigUpdate */
 
 .body-3ND3kc, .body-3iLsc4, .bodyInner-245q0L, .footer-1fjuF6, .headerTop-2cWpdB {
@@ -242,17 +218,6 @@ html.theme-dark .folderIconWrapper-1_bOZe[style*="background-color: rgba(88, 101
 	margin-right: calc(var(--usesettingsicons) * var(--settingsiconsgap));
 	background: currentColor;
 	-webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/boosts.svg) center/contain no-repeat;
-}
-a[title="Twitter"]:hover svg path {
-	fill: #1da1f2 !important;
-}
-a[title="Facebook"]:hover svg path {
-	fill: #4267b2 !important;
-}
-a[title="BetterDiscord"]:hover svg,
-a[title="BetterDiscord"] svg,
-a[title="BetterDiscord"] svg path {
-	transition: 100ms all;
 }
 
 /* Settings Bug */
