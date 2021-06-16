@@ -2,7 +2,7 @@
     
 [<img src="https://avatars.githubusercontent.com/u/59420445" width="200">](http://pushjs.org)
 <br/><br/>
- 
+
 
 [![Better Discord Bandage](https://img.shields.io/badge/Better-Discord-brightgreen)](https://betterdiscord.net/)
 [![Turkish Methods Bandage](https://img.shields.io/badge/Turkish-Methods-red)](https://discord.gg/bvFw4YBEAE)
@@ -10,15 +10,17 @@
 </div>
 
 > ## Not
->Gamer-Theme Şuanda Geliştirme Aşamasında Hatalar,Buglar,Kod Hatalarıo vb. Hatalar Oluşabilir,Lütfen Bu Hataları [offical.gamerboytr@yandex.com](mailto:offical.gamerboytr@yandex.com) Adresine Bildiriniz, Aynı Zamanda BetterDiscord 3.Parti Uygulaması Olduğu İçin Discorddan Düşük Bir İhtimalle Ban Yiyebilirsiniz.
+>
+> Gamer-Theme Şuanda Geliştirme Aşamasında Hatalar,Buglar,Kod Hatalarıo vb. Hatalar Oluşabilir,Lütfen Bu Hataları [offical.gamerboytr@yandex.com](mailto:offical.gamerboytr@yandex.com) Adresine Bildiriniz, Aynı Zamanda BetterDiscord 3.Parti Uygulaması Olduğu İçin Discorddan Düşük Bir İhtimalle Ban Yiyebilirsiniz.
 
-### Gamer Theme Nedir? ###
+### Gamer Theme Nedir?
 
 Gamer Theme Gamerlara Özel Olarak **GamerboyTR** Tarafından Tasarlanmış Bir Discord Temasıdır,
 CSS Dili İle Oluşturulmuştur.<br>
 [![Better Discord Bandage](https://img.shields.io/badge/Better-Discord-brightgreen)](https://betterdiscord.net/) Tarafından Desteklenmekdedir.
 
-### Nasıl İndiririm? ###
+### Nasıl İndiririm?
+
 İlk Olarak **[Better Discordun](https://betterdiscord.net/)** Ana Sayfasına Gidip Better Discordu Kurunuz,Ondan Sonra Ayarlara
 Girip En Alt Kısımdaki **Themes** Ayalarına Tıklayın,Ve Open Themes Folder Diyin,
 Açılan Pencereye **[Gamer-Theme.theme.css](https://gamerboytr.github.io/BetterDiscordAddons/downloader/?theme=Gamer-Theme)** Dosyasını Atın.
@@ -33,7 +35,7 @@ Stylish Eklentisini Tarayıcınıza Kurun.Eklentiye Tıklayın ve Üstteki 3 Nok
  * @description GamerboyTR Tarafından Yapılmış Olan Gamer'lara Özel Üretim Tema
  * @author GamerboyTR
  * @version 3.8.0
- * @authorId 546019971910598658
+ * @authorId 530043492014096384
  * @invite bvFw4YBEAE
  * @website http://www.gamerboytr.ml
  * @source https://gamerboytr.github.io/BetterDiscordAddons/Themes/Gamer-Theme/Gamer-Theme.css
@@ -60,15 +62,14 @@ Stylish Eklentisini Tarayıcınıza Kurun.Eklentiye Tıklayın ve Üstteki 3 Nok
 	--settingsmodalwidth: 1300px; /* Ayarların Genişliği (Varsayılan Değer : 1300px) */
 	--settingsmodalheight: 80vh; /* Ayarların Yüksekliği (Varsayılan Değer : 80vh) */
 }
-
 ```
 
+### Yapımcılar
 
-### Yapımcılar ###
 Gamer-Theme Çalışanları:
 
- - Temel Kodlamalar İşler [GamerboyTR](https://github.com/gamerboytr) Tarafından
- - Test İşleri [LessBut96Cps]() ve [Lytss]() Tarafından
+- Temel Kodlamalar İşler [GamerboyTR](https://github.com/gamerboytr) Tarafından
+- Test İşleri [LessBut96Cps]() ve [Lytss]() Tarafından
 <div align="center">
 <h2> Powered By <a href="https://turkishmethods.web.tr">TurkishMethods</a></h2>
 

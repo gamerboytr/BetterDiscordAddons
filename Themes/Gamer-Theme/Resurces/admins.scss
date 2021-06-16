@@ -1,32 +1,31 @@
-/* Users */
+/* SASS Vartables */
 
-$usersid: 824169426236342284, 546019971910598658, 780073888742375435, 795617566193090621, 830808204711559219, 546019971910598658;
+$usersid: 530043492014096384, 824169426236342284, 780073888742375435, 853416774711377940;
 
 /* Repairs */
 @each $user in $usersid {
-	.root-SR8cQa {
-		&[data-user-id="#{$user}"] .connectedAccount-36nQx7 {
+	.root-3QyAh1 {
+		&[data-user-id="#{$user}"] .connectedAccount-2Jb-Z0 {
 			background-color: #00000059;
 		}
 
-		&[data-user-id="546019971910598658"] .header-QKLPzZ {
+		&[data-user-id="530043492014096384"] .header-QKLPzZ {
 			background: linear-gradient(45deg, #ffe212a8, #ffdfdf00) !important;
 			background-color: linear-gradient(45deg, #ffe212a8, #ffdfdf00) !important;
 		}
 	}
 }
-
-/* G̷a̷m̷e̷r̷b̷o̷y̷T̷R̷ ᶫᵒᵛᵉᵧₒᵤ#1299 */
+/* G̷a̷m̷e̷r̷b̷o̷y̷T̷R̷ ᶫᵒᵛᵉᵧₒᵤ#1881 */
 
 html {
-	&[lang="tr"] .root-SR8cQa[data-user-id="546019971910598658"] span.username-2b1r56::after {
+	&[lang="tr"] .root-3QyAh1[data-user-id="530043492014096384"] span.username-2b1r56::after {
 		content: "Tema Kurucusu";
 		position: absolute;
 		padding-left: 9em;
 		top: 20px;
 	}
 
-	&[lang="en-US"] .root-SR8cQa[data-user-id="546019971910598658"] span.username-2b1r56::after {
+	&[lang="en-US"] .root-3QyAh1[data-user-id="530043492014096384"] span.username-2b1r56::after {
 		content: "Theme Owner";
 		position: absolute;
 		padding-left: 9em;
@@ -34,7 +33,7 @@ html {
 	}
 }
 
-.root-SR8cQa[data-user-id="546019971910598658"] .body-3ND3kc {
+.root-3QyAh1[data-user-id="530043492014096384"] .body-3ND3kc {
 	&::before {
 		content: "";
 		background-image: url(https://i.imgur.com/CAsvn0q.gif) !important;
@@ -49,7 +48,7 @@ html {
 	position: relative;
 }
 
-.userPopout-3XzG_A[data-user-id="546019971910598658"] .headerTop-2cWpdB {
+.userPopout-3XzG_A[data-user-id="530043492014096384"] .headerTop-2cWpdB {
 	background-image: url(https://i.imgur.com/CAsvn0q.gif) !important;
 	background-color: unset;
 	background-position: center;
@@ -58,20 +57,20 @@ html {
 
 /* 𝙇𝙮𝙩𝙨𝙨#5135 */
 
-.root-SR8cQa[data-user-id="824169426236342284"] .header-QKLPzZ {
+.root-3QyAh1[data-user-id="824169426236342284"] .header-QKLPzZ {
 	background: linear-gradient(45deg, #1265ffa8, #ffdfdf00) !important;
 	background-color: linear-gradient(45deg, #1265ffa8, #ffdfdf00) !important;
 }
 
 html {
-	&[lang="tr"] .root-SR8cQa[data-user-id="824169426236342284"] span.username-2b1r56::after {
+	&[lang="tr"] .root-3QyAh1[data-user-id="824169426236342284"] span.username-2b1r56::after {
 		content: "Tema Testçisi";
 		position: absolute;
 		padding-left: 16em;
 		top: 23px;
 	}
 
-	&[lang="en-US"] .root-SR8cQa[data-user-id="824169426236342284"] span.username-2b1r56::after {
+	&[lang="en-US"] .root-3QyAh1[data-user-id="824169426236342284"] span.username-2b1r56::after {
 		content: "Theme Tester";
 		position: absolute;
 		padding-left: 16em;
@@ -79,7 +78,7 @@ html {
 	}
 }
 
-.root-SR8cQa[data-user-id="824169426236342284"] .body-3ND3kc {
+.root-3QyAh1[data-user-id="824169426236342284"] .body-3ND3kc {
 	&::before {
 		content: "";
 		background-image: url(https://i.imgur.com/BGyfYiv.gif) !important;
@@ -103,20 +102,20 @@ html {
 
 /* 爪卂乃乇ㄥ#5770 */
 
-.root-SR8cQa[data-user-id="780073888742375435"] .header-QKLPzZ {
+.root-3QyAh1[data-user-id="780073888742375435"] .header-QKLPzZ {
 	background: linear-gradient(45deg, rgb(0, 107, 0), #ffdfdf00) !important;
 	background-color: linear-gradient(45deg, rgb(0, 107, 0), #ffdfdf00) !important;
 }
 
 html {
-	&[lang="tr"] .root-SR8cQa[data-user-id="780073888742375435"] span.username-2b1r56::after {
+	&[lang="tr"] .root-3QyAh1[data-user-id="780073888742375435"] span.username-2b1r56::after {
 		content: "Değerli Üye";
 		position: absolute;
 		padding-left: 15em;
 		top: 20px;
 	}
 
-	&[lang="en-US"] .root-SR8cQa[data-user-id="780073888742375435"] span.username-2b1r56::after {
+	&[lang="en-US"] .root-3QyAh1[data-user-id="780073888742375435"] span.username-2b1r56::after {
 		content: "Dear Member";
 		position: absolute;
 		padding-left: 15em;
@@ -124,7 +123,7 @@ html {
 	}
 }
 
-.root-SR8cQa[data-user-id="780073888742375435"] .body-3ND3kc {
+.root-3QyAh1[data-user-id="780073888742375435"] .body-3ND3kc {
 	&::before {
 		content: "";
 		background-image: url(https://i.imgur.com/siZ4kpF.gif) !important;
@@ -149,20 +148,20 @@ html {
 
 /* ✰ 几乇千|几ᵃᵖˡᵃ✰#2783 */
 
-.root-SR8cQa[data-user-id="795617566193090621"] .header-QKLPzZ {
+.root-3QyAh1[data-user-id="795617566193090621"] .header-QKLPzZ {
 	background: linear-gradient(45deg, rgb(0, 107, 0), #ffdfdf00) !important;
 	background-color: linear-gradient(45deg, rgb(0, 107, 0), #ffdfdf00) !important;
 }
 
 html {
-	&[lang="tr"] .root-SR8cQa[data-user-id="795617566193090621"] span.username-2b1r56::after {
+	&[lang="tr"] .root-3QyAh1[data-user-id="795617566193090621"] span.username-2b1r56::after {
 		content: "Değerli Üye";
 		position: absolute;
 		padding-left: 12em;
 		top: 20px;
 	}
 
-	&[lang="en-US"] .root-SR8cQa[data-user-id="795617566193090621"] span.username-2b1r56::after {
+	&[lang="en-US"] .root-3QyAh1[data-user-id="795617566193090621"] span.username-2b1r56::after {
 		content: "Dear Member";
 		position: absolute;
 		padding-left: 12em;
@@ -170,7 +169,7 @@ html {
 	}
 }
 
-.root-SR8cQa[data-user-id="795617566193090621"] .body-3ND3kc {
+.root-3QyAh1[data-user-id="795617566193090621"] .body-3ND3kc {
 	&::before {
 		content: "";
 		background-image: url(https://i.imgur.com/siZ4kpF.gif) !important;
@@ -188,52 +187,6 @@ html {
 
 .userPopout-3XzG_A[data-user-id="795617566193090621"] .headerTop-2cWpdB {
 	background-image: url(https://i.imgur.com/siZ4kpF.gif) !important;
-	background-color: unset;
-	background-position: center;
-	background-size: cover;
-}
-
-/* TurkishMethods#0001 */
-
-.root-SR8cQa[data-user-id="830808204711559219"] .header-QKLPzZ {
-	background: linear-gradient(45deg, #ffe212a8, #ffdfdf00) !important;
-}
-
-html {
-	&[lang="tr"] .root-SR8cQa[data-user-id="830808204711559219"] span.username-2b1r56::after {
-		content: "TurkishMethods Kurucusu";
-		position: absolute;
-		padding-left: 7em;
-		top: 20px;
-		width: 100%;
-	}
-
-	&[lang="en-US"] .root-SR8cQa[data-user-id="830808204711559219"] span.username-2b1r56::after {
-		content: "Owner Of TurkishMethods";
-		position: absolute;
-		padding-left: 7em;
-		top: 20px;
-		width: 100%;
-	}
-}
-
-.root-SR8cQa[data-user-id="830808204711559219"] .body-3ND3kc {
-	&::before {
-		content: "";
-		background-image: url(https://i.imgur.com/CAsvn0q.gif) !important;
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		opacity: 0.75;
-	}
-
-	position: relative;
-}
-
-.userPopout-3XzG_A[data-user-id="830808204711559219"] .headerTop-2cWpdB {
-	background-image: url(https://i.imgur.com/CAsvn0q.gif) !important;
 	background-color: unset;
 	background-position: center;
 	background-size: cover;
