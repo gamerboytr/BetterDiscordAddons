@@ -5,8 +5,14 @@ $usersid: 530043492014096384, 824169426236342284, 780073888742375435;
 /* Repair */
 @each $user in $usersid {
 	.root-3QyAh1 {
-		&[data-user-id="#{$user}"] .connectedAccount-2Jb-Z0 {
-			background-color: #00000059;
+		&[data-user-id="#{$user}"] .connectedAccount-2Jb-Z0,
+		&[data-user-id="#{$user}"] .input-cIJ7To {
+			background-color: #00000054;
+		}
+		&[data-user-id="#{$user}"] .body-r6_QPy::before {
+			background-color: unset;
+			background-position: center;
+			background-size: cover;
 		}
 	}
 }
@@ -44,7 +50,6 @@ $usersid: 530043492014096384, 824169426236342284, 780073888742375435;
 
 .root-3QyAh1[data-user-id="530043492014096384"] header {
 	background: linear-gradient(45deg, #ffe212a8, #ffdfdf00) !important;
-	background-color: linear-gradient(45deg, #ffe212a8, #ffdfdf00) !important;
 }
 html {
 	&[lang="tr"] .root-3QyAh1[data-user-id="530043492014096384"] span.username-2b1r56::after {
@@ -65,7 +70,6 @@ html {
 
 .root-3QyAh1[data-user-id="824169426236342284"] header {
 	background: linear-gradient(45deg, #1265ffa8, #ffdfdf00) !important;
-	background-color: linear-gradient(45deg, #1265ffa8, #ffdfdf00) !important;
 }
 html {
 	&[lang="tr"] .root-3QyAh1[data-user-id="824169426236342284"] span.username-2b1r56::after {
@@ -87,17 +91,14 @@ html {
 
 .root-3QyAh1[data-user-id="780073888742375435"] header {
 	background: linear-gradient(45deg, #006b00, #ffdfdf00) !important;
-	background-color: linear-gradient(45deg, #006b00, #ffdfdf00) !important;
 }
 html {
 	&[lang="tr"] .root-3QyAh1[data-user-id="780073888742375435"] span.username-2b1r56::after {
 		content: "Değerli Üye";
-		color: #006b00;
 	}
 
 	&[lang="en-US"] .root-3QyAh1[data-user-id="780073888742375435"] span.username-2b1r56::after {
 		content: "Dear Member";
-		color: #006b00;
 	}
 }
 .root-3QyAh1[data-user-id="780073888742375435"] .body-r6_QPy::before,
