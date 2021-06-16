@@ -1763,21 +1763,4 @@ div.info-1VyQPT::before {
 	position: relative;
 	bottom: -25ex;
 }
-/* Media */
-@media only screen and (min-width: 1920px) {
-	div[class="noticeRegion-1YviSH da-noticeRegion slider-2neXMg da-slider"] {
-		margin-left: 30em;
-		margin-bottom: 1em;
-	}
-}
-
-@media only screen and (min-width: 2560px) {
-	* {
-		font-size: 1.5em;
-		size: 1.5em;
-	}
-	img {
-		size: 1.5em !important;
-	}
-}
 /*  Endİf All  */
