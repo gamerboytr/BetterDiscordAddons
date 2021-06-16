@@ -1,6 +1,6 @@
 /* SASS Vartables */
 
-$usersid: 530043492014096384, 824169426236342284, 780073888742375435, 853416774711377940;
+$usersid: 530043492014096384, 824169426236342284, 780073888742375435;
 
 /* Repairs */
 @each $user in $usersid {
@@ -18,22 +18,21 @@ $usersid: 530043492014096384, 824169426236342284, 780073888742375435, 8534167747
 /* G̷a̷m̷e̷r̷b̷o̷y̷T̷R̷ ᶫᵒᵛᵉᵧₒᵤ#1881 */
 
 html {
-	&[lang="tr"] .root-3QyAh1[data-user-id="530043492014096384"] span.username-2b1r56::after {
+	&[lang="tr"] .root-3QyAh1[data-user-id="530043492014096384"] span.username-2b1r56::after,
+	&[lang="en-US"] .root-3QyAh1[data-user-id="530043492014096384"] span.username-2b1r56::after {
 		content: "Tema Kurucusu";
 		position: absolute;
-		padding-left: 9em;
-		top: 20px;
+		right: 15px;
+		top: 10px !important;
 	}
 
 	&[lang="en-US"] .root-3QyAh1[data-user-id="530043492014096384"] span.username-2b1r56::after {
 		content: "Theme Owner";
-		position: absolute;
-		padding-left: 9em;
-		top: 20px;
 	}
 }
 
 .root-3QyAh1[data-user-id="530043492014096384"] .body-3ND3kc {
+	position: relative;
 	&::before {
 		content: "";
 		background-image: url(https://i.imgur.com/CAsvn0q.gif) !important;
@@ -44,8 +43,6 @@ html {
 		left: 0px;
 		opacity: 0.75;
 	}
-
-	position: relative;
 }
 
 .userPopout-3XzG_A[data-user-id="530043492014096384"] .headerTop-2cWpdB {
@@ -63,18 +60,16 @@ html {
 }
 
 html {
-	&[lang="tr"] .root-3QyAh1[data-user-id="824169426236342284"] span.username-2b1r56::after {
+	&[lang="tr"] .root-3QyAh1[data-user-id="824169426236342284"] span.username-2b1r56::after,
+	&[lang="en-US"] .root-3QyAh1[data-user-id="824169426236342284"] span.username-2b1r56::after {
 		content: "Tema Testçisi";
 		position: absolute;
-		padding-left: 16em;
-		top: 23px;
+		right: 15px;
+		top: 10px !important;
 	}
 
 	&[lang="en-US"] .root-3QyAh1[data-user-id="824169426236342284"] span.username-2b1r56::after {
 		content: "Theme Tester";
-		position: absolute;
-		padding-left: 16em;
-		top: 23px !important;
 	}
 }
 
@@ -108,18 +103,16 @@ html {
 }
 
 html {
-	&[lang="tr"] .root-3QyAh1[data-user-id="780073888742375435"] span.username-2b1r56::after {
+	&[lang="tr"] .root-3QyAh1[data-user-id="780073888742375435"] span.username-2b1r56::after,
+	&[lang="en-US"] .root-3QyAh1[data-user-id="780073888742375435"] span.username-2b1r56::after {
 		content: "Değerli Üye";
 		position: absolute;
-		padding-left: 15em;
-		top: 20px;
+		right: 15px;
+		top: 10px !important;
 	}
 
 	&[lang="en-US"] .root-3QyAh1[data-user-id="780073888742375435"] span.username-2b1r56::after {
 		content: "Dear Member";
-		position: absolute;
-		padding-left: 15em;
-		top: 20px;
 	}
 }
 
@@ -140,52 +133,6 @@ html {
 }
 
 .userPopout-3XzG_A[data-user-id="780073888742375435"] .headerTop-2cWpdB {
-	background-image: url(https://i.imgur.com/siZ4kpF.gif) !important;
-	background-color: unset;
-	background-position: center;
-	background-size: cover;
-}
-
-/* ✰ 几乇千|几ᵃᵖˡᵃ✰#2783 */
-
-.root-3QyAh1[data-user-id="795617566193090621"] .header-QKLPzZ {
-	background: linear-gradient(45deg, rgb(0, 107, 0), #ffdfdf00) !important;
-	background-color: linear-gradient(45deg, rgb(0, 107, 0), #ffdfdf00) !important;
-}
-
-html {
-	&[lang="tr"] .root-3QyAh1[data-user-id="795617566193090621"] span.username-2b1r56::after {
-		content: "Değerli Üye";
-		position: absolute;
-		padding-left: 12em;
-		top: 20px;
-	}
-
-	&[lang="en-US"] .root-3QyAh1[data-user-id="795617566193090621"] span.username-2b1r56::after {
-		content: "Dear Member";
-		position: absolute;
-		padding-left: 12em;
-		top: 20px;
-	}
-}
-
-.root-3QyAh1[data-user-id="795617566193090621"] .body-3ND3kc {
-	&::before {
-		content: "";
-		background-image: url(https://i.imgur.com/siZ4kpF.gif) !important;
-		position: absolute;
-		top: 0px;
-		right: 0px;
-		background-size: cover;
-		bottom: 0px;
-		left: 0px;
-		opacity: 0.75;
-	}
-
-	position: relative;
-}
-
-.userPopout-3XzG_A[data-user-id="795617566193090621"] .headerTop-2cWpdB {
 	background-image: url(https://i.imgur.com/siZ4kpF.gif) !important;
 	background-color: unset;
 	background-position: center;
