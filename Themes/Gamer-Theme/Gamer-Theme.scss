@@ -34,14 +34,406 @@
 	--aligndms: 0;
 	--settingsmodalbackground: transparent;
 	--font-display: var(--font-primary);
-	--version: "3.9.4" !important;
+	--version: "4.0.4" !important;
 	--whitethemeversion: "1.3" !important;
 }
 
-.tooltipContent-bqVLWK,
-.tabBar-ZmDY9v .badge-1Skb69,
-.activity-1ythUs {
+.activity-3v9l4T,
+.body-r6_QPy,
+.topSection-y3p-_D {
+	background-color: var(--backgroundColor);
+}
+
+.copyInput-2rOSt7,
+.copyInputDefault-21sXtF,
+.input-cIJ7To {
+	border: 1px solid #000;
+}
+
+.copyInput-2rOSt7:hover,
+.copyInputDefault-21sXtF:hover,
+.input-cIJ7To:hover {
+	border: 1px solid #0a0a0a;
+}
+
+.premiumTabItem-1QTfBr.item-PXvHYJ.selected-3s45Ha {
+	&::before {
+		background: #a8aff7 !important;
+	}
+
+	> div {
+		color: #a8aff7 !important;
+	}
+}
+
+.side-8zPYf6 .item-PXvHYJ.selected-3s45Ha[aria-controls="Nitro Server Boost-tab"] {
+	color: #fdacfa !important;
+	background: #fdacfa;
+
+	&::before {
+		color: #fdacfa !important;
+		background: #fdacfa;
+	}
+}
+
+.barFill-23-gu- {
+	background-color: var(--themeColor1) !important;
+	background-image: linear-gradient(to right, var(--themeColor1), var(--themeColor2)) !important;
+}
+
+.container-3auIfb[style*="background-color: hsl(139, "] {
+	background-color: #ff3838;
+	background-image: linear-gradient(to bottom right, #ff3838, #5b86e5);
+}
+
+.activityUserPopout-2yItg2.activity-3v9l4T,
+.layer-v9HyYc > div {
 	background-color: var(--backgroundColor) !important;
+}
+
+.tooltip-2QfLtc.detailsTooltip-G9hSSa.listItemTooltip-1JmWJ7 .icon-hSL42R {
+	box-shadow: 0px 20px 20px 20px #000;
+}
+
+/* Açık mod engelleme */
+
+html.theme-dark .theme-light {
+	.root-1gCeng {
+		background-color: #141414 !important;
+		box-shadow: 0 0 0 1px var(--background-secondary), 0 2px 10px 0 rgba(0, 0, 0, 0.2) !important;
+	}
+
+	.footer-2gL1pp {
+		background-color: #0c0c0c !important;
+		box-shadow: inset 0 1px 0 var(--background-tertiary) !important;
+		color: var(--text-normal) !important;
+	}
+}
+
+.footerButton-ayFTfX.colorGrey-2DXtkV {
+	background-color: #242424 !important;
+}
+
+@keyframes settingsflash {
+	0% {
+		box-shadow: 0 2px 10px rgba(240, 71, 71, 0.2), 0 0 0 2px rgba(240, 70, 70, 0.3);
+	}
+
+	70% {
+		box-shadow: 0 0 20px 15px rgba(240, 71, 71, 0.1), 0 0 0 6px rgba(240, 70, 70, 0.2);
+	}
+
+	100% {
+		box-shadow: 0 0 20px 15px rgba(240, 71, 71, 0), 0 0 0 6px rgba(240, 24, 70, 0.1);
+	}
+}
+
+html {
+	&[lang="en-US"].theme-light .layer-3QrUeG:first-of-type::before,
+	&[lang="tr"].theme-light .layer-3QrUeG:first-of-type::before {
+		content: "You need to have dark theme enabled for this theme to work properly. To enable it, go into Settings -> Appearance";
+		position: fixed;
+		text-align: center;
+		width: 400px;
+		height: 30px;
+		top: 50%;
+		left: 50%;
+		background: #202020;
+		transform: translate(-50%, -50%);
+		color: #ffffff;
+		padding: 17px 16px 20px 13.5px;
+		box-shadow: 0 2px 10px rgba(240, 71, 71, 0.22);
+		border: 2.5px solid #f04747;
+		border-radius: 4px;
+		z-index: 2;
+	}
+
+	&[lang="tr"].theme-light .layer-3QrUeG:first-of-type::before {
+		content: "Beyaz Tema Halen Bakımda. Lütfen Siyah Temaya Geçin, Ayarlar -> Görünüm";
+	}
+}
+
+.theme-light {
+	.app-2rEoOp .layer-3QrUeG:first-of-type {
+		* {
+			&::before,
+			&::after {
+				visibility: hidden !important;
+			}
+
+			visibility: hidden !important;
+		}
+
+		background-color: #1c1c1c !important;
+
+		/* Color Behind Warning */
+	}
+
+	.preview-2nSL_2.cardPrimaryOutline-29Ujqw + .marginTop40-i-78cZ .radioGroup-1GBvlr {
+		.cardPrimaryEditable-3KtE4g:first-of-type,
+		.item-26Dhrx:first-of-type {
+			animation: settingsflash 1s ease infinite;
+			background: #f04747;
+			border-color: #f04747;
+		}
+
+		.cardPrimaryEditable-3KtE4g:first-of-type,
+		.item-26Dhrx:first-of-type {
+			animation: settingsflash 1s ease infinite;
+			background: #f04747;
+			border-color: #f04747;
+			color: #ffffff;
+		}
+	}
+
+	.app-2rEoOp .container-3baos1 > .noWrap-3jynv6 > .button-14-BFJ {
+		&[aria-label="User Settings"],
+		&[aria-label="Kullanıcı Ayarları"] {
+			position: fixed;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			margin-top: 70px;
+			width: 220px;
+			height: 40px;
+			visibility: visible !important;
+			background: #f04747 !important;
+
+			/* Container Color */
+			border-radius: 4px;
+			animation: settingsflash 1s ease infinite;
+			opacity: 1;
+		}
+	}
+}
+
+html {
+	&[lang="en-US"].theme-light .app-2rEoOp .container-3baos1 > .noWrap-3jynv6 > .button-14-BFJ[aria-label="User Settings"]::before,
+	&[lang="tr"].theme-light .app-2rEoOp .container-3baos1 > .noWrap-3jynv6 > .button-14-BFJ[aria-label="Kullanıcı Ayarları"]::before {
+		position: absolute;
+		content: "GO TO SETTINGS";
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 230px;
+		height: 14px;
+		border-radius: 5px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		visibility: visible !important;
+		font-size: 17px;
+		font-weight: 700;
+		color: #ffffff;
+		text-align: center;
+		background: none;
+	}
+
+	&[lang="tr"].theme-light .app-2rEoOp .container-3baos1 > .noWrap-3jynv6 > .button-14-BFJ[aria-label="Kullanıcı Ayarları"]::before {
+		content: "AYARLARA GİT";
+	}
+}
+
+.theme-light {
+	[aria-controls="Appearance-tab"],
+	.children-rWhLdy > .marginTop40-i-78cZ:nth-child(2) > div > div[tabindex="-1"] {
+		border: 2px solid #f04747;
+		animation: settingsflash 1s ease infinite;
+	}
+}
+
+.banner-3Kac2g {
+	max-width: 100% !important;
+}
+
+.previewMessage-1ZN7YG {
+	background-color: #0d0d0da3 !important;
+}
+
+.popoutContainer-1MXdqN,
+.body-3HBlXn,
+.footer-1N3bR3 {
+	background-color: var(--backgroundColor) !important;
+}
+
+/* Big Update 2 */
+
+.container-S9SaVf:hover {
+	background-color: #121212 !important;
+}
+
+.container-3auIfb[style*="rgb(59, 165, 92)"]:hover,
+#app-mount .container-3auIfb:active {
+	background-image: linear-gradient(to top right, #ff6262, #7092de) !important;
+	background: linear-gradient(to top right, #ff6262, #7092de) !important;
+}
+
+/* Profil */
+
+.container-3baos1 {
+	.avatar-SmRMf2 {
+		width: 32px !important;
+		height: 32px !important;
+		transition: all 0.15s ease-in-out;
+
+		&:after {
+			content: "Status";
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			color: #fff;
+			font-size: 5px;
+			font-weight: 700;
+			text-align: center;
+			line-height: 32px;
+			text-transform: uppercase;
+			opacity: 0;
+			transition: all 0.15s ease-in-out;
+			pointer-events: none;
+		}
+
+		foreignObject {
+			transition: all 0.15s ease-in-out;
+		}
+
+		&:hover {
+			width: 40px !important;
+			height: 40px !important;
+			opacity: 1;
+
+			&:after {
+				font-size: 10px;
+				line-height: 40px;
+				opacity: 1;
+			}
+
+			foreignObject {
+				opacity: 0.5;
+			}
+		}
+	}
+
+	.username-2BIRiC {
+		color: #fff;
+	}
+
+	.discriminator-3-Lf_x {
+		color: rgba(255, 255, 255, 0.3);
+	}
+}
+
+/* Endİf */
+
+.embed-IeVjo6 {
+	background: rgba(0, 0, 0, 0.3) !important;
+}
+
+div.grid-1nZz7S {
+	background: transparent !important;
+}
+
+.cancelButton-3hVEV6:hover,
+.downloadButton-23tKQp:hover {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ {
+	color: #fff !important;
+}
+
+/* Server Popup */
+
+.listItemTooltip-1JmWJ7,
+.emptyChannelIcon-cc932w {
+	background-color: var(--backgroundColor) !important;
+}
+
+.tooltip-2QfLtc.detailsTooltip-G9hSSa.listItemTooltip-1JmWJ7 .icon-hSL42R {
+	background: #000 !important;
+}
+
+/* Endİf */
+/* İşaret Kutusu */
+
+.bd-switch input {
+	&:checked {
+		&:hover + .bd-switch-body,
+		&:active + .bd-switch-body {
+			background-image: linear-gradient(to bottom right, #ff6262, #7092de) !important;
+			background: linear-gradient(to bottom right, #ff6262, #7092de) !important;
+			transition: 250ms cubic-bezier(0, 0.3, 0.7, 1) background-color;
+		}
+	}
+
+	&:hover + .bd-switch-body {
+		background-color: #1b1b1b !important;
+	}
+}
+
+/* Endİf */
+
+.optionContainer-15srkc {
+	background-color: #000 !important;
+	transition: 200ms background;
+
+	&:hover {
+		background-color: #1b1b1b !important;
+		transition: 200ms background;
+	}
+}
+
+.innerDisabled-1YTFPN .buttons-3JBrkn {
+	display: none;
+}
+
+/* Kart Parlatma */
+
+#Gamer-Theme-card {
+	transition: all 0.2s ease;
+	position: relative;
+
+	&:after {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: -200%;
+		width: 200%;
+		height: 200%;
+		transform: skewX(-20deg);
+		background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.3), transparent);
+	}
+
+	&:hover:after {
+		animation: shine 1.6s ease;
+	}
+}
+
+@keyframes shine {
+	100% {
+		left: 200%;
+	}
+}
+
+/* EndBigUpdate */
+
+.body-3ND3kc,
+.body-3iLsc4,
+.bodyInner-245q0L,
+.footer-1fjuF6,
+.headerTop-2cWpdB {
+	background: var(--backgroundColor) !important;
+}
+
+.lookInverted-2D7oAl .contents-18-Yxp {
+	background: linear-gradient(to right, var(--themeColor1), var(--themeColor2));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.childWrapper-anI2G9 {
+	color: var(--text-normal) !important;
 }
 
 .topSectionNormal-2-vo2m {
@@ -163,8 +555,18 @@ a {
 		fill: #4267b2 !important;
 	}
 
-	&[title="Instagram"]:hover svg path {
-		fill: linear-gradient(blue, red) !important;
+	&[title="BetterDiscord"] {
+		&:hover svg {
+			transition: 100ms all;
+		}
+
+		svg {
+			transition: 100ms all;
+
+			path {
+				transition: 100ms all;
+			}
+		}
 	}
 }
 
@@ -221,7 +623,6 @@ div[class="itemCard-v9viV7 wrapper-3D2qGf outer-1AjyKL padded-302COx interactive
 
 .childWrapper-anI2G9 {
 	background-color: #000;
-	color: #fff;
 }
 
 /* İnt Gidince Gelen Ekran */
@@ -328,7 +729,7 @@ html[lang="en-GB"] #app-mount::after {
 	margin-bottom: 10px;
 	border-left: 2px solid #f04747;
 	border-radius: 2px;
-	color: rgba(#fff, 0.65);
+	color: rgba(255, 255, 255, 0.65);
 	background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMSAyMWgyMkwxMiAyIDEgMjF6bTEyLTNoLTJ2LTJoMnYyem0wLTRoLTJ2LTRoMnY0eiIvPjwvc3ZnPg==");
 	background-repeat: no-repeat;
 	background-size: 35px;
@@ -472,7 +873,7 @@ button {
 
 	&:before {
 		content: "Gamer-Theme";
-		color: rgba(#fff, 0.7);
+		color: rgba(255, 255, 255, 0.7);
 		font-family: Noto Sans;
 		font-size: 14px;
 		text-shadow: 0 0 3px #000;
@@ -480,7 +881,7 @@ button {
 
 	&:after {
 		content: "v" var(--version);
-		color: rgba(#fff, 0.3);
+		color: rgba(255, 255, 255, 0.3);
 		font-family: Consolas, Liberation Mono, Menlo, Courier, monospace;
 		font-size: 10px;
 	}
@@ -513,7 +914,7 @@ button {
 	&:after {
 		bottom: -8px;
 		position: absolute;
-		color: rgba(#fff, 0.3);
+		color: rgba(255, 255, 255, 0.3);
 		font-size: 11px;
 		font-weight: 700;
 		transition: all 0.5s ease-in-out;
@@ -593,7 +994,7 @@ button.colorBrand-3pXr91[aria-checked="true"] svg {
 
 .container-3baos1 > .flex-1O1GKY,
 .container-1giJp5 > .flex-1O1GKY {
-	background: rgba(#000, 0.3);
+	background: rgba(0, 0, 0, 0.3);
 	border-radius: 15px;
 }
 
@@ -605,7 +1006,7 @@ button.colorBrand-3pXr91[aria-checked="true"] svg {
 	top: 2px;
 	bottom: 2px;
 	width: 1px;
-	background: rgba(#fff, 0.2);
+	background: rgba(255, 255, 255, 0.2);
 }
 
 button {
@@ -663,7 +1064,7 @@ button {
 
 .chat-3bRxxu .scrollerBase-289Jih::-webkit-scrollbar-track-piece,
 .membersWrap-2h-GB4 .scrollerBase-289Jih::-webkit-scrollbar-track-piece {
-	background-color: rgba(#000, 0.3) !important;
+	background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 textarea::-webkit-scrollbar {
@@ -749,7 +1150,7 @@ html {
 		margin-bottom: 10px;
 		border-left: 2px solid #f04747;
 		border-radius: 2px;
-		color: rgba(#fff, 0.65);
+		color: rgba(255, 255, 255, 0.65);
 		background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMSAyMWgyMkwxMiAyIDEgMjF6bTEyLTNoLTJ2LTJoMnYyem0wLTRoLTJ2LTRoMnY0eiIvPjwvc3ZnPg==");
 		background-repeat: no-repeat;
 		background-size: 35px;
@@ -1249,6 +1650,9 @@ button {
 		background: #a72424 !important;
 	}
 }
+
+/* Üzerine Gelindiğinde */
+
 /* Endİf */
 
 .guildSidebar-2OCzWB,
