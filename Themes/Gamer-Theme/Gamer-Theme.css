@@ -23,10 +23,19 @@
       --aligndms: 0;
       --settingsmodalbackground: transparent;
       --font-display: var(--font-primary);
-      --version: "4.0.3"!important;
+      --version: "4.0.4"!important;
       --whitethemeversion: "1.3"!important;
   } 
-
+.activity-3v9l4T,
+.body-r6_QPy, .topSection-y3p-_D {
+	background-color: var(--backgroundColor);
+}
+.copyInput-2rOSt7, .copyInputDefault-21sXtF, .input-cIJ7To {
+	border: 1px solid #000;
+}
+.copyInput-2rOSt7:hover, .copyInputDefault-21sXtF:hover, .input-cIJ7To:hover {
+	border: 1px solid #0a0a0a;
+}
 .premiumTabItem-1QTfBr.item-PXvHYJ.selected-3s45Ha::before {
 	background: #a8aff7!important;
 }
