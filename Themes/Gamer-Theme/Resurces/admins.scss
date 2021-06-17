@@ -7,7 +7,7 @@ $usersid: 530043492014096384, 824169426236342284, 780073888742375435;
 	.root-3QyAh1 {
 		&[data-user-id="#{$user}"] .connectedAccount-2Jb-Z0,
 		&[data-user-id="#{$user}"] .input-cIJ7To {
-			background-color: #00000054;
+			background-color: #00000054 !important;
 		}
 	}
 }

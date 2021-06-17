@@ -25,6 +25,9 @@ $version: "4.0.4";
 	--font-display: var(--font-primary);
 	--whitethemeversion: "1.3" !important;
 }
+.bulletsContainer-3omDLR {
+	background-color: var(--backgroundColor);
+}
 .css-rzbxvl-option {
 	background-color: rgba(var(--backgroundColor), 0.7);
 }
@@ -34,7 +37,9 @@ $version: "4.0.4";
 .tabBar-ZmDY9v .badge-1Skb69,
 .css-1gl4k7y,
 .css-1yz4bi9-option,
-.css-sxpsub {
+.css-sxpsub,
+.guildIcon-3h-1IH,
+.guildSection-1EoFKd {
 	background-color: var(--backgroundColor) !important;
 }
 
@@ -655,7 +660,8 @@ div[class="itemCard-v9viV7 wrapper-3D2qGf outer-1AjyKL padded-302COx interactive
 .callContainer-3UuV6S,
 .container-pTf0Ly,
 .participants-soO0aD,
-.container-2t1JyW {
+.container-2t1JyW,
+.container-lRFx4q {
 	background-color: transparent !important;
 }
 
@@ -733,10 +739,6 @@ html[lang="en-GB"] #app-mount::after {
 
 .nowPlayingColumn-2sl4cE {
 	border: 1px solid var(--backgroundColor);
-}
-
-.container-lRFx4q {
-	background-color: transparent !important;
 }
 
 .colorDefault-2K3EoJ .checkbox-3s5GYZ {
@@ -2080,7 +2082,7 @@ div {
 /* Reklam */
 
 .emptyCard-1RJw8n {
-	background: #2e2c2c60;
+	background: #0000005c;
 }
 
 .container-2fRDfG {
@@ -2142,7 +2144,7 @@ div.info-1VyQPT::before {
 	line-height: 16px;
 	visibility: visible;
 	position: relative;
-	bottom: -25ex;
+	bottom: -31ex;
 }
 
 /*  Endİf All  */
