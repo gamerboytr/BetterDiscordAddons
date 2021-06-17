@@ -1,28 +1,17 @@
 /* İmports */
 @import url("https://codedotspectra.github.io/themes/themes-cores/neutron8.css");
-
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
-
 @import url("https://codedotspectra.github.io/themes/core/badges.css");
-
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
-
 @import url("https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css");
-
 @import url("https://gamerboytr.github.io/BetterDiscordAddons/Themes/BetterIcons/BetterIcons.css");
-
 @import url("https://nyri4.github.io/Discolored/main.css");
-
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/EmojiReplace.theme.css");
-
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css");
-
 @import url("https://gamerboytr.github.io/BetterDiscordAddons/Themes/Gamer-Theme/Resurces/admins.css");
-
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
-
 /* Endİf */
-
+$version: "4.0.4";
 :root {
 	--homeImageSize: 50px;
 	--homeImage: url("https://yt3.ggpht.com/ytc/AAUvwniEUaBNWbH9Pk7A1cmIBdxnYt0YYrgNKx5h8grSMA=s900-c-k-c0x00ffffff-no-rj");
@@ -34,7 +23,6 @@
 	--aligndms: 0;
 	--settingsmodalbackground: transparent;
 	--font-display: var(--font-primary);
-	--version: "4.0.4" !important;
 	--whitethemeversion: "1.3" !important;
 }
 .css-rzbxvl-option {
@@ -886,7 +874,7 @@ button {
 	}
 
 	&:after {
-		content: "v" var(--version);
+		content: "v#{$version}";
 		color: rgba(255, 255, 255, 0.3);
 		font-family: Consolas, Liberation Mono, Menlo, Courier, monospace;
 		font-size: 10px;
@@ -935,7 +923,7 @@ button {
 	}
 
 	&:after {
-		content: "v" var(--version);
+		content: "v#{$version}";
 		left: 50%;
 		text-align: left;
 		opacity: 0;
@@ -1254,7 +1242,7 @@ body {
 		}
 
 		&:after {
-			content: var(--version) ", White Mode " var(--whitethemeversion);
+			content: "#{$version}, White Mode "var(--whitethemeversion);
 		}
 	}
 
