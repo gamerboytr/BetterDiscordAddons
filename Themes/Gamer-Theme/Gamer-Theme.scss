@@ -37,11 +37,16 @@
 	--version: "4.0.4" !important;
 	--whitethemeversion: "1.3" !important;
 }
-
+.css-rzbxvl-option {
+	background-color: rgba(var(--backgroundColor), 0.7);
+}
 .activity-3v9l4T,
 .body-r6_QPy,
 .topSection-y3p-_D,
-.tabBar-ZmDY9v .badge-1Skb69 {
+.tabBar-ZmDY9v .badge-1Skb69,
+.css-1gl4k7y,
+.css-1yz4bi9-option,
+.css-sxpsub {
 	background-color: var(--backgroundColor) !important;
 }
 
