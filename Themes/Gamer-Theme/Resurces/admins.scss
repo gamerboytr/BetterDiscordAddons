@@ -9,11 +9,6 @@ $usersid: 530043492014096384, 824169426236342284, 780073888742375435;
 		&[data-user-id="#{$user}"] .input-cIJ7To {
 			background-color: #00000054;
 		}
-		&[data-user-id="#{$user}"] .body-r6_QPy::before {
-			background-color: unset;
-			background-position: center;
-			background-size: cover;
-		}
 	}
 }
 
@@ -28,6 +23,9 @@ $usersid: 530043492014096384, 824169426236342284, 780073888742375435;
 		position: relative;
 		&::before {
 			content: "";
+			background-color: unset;
+			background-position: center;
+			background-size: cover;
 			position: absolute;
 			top: 0px;
 			right: 0px;
