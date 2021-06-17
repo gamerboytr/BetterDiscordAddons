@@ -52,11 +52,11 @@ $usersid: 530043492014096384, 824169426236342284, 780073888742375435;
 	background: linear-gradient(45deg, #ffe212a8, #ffdfdf00) !important;
 }
 html {
-	&[lang="tr"] .root-3QyAh1[data-user-id="530043492014096384"] span.username-2b1r56::after {
+	&[lang="tr"] .root-3QyAh1[data-user-id="530043492014096384"] span.username-2b1r56.username-FvTBog::after {
 		content: "Tema Kurucusu";
 		color: yellow;
 	}
-	&[lang="en-US"] .root-3QyAh1[data-user-id="530043492014096384"] span.username-2b1r56::after {
+	&[lang="en-US"] .root-3QyAh1[data-user-id="530043492014096384"] span.username-2b1r56.username-FvTBog::after {
 		content: "Theme Owner";
 		color: yellow;
 	}
@@ -72,12 +72,12 @@ html {
 	background: linear-gradient(45deg, #1265ffa8, #ffdfdf00) !important;
 }
 html {
-	&[lang="tr"] .root-3QyAh1[data-user-id="824169426236342284"] span.username-2b1r56::after {
+	&[lang="tr"] .root-3QyAh1[data-user-id="824169426236342284"] span.username-2b1r56.username-FvTBog::after {
 		content: "Tema Testçisi";
 		color: #1265ffa8;
 	}
 
-	&[lang="en-US"] .root-3QyAh1[data-user-id="824169426236342284"] span.username-2b1r56::after {
+	&[lang="en-US"] .root-3QyAh1[data-user-id="824169426236342284"] span.username-2b1r56.username-FvTBog::after {
 		content: "Theme Tester";
 		color: #1265ffa8;
 	}
@@ -93,11 +93,11 @@ html {
 	background: linear-gradient(45deg, #006b00, #ffdfdf00) !important;
 }
 html {
-	&[lang="tr"] .root-3QyAh1[data-user-id="780073888742375435"] span.username-2b1r56::after {
+	&[lang="tr"] .root-3QyAh1[data-user-id="780073888742375435"] span.username-2b1r56.username-FvTBog::after {
 		content: "Değerli Üye";
 	}
 
-	&[lang="en-US"] .root-3QyAh1[data-user-id="780073888742375435"] span.username-2b1r56::after {
+	&[lang="en-US"] .root-3QyAh1[data-user-id="780073888742375435"] span.username-2b1r56.username-FvTBog::after {
 		content: "Dear Member";
 	}
 }
