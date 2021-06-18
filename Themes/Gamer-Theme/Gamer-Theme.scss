@@ -45,7 +45,16 @@ $update: false;
 	--guildgap: 5;
 	--settingsmodalwidth: 1300px;
 }
-//! Güncelleme Bildirimi 
+.wrapper-2tAnRe {
+	.total-i6us2n {
+		background-color: var(--backgroundColor);
+	}
+	.users-3kndPl {
+		background-color: rgba(var(--backgroundColor), 0.7);
+	}
+}
+
+//! Güncelleme Bildirimi
 @if $update == true {
 	html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp::before {
 		content: "Görnüşe Göre Gamer-Theme'in Yeni Bir Sürümü Var! Şuradan İndirip Yeniyi Deniyebilirsin :	https://gamerboytr.github.io/BetterDiscordAddons/downloader/?theme=Gamer-Theme" !important;
