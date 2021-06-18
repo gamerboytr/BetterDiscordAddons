@@ -14,7 +14,7 @@
 //? Endİf
 //! Sass
 $version: "4.0.4";
-$update: true;  
+$update: true;
 //? Endİf
 :root {
 	--homeImageSize: 50px;
@@ -45,8 +45,8 @@ $update: true;
 	--guildgap: 5;
 	--settingsmodalwidth: 1300px;
 }
-//! Güncelleme Bildirimi
-@if $update {
+//! Güncelleme Bildirimi 
+@if $update == true {
 	html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp::before {
 		content: "Görnüşe Göre Gamer-Theme'in Yeni Bir Sürümü Var! Şuradan İndirip Yeniyi Deniyebilirsin :	https://gamerboytr.github.io/BetterDiscordAddons/downloader/?theme=Gamer-Theme" !important;
 		display: block !important;
