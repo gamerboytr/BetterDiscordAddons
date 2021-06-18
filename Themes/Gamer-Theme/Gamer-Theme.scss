@@ -48,6 +48,9 @@ $update: false;
 .wrapper-2tAnRe {
 	.total-i6us2n {
 		background-color: var(--backgroundColor);
+		&:after {
+			background-color: var(--backgroundColor);
+		}
 	}
 	.users-3kndPl {
 		background-color: rgba(var(--backgroundColor), 0.7);
