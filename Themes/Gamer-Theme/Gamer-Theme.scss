@@ -1,3 +1,4 @@
+@use "sass:math";
 //! İmports
 @import url("https://codedotspectra.github.io/themes/themes-cores/neutron8.css");
 @import url("https://monstrousdev.github.io/themes/addons/user-tags.css");
@@ -12,9 +13,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 //? Endİf
 //! Sass
-@use "sass:math";
 $version: "4.0.4";
-$update: false;
+$update: true;  
 //? Endİf
 :root {
 	--homeImageSize: 50px;
