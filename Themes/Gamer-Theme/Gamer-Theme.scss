@@ -13,9 +13,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 //? Endİf
 //! Sass
-$version: "4.0.5";
-$update: false;
+$version: "4.0.9";
+$update: true;
 //? Endİf
+//! Root
 :root {
 	--homeImageSize: 50px;
 	--homeImage: url("https://yt3.ggpht.com/ytc/AAUvwniEUaBNWbH9Pk7A1cmIBdxnYt0YYrgNKx5h8grSMA=s900-c-k-c0x00ffffff-no-rj");
@@ -39,12 +40,45 @@ $update: false;
 	--rs-dnd-color: #f04747;
 	--rs-streaming-color: #643da7;
 	--rs-offline-color: #636b75;
-	--rs-invisible-color: #747f8d;
 	--columns: 1;
 	--guildsize: 40;
 	--guildgap: 5;
 	--settingsmodalwidth: 1300px;
 }
+//? Endİf
+.tabBar-ZmDY9v .item-3HknzM,
+.tabBody-3YRQ8W {
+	transition: 100ms all;
+}
+.container-3auIfb {
+	background-color: var(--backgroundColor) !important;
+}
+.bd-search-wrapper:hover,
+.container-2XeR5Z:hover,
+.container-cMG81i:hover,
+.searchBar-3dMhjb:hover,
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+//! PowerCord Support
+body.powercord {
+	.powercord-settings-item .description-3_Ncsb strong strong {
+		text-decoration: underline;
+	}
+	.powercord-entities-manage-tabs,
+	.developerPortalCtaWrapper-2XNafh {
+		background-color: var(--backgroundColor) !important;
+	}
+
+	//* Quick Css
+	.powercord-quickcss:not(.popped-out),
+	.powercord-quickcss .CodeMirror-gutters {
+		background: var(--backgroundColor);
+	}
+
+	//? Endİf
+}
+//* Endİf
 .wrapper-2tAnRe {
 	.total-i6us2n {
 		background-color: var(--backgroundColor);
