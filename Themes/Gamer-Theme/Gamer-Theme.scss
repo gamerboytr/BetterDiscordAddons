@@ -13,7 +13,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 //? Endİf
 //! Sass
-$version: "4.0.9";
+$version: "4.1.0";
 $update: false;
 //? Endİf
 //! Root
@@ -46,6 +46,11 @@ $update: false;
 	--settingsmodalwidth: 1300px;
 }
 //? Endİf
+
+html.theme-dark .container-2_Tvc_.marginTop20-3TxNs6.disabled-2HSEFa div {
+	display: none;
+}
+
 .tabBar-ZmDY9v .item-3HknzM,
 .tabBody-3YRQ8W {
 	transition: 100ms all;
@@ -72,7 +77,8 @@ body.powercord {
 
 	//* Quick Css
 	.powercord-quickcss:not(.popped-out),
-	.powercord-quickcss .CodeMirror-gutters {
+	.powercord-quickcss .CodeMirror-gutters,
+	.powercord-quickcss-editor-settings {
 		background: var(--backgroundColor);
 	}
 
@@ -2125,10 +2131,10 @@ button[class="undefined bd-guild button-38aScr da-button lookOutlined-3sRXeN col
 }
 
 //? Sağ Üst Düğmeler
+.winButton-iRh8-Z {
+	transition: 300ms all;
 
-div {
-	&[aria-label="Kapat"]:hover,
-	&[aria-label="Close"]:hover {
+	&.winButtonClose-1HsbF-:hover {
 		background-color: rgba(224, 15, 15, 0.71);
 		transition: 300ms all;
 	}
@@ -2140,19 +2146,9 @@ div {
 		background-color: rgb(56, 56, 56);
 		transition: 300ms all;
 	}
-
-	&[aria-label="Küçült"],
-	&[aria-label="Ekranı Kapla"],
-	&[aria-label="Kapat"],
-	&[aria-label="Minimize"],
-	&[aria-label="Maximize"],
-	&[aria-label="Close"] {
-		transition: 300ms all;
-	}
-
-	&[class="preview-2nSL_2 da-preview group-spacing-16 cardPrimaryOutline-29Ujqw card-3Qj_Yx da-cardPrimaryOutline da-card"] {
-		background-color: var(--background-secondary) !important;
-	}
+}
+div.preview-2nSL_2.da-preview.group-spacing-16.cardPrimaryOutline-29Ujqw.card-3Qj_Yx.da-cardPrimaryOutline.da-card {
+	background-color: var(--background-secondary) !important;
 }
 
 //?  Endİf
