@@ -54,7 +54,9 @@ html.theme-dark .container-2_Tvc_.marginTop20-3TxNs6.disabled-2HSEFa div {
 .tabBody-3YRQ8W {
 	transition: 100ms all;
 }
-.container-3auIfb {
+.container-3auIfb,
+.profileBannerPreview-3_l0Wd,
+.accountProfileCard-1XCH88 {
 	background-color: var(--backgroundColor) !important;
 }
 .bd-search-wrapper:hover,
@@ -132,13 +134,14 @@ body.powercord {
 	}
 }
 //? Endİf
-.bulletsContainer-3omDLR {
-	background-color: var(--backgroundColor);
-}
 .css-rzbxvl-option {
 	background-color: rgba(var(--backgroundColor), 0.7);
 }
 .activity-3v9l4T,
+.userPopout-xaxa6l,
+.bodyInnerWrapper-26fQXj,
+.footer-3UKYOU,
+.bulletsContainer-3omDLR,
 .body-r6_QPy,
 .topSection-y3p-_D,
 .tabBar-ZmDY9v .badge-1Skb69,
@@ -1933,16 +1936,12 @@ input.inputInner-2akrSS {
 	font-weight: 300;
 }
 
-span[class="colorHeaderSecondary-3Sp3Ft size16-1P40sf"] {
-	color: green;
-}
-
-div[class="inputWrapper-31_8H8 da-inputWrapper"] > input[class="inputDefault-_djjkz input-cIJ7To da-inputDefault da-input"] {
+.inputWrapper-31_8H8.da-inputWrapper > .inputDefault-_djjkz.input-cIJ7To da-inputDefault.da-input {
 	color: white;
 	font-weight: 300;
 }
 
-ul[id="folder-items-1831673625"] {
+ul#folder-items-1831673625 {
 	height: unset !important;
 }
 
@@ -1950,12 +1949,10 @@ patch[d="M21 4.27L19.73 3L3 19.73L4.27 21L8.46 16.82L9.69 15.58L11.35 13.92L14.9
 	color: #fff;
 }
 
-div {
-	&[class="iconContainer-2-XQPY da-iconContainer"]:hover,
-	&[class="item-1tOPte da-item labelContainer-1BLJti da-labelContainer colorDanger-2qLCe1 colorDefault-2K3EoJ da-colorDanger da-colorDefault"]:hover,
-	&[class="label-22pbtT da-label"]:hover {
-		color: #fff;
-	}
+.iconContainer-2-XQPY.da-iconContainer:hover,
+.item-1tOPte.da-item.labelContainer-1BLJti.da-labelContainer.colorDanger-2qLCe1.colorDefault-2K3EoJ.da-colorDanger.da-colorDefault:hover,
+.label-22pbtT.da-label:hover {
+	color: #fff;
 }
 
 .tutorialContainer-SGrQ1h {
@@ -2040,7 +2037,7 @@ span.colorHeaderPrimary-26Jzh- {
 	color: #43b581 !important;
 }
 
-div[class="contents-18-Yxp da-contents"] {
+div.contents-18-Yxp.da-contents {
 	color: unset !important;
 }
 
@@ -2053,7 +2050,7 @@ div.info-1VyQPT {
 }
 
 path[d="M4 0L0 4V8L4 12L8 8V4L4 0ZM7 7.59L4 10.59L1 7.59V4.41L4 1.41L7 4.41V7.59Z"],
-[class="icon-3GaxIC da-icon memberBadgeIcon-1hpSQc da-memberBadgeIcon"] {
+.icon-3GaxIC.da-icon.memberBadgeIcon-1hpSQc.da-memberBadgeIcon {
 	color: #b377f3;
 }
 
@@ -2080,7 +2077,7 @@ div {
 	background: rgba(12, 12, 12, 0.7);
 }
 
-span[class="botTag-ymWxY6 da-botTag bot-2Fta1w da-bot botTagInvert-18-95s botTag-2WPJ74 da-botTagInvert da-botTag px-10SIf7 da-px"] {
+span.botTag.ymWxY6.da-botTag.bot-2Fta1w.da-bot.botTagInvert-18-95s.botTag-2WPJ74.da-botTagInvert.da-botTag.px-10SIf7.da-px {
 	background: #fff;
 	margin: 1px 0px 0px 5.56152px;
 	isolation: isolate;
@@ -2090,11 +2087,9 @@ span[class="botTag-ymWxY6 da-botTag bot-2Fta1w da-bot botTagInvert-18-95s botTag
 	background-color: transparent !important;
 }
 
-button {
-	&[class="controlButton-2MhVEL da-controlButton centerButton-3CaNcJ colorable-1bkp8v da-centerButton da-colorable green-plH-Mj button-38aScr da-button lookBlank-3eh9lL colorBrand-3pXr91 grow-q77ONN da-grow"],
-	&[class="actionButton-3CLkPB da-actionButton last-3WKR_s da-last centerButton-3CaNcJ colorable-1bkp8v da-centerButton da-colorable green-plH-Mj button-38aScr da-button lookBlank-3eh9lL colorBrand-3pXr91 grow-q77ONN da-grow"] {
-		border-radius: 115px;
-	}
+button.controlButton-2MhVEL.da-controlButton.centerButton-3CaNcJ.colorable-1bkp8v.da-centerButton.da-colorable.green-plH-Mj.button-38aScr.da-button.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.da-grow,
+button.actionButton-3CLkPB.da-actionButton.last-3WKR_s.da-last.centerButton-3CaNcJ.colorable-1bkp8v.da-centerButton.da-colorable.green-plH-Mj.button-38aScr.da-button.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.da-grow {
+	border-radius: 115px;
 }
 
 html {
@@ -2121,7 +2116,7 @@ div.problemsText-1Yx-Kl {
 	box-shadow: inset 0 0 0 2px #43b581;
 }
 
-button[class="undefined bd-guild button-38aScr da-button lookOutlined-3sRXeN colorBrand-3pXr91 sizeMedium-1AC_Sl grow-q77ONN da-grow"] > div[class="contents-18-Yxp da-contents"] {
+button.undefined.bd-guild.button-38aScr.da-button.lookOutlined-3sRXeN.colorBrand-3pXr91.sizeMedium-1AC_Sl.grow-q77ONN.da-grow > div.contents-18-Yxp.da-contents {
 	color: #fff !important;
 }
 
@@ -2151,13 +2146,10 @@ div.preview-2nSL_2.da-preview.group-spacing-16.cardPrimaryOutline-29Ujqw.card-3Q
 }
 
 //?  Endİf
-
-.css-gvi9bl-control {
-	&:hover,
-	&:active {
-		background: rgb(17, 17, 17) !important;
-		transition: 300ms all;
-	}
+.css-gvi9bl-control:hover,
+.css-gvi9bl-control:active {
+	background: rgb(17, 17, 17) !important;
+	transition: 300ms all;
 }
 
 .marketingLogoImage-2SzXIR::after {
@@ -2187,7 +2179,7 @@ div.preview-2nSL_2.da-preview.group-spacing-16.cardPrimaryOutline-29Ujqw.card-3Q
 	background-image: url("https://discord.com/assets/bf625d222187f542b9d7179109422e2c.svg") !important;
 }
 
-button[class="actionButton-3CLkPB da-actionButton centerButton-3CaNcJ colorable-1bkp8v da-centerButton da-colorable red-33-Lnk button-38aScr da-button lookBlank-3eh9lL colorBrand-3pXr91 grow-q77ONN da-grow"] {
+button.actionButton-3CLkPB.da-actionButton.centerButton-3CaNcJ.colorable-1bkp8v.da-centerButton.da-colorable.red-33-Lnk.button-38aScr.da-button.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.da-grow {
 	border-radius: 115px;
 }
 
@@ -2203,7 +2195,7 @@ button[class="actionButton-3CLkPB da-actionButton centerButton-3CaNcJ colorable-
 	background-color: #2f313680 !important;
 }
 
-div[class="channelNotice-1-XFjC da-channelNotice quickswitcher-35bYg4 da-quickswitcher"] {
+div.channelNotice-1-XFjC.da-channelNotice.quickswitcher-35bYg4.da-quickswitcher {
 	background-image: none !important;
 }
 
@@ -2213,13 +2205,11 @@ div[class="channelNotice-1-XFjC da-channelNotice quickswitcher-35bYg4 da-quicksw
 	background-image: none;
 }
 
-button {
-	&.barButtonMain-3K-jeJ,
-	&.barButtonBase-2uLO1z,
-	&.da-barButtonMain,
-	&.da-barButtonBase {
-		z-index: 50000;
-	}
+button.barButtonMain-3K-jeJ,
+button.barButtonBase-2uLO1z,
+button.da-barButtonMain,
+button.da-barButtonBase {
+	z-index: 50000;
 }
 
 div.info-1VyQPT::before {
