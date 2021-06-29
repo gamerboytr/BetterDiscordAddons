@@ -1045,7 +1045,7 @@ button {
 	order: 1;
 
 	&:before {
-		content: #{$themeName};
+		content: $themeName;
 		color: rgba(255, 255, 255, 0.7);
 		font-family: Noto Sans;
 		font-size: 14px;
@@ -1069,11 +1069,10 @@ button {
 
 	> svg {
 		filter: drop-shadow(0 0 5px #2780e6);
-		-webkit-filter: drop-shadow(0 0 5px #2780e6);
 		padding-left: 0px;
 		height: 85px;
 
-		> path {
+		> g > path {
 			fill: #2780e6;
 		}
 	}
@@ -1094,7 +1093,7 @@ button {
 	}
 
 	&:before {
-		content: #{$themeName};
+		content: $themeName;
 		right: 50%;
 		text-align: right;
 		transform: translateX(50%);
