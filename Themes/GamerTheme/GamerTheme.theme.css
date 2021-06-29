@@ -1,19 +1,19 @@
 /**
- * @name Gamer-Theme
+ * @name GamerTheme
  * @description GamerboyTR Tarafından Yapılmış Olan Gamer'lara Özel Üretim Tema
  * @author GamerboyTR
- * @version 4.0.5
+ * @version 4.2.0
  * @authorId 530043492014096384
  * @invite turkishmethods
  * @website http://www.gamerboytr.ml
- * @source https://github.com/gamerboytr/BetterDiscordAddons/blob/master/Themes/Gamer-Theme/Gamer-Theme.css
+ * @source https://github.com/gamerboytr/BetterDiscordAddons/blob/master/Themes/GamerTheme/GamerTheme.css
  */
 
-@import url("https://gamerboytr.github.io/BetterDiscordAddons/Themes/Gamer-Theme/Gamer-Theme.css");
+@import url("https://gamerboytr.github.io/BetterDiscordAddons/Themes/GamerTheme/GamerTheme.css");
 :root {
 	--themeColor1: #ff3838; /* 1. Tema Rengi */
 	--themeColor2: #5b86e5; /* 2. Tema Rengi */
-	--backgroundImage: url("https://gamerboytr.github.io/BetterDiscordAddons/Themes/Gamer-Theme/Resurces/background.png"); /* Arkaplan Resmi */
+	--backgroundImage: url("https://gamerboytr.github.io/BetterDiscordAddons/Themes/GamerTheme/Resurces/background.png"); /* Arkaplan Resmi */
 	--backgroundBlur: 3px; /* Arkaplan Bulanıklığı */
 	--backgroundOpacity: 0.2; /* Arkaplan Görünürlüğü */
 	--rs-avatar-shape: 50%; /* Profildeki Durum Göstergesinin Ovelliği */

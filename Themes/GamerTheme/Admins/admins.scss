@@ -13,11 +13,15 @@ $usersid: 530043492014096384, 824169426236342284, 780073888742375435;
 }
 
 .root-3QyAh1 {
-	span.username-2b1r56::after {
+	.banner-2QYc2d.profileBanner-33-uE1::after {
 		position: absolute;
 		right: 15px;
 		top: 10px !important;
-		box-shadow: 14px 16px 20px 4px black;
+		box-shadow: 20px 20px 20px 0px black;
+		color: var(--userColor);
+		font-size: 1.4rem;
+		font-weight: 500;
+		text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px var(--userColor), 0 0 82px var(--userColor), 0 0 92px var(--userColor), 0 0 102px var(--userColor), 0 0 151px var(--userColor);
 	}
 	.body-r6_QPy {
 		position: relative;
@@ -35,7 +39,7 @@ $usersid: 530043492014096384, 824169426236342284, 780073888742375435;
 		}
 	}
 }
-.userPopout-xaxa6l {
+userPopout-xaxa5l {
 	.headerTop-2cWpdB {
 		background-color: unset;
 		background-position: center;
@@ -50,17 +54,17 @@ $usersid: 530043492014096384, 824169426236342284, 780073888742375435;
 	background: linear-gradient(45deg, #ffe212a8, #ffdfdf00) !important;
 }
 html {
-	&[lang="tr"] .root-3QyAh1[data-user-id="530043492014096384"] span.username-2b1r56.username-FvTBog::after {
+	&[lang="tr"] .root-3QyAh1[data-user-id="530043492014096384"] .banner-2QYc2d.profileBanner-33-uE1::after {
 		content: "Tema Kurucusu";
-		color: yellow;
+		--userColor: yellow;
 	}
-	&[lang="en-US"] .root-3QyAh1[data-user-id="530043492014096384"] span.username-2b1r56.username-FvTBog::after {
+	&[lang="en-US"] .root-3QyAh1[data-user-id="530043492014096384"] .banner-2QYc2d.profileBanner-33-uE1::after {
 		content: "Theme Owner";
-		color: yellow;
+		--userColor: yellow;
 	}
 }
 .root-3QyAh1[data-user-id="530043492014096384"] .body-r6_QPy::before,
-.userPopout-xaxa6l[data-user-id="530043492014096384"] .headerTop-2cWpdB {
+userPopout-xaxa5l[data-user-id="530043492014096384"] .headerTop-2cWpdB {
 	background-image: url(https://i.imgur.com/CAsvn0q.gif) !important;
 }
 
@@ -70,18 +74,18 @@ html {
 	background: linear-gradient(45deg, #1265ffa8, #ffdfdf00) !important;
 }
 html {
-	&[lang="tr"] .root-3QyAh1[data-user-id="824169426236342284"] span.username-2b1r56.username-FvTBog::after {
+	&[lang="tr"] .root-3QyAh1[data-user-id="824169426236342284"] .banner-2QYc2d.profileBanner-33-uE1::after {
 		content: "Tema Testçisi";
-		color: #1265ffa8;
+		--userColor: #1265ffa8;
 	}
 
-	&[lang="en-US"] .root-3QyAh1[data-user-id="824169426236342284"] span.username-2b1r56.username-FvTBog::after {
+	&[lang="en-US"] .root-3QyAh1[data-user-id="824169426236342284"] .banner-2QYc2d.profileBanner-33-uE1::after {
 		content: "Theme Tester";
-		color: #1265ffa8;
+		--userColor: #1265ffa8;
 	}
 }
 .root-3QyAh1[data-user-id="824169426236342284"] .body-r6_QPy::before,
-.userPopout-xaxa6l[data-user-id="824169426236342284"] .headerTop-2cWpdB {
+userPopout-xaxa5l[data-user-id="824169426236342284"] .headerTop-2cWpdB {
 	background-image: url(https://i.imgur.com/BGyfYiv.gif) !important;
 }
 
@@ -91,15 +95,15 @@ html {
 	background: linear-gradient(45deg, #006b00, #ffdfdf00) !important;
 }
 html {
-	&[lang="tr"] .root-3QyAh1[data-user-id="780073888742375435"] span.username-2b1r56.username-FvTBog::after {
+	&[lang="tr"] .root-3QyAh1[data-user-id="780073888742375435"] .banner-2QYc2d.profileBanner-33-uE1::after {
 		content: "Değerli Üye";
 	}
 
-	&[lang="en-US"] .root-3QyAh1[data-user-id="780073888742375435"] span.username-2b1r56.username-FvTBog::after {
+	&[lang="en-US"] .root-3QyAh1[data-user-id="780073888742375435"] .banner-2QYc2d.profileBanner-33-uE1::after {
 		content: "Dear Member";
 	}
 }
 .root-3QyAh1[data-user-id="780073888742375435"] .body-r6_QPy::before,
-.userPopout-xaxa6l[data-user-id="780073888742375435"] .headerTop-2cWpdB {
+userPopout-xaxa5l[data-user-id="780073888742375435"] .headerTop-2cWpdB {
 	background-image: url(https://i.imgur.com/siZ4kpF.gif) !important;
 }
