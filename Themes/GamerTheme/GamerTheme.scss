@@ -698,7 +698,7 @@ html.theme-dark {
 	background-color: var(--backgroundColor) !important;
 }
 
-.replyBar-1YLQ2F,
+.clipContainer-eeROt0,
 .threadSuggestionBar-2ufK2Z {
 	background: #040404 !important;
 }
@@ -723,7 +723,7 @@ html.theme-dark {
 	height: calc(var(--usesettingsicons) * var(--settingsiconssize));
 	margin-right: calc(var(--usesettingsicons) * var(--settingsiconsgap));
 	background: currentColor;
-	-webkit-mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/boosts.svg) (center / contain) no-repeat;
+	mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/boosts.svg) (center / contain) no-repeat;
 }
 
 a {
