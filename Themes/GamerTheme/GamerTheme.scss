@@ -42,82 +42,6 @@ $themeName: "GamerTheme";
 }
 //? Endİf
 
-//! Neutron'dan Bağımsız Olma Çalışmaları
-
-.app-2rEoOp,
-.applicationStore-1pNvnv,
-.chat-3bRxxu,
-.container-1D34oG,
-.container-1r6BKw.themed-ANHk51,
-.container-3w7J-x,
-.container-PNkimc,
-.contentRegion-3nDuYy,
-.contentRegionScroller-26nc1e,
-.header-39GIC8,
-.inviteToolbar-3F-l2g,
-.layer-3QrUeG,
-.members-1998pB,
-.members-1998pB > div,
-.messages-3amgkR,
-.notice-2X5hT5,
-.nowPlayingColumn-2sl4cE,
-.pageWrapper-1PgVDX,
-.panels-j1Uci_,
-.privateChannels-1nO12o,
-.scroller-1IIF0A,
-.wrapper-3vR61M,
-.wrapper-1F5TKx,
-.scroller-1JbKMe,
-.scroller-2TZvBN,
-.scroller-2XE8rp,
-.scroller-305q3I,
-.scroller-9moviB,
-.sidebar-2K8pFh,
-.sidebarRegionScroller-3MXcoP,
-.standardSidebarView-3F1I7i,
-.wrapper-1Rf91z,
-.container-lRFx4q,
-.wrapper-2qzCYF,
-.wrapper-2qzCYF.minimum-28Z35l,
-.wrapper-KXM2i0 {
-	background: 0 0 !important;
-}
-
-//? Arkpalan
-
-.appMount-3lHmkl,
-body {
-	background-color: var(--backgroundColor) !important;
-}
-
-.bg-h5JY_x {
-	background-color: transparent;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: var(--backgroundImage);
-	opacity: 0.65;
-	filter: blur(var(--backgroundBlur));
-}
-
-//? HomeImage
-
-.tutorialContainer-2sGCg9 .childWrapper-anI2G9 {
-	background-color: transparent;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-image: var(--homeImage);
-	background-size: var(--homeImageSize);
-	background-clip: border-box;
-}
-
-.tutorialContainer-2sGCg9 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
-.tutorialContainer-2sGCg9 .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-	background-color: var(--themeColor1) !important;
-}
-
-//? Üst Çubuğu Siyahlaştırma
-
 .container-1r6BKw .children-19S4PO .icon-22AiRD {
 	color: var(--themeColor3);
 	filter: drop-shadow(0 0 3px);
@@ -128,8 +52,6 @@ body {
 	border-color: var(--backgroundColor);
 	background-color: var(--backgroundColor);
 }
-
-//* Endİf
 
 //! Animations
 
