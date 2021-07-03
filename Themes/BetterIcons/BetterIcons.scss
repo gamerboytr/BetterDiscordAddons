@@ -1,0 +1,26 @@
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
+
+#user-settings-cog-Nitro_Server_Boost::before {
+	content: "";
+	position: absolute;
+	flex: 0 0 auto;
+	padding-left: 82ex;
+	width: calc(var(--usesettingsicons) * var(--settingsiconssize));
+	height: calc(var(--usesettingsicons) * var(--settingsiconssize));
+	margin-right: calc(var(--usesettingsicons) * var(--settingsiconsgap));
+	background: currentColor;
+	mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/boosts.svg) center/contain no-repeat;
+}
+
+#user-settings-cog-Discord_Nitro::before {
+	content: "";
+	position: absolute;
+	flex: 0 0 auto;
+	padding-left: 82ex;
+	width: calc(var(--usesettingsicons) * var(--settingsiconssize));
+	height: calc(var(--usesettingsicons) * var(--settingsiconssize));
+	margin-right: calc(var(--usesettingsicons) * var(--settingsiconsgap));
+	background: currentColor;
+	mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/nitro.svg) (center / contain) no-repeat;
+}
