@@ -67,7 +67,7 @@ Stylish Eklentisini Tarayıcınıza Kurun.Eklentiye Tıklayın ve Üstteki 3 Nok
 GamerTheme Çalışanları:
 
 - Temel Kodlamalar İşler [GamerboyTR](https://github.com/gamerboytr) Tarafından
-- Test İşleri [Lytss]() Ve [Turkish Methods](https://discord.gg/Z9PbhEdEAR) Ekibi Tarafından
+- Test İşleri [Lytss](https://steamcommunity.com/profiles/76561198994888022) Ve [Turkish Methods](https://discord.gg/Z9PbhEdEAR) Ekibi Tarafından
 <div align="center">
 <h2> Powered By <a href="https://turkishmethods.web.tr">TurkishMethods</a></h2>
 </div>
