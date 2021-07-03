@@ -1,5 +1,5 @@
 //! İmports
-@import url("./Resurces/imports.css");
+@import url("./Resurces/import/imports.css");
 //? Endİf
 
 //! Sass
@@ -41,125 +41,6 @@ $backgroundColor: #0d0d0d;
 	--guildgap: 5;
 	--settingsmodalwidth: 1300px;
 }
-//? Endİf
-
-//! Bağlanan Hesaplar
-.root-3QyAh1 .activityProfile-2bJRaP .spotifyIcon-2J9kSv {
-	display: none !important;
-}
-.root-3QyAh1 .connectedAccount-2Jb-Z0 {
-	.connectedAccountIcon-3_EQqg {
-		padding: 5px;
-		border-radius: 4px;
-	}
-	.connectedAccountName-E1KzaT {
-		margin-left: 13px;
-	}
-}
-.root-3QyAh1 {
-	.accountBtnInner-sj5jLs {
-		//? Battle Net
-		&[aria-label="Battle.net"],
-		&[aria-label="Battle.net"]:hover {
-			background-color: #1da0f248;
-		}
-		//? Twicth
-		&[aria-label="Twitch"],
-		&[aria-label="Twitch"]:hover {
-			background-color: #601bd852;
-		}
-		//? Youtube
-		&[aria-label="YouTube"],
-		&[aria-label="YouTube"]:hover {
-			background-color: #d9252b49;
-		}
-		//? Twitter
-		&[aria-label="Twitter"],
-		&[aria-label="Twitter"]:hover {
-			background-color: #0098e446;
-		}
-		//? Steam
-		&[aria-label="Steam"],
-		&[aria-label="Steam"]:hover {
-			background-color: #00000034;
-		}
-		//? Reddit
-		&[aria-label="Reddit"],
-		&[aria-label="Reddit"]:hover {
-			background-color: #fe44013d;
-		}
-		//? Facebook
-		&[aria-label="Facebook"],
-		&[aria-label="Facebook"]:hover {
-			background-color: #2e328485;
-		}
-		//? Spotify
-		&[aria-label="Spotify"],
-		&[aria-label="Spotify"]:hover {
-			background-color: #1ed75f34;
-		}
-		//? Xbox
-		&[aria-label="Xbox Live"],
-		&[aria-label="Xbox Live"]:hover {
-			background-color: #5dc21e42;
-		}
-		//? League Of Legends
-		&[aria-label="League Of Legends"],
-		&[aria-label="League Of Legends"]:hover {
-			background-color: #cea14638;
-		}
-		//? Github
-		&[aria-label="GitHub"],
-		&[aria-label="GitHub"]:hover {
-			background-color: #24292e62;
-		}
-	}
-	//? Battle Net
-	[src="/assets/4662875160dc4c56954003ebda995414.png"] {
-		background-color: #1da0f248;
-	}
-	//? Twicth
-	[src="/assets/edbbf6107b2cd4334d582b26e1ac786d.png"] {
-		background-color: #601bd852;
-	}
-	//? YouTube
-	[src="/assets/449cca50c1452b4ace3cbe9bc5ae0fd6.png"] {
-		background-color: #d9252b49;
-	}
-	//? Twitter
-	[src="/assets/8c289d499232cd8e9582b4a5639d9d1d.png"] {
-		background-color: #0098e446;
-	}
-	//? Steam
-	[src="/assets/f09c1c70a67ceaaeb455d163f3f9cbb8.png"] {
-		background-color: #00000034;
-	}
-	//? Reddit
-	[src="/assets/3abe9ce5a00cc24bd8aae04bf5968f4c.png"] {
-		background-color: #fe44013d;
-	}
-	//? Facebook
-	[src="/assets/8d8f815f3d81a33b1e70ec7c22e1b6fe.png"] {
-		background-color: #2e328485;
-	}
-	//? Spotify
-	[src="/assets/f0655521c19c08c4ea4e508044ec7d8c.png"] {
-		background-color: #1ed75f34;
-	}
-	//? Xbox
-	[src="/assets/0d44ba28e39303de3832db580a252456.png"] {
-		background-color: #5dc21e42;
-	}
-	//? League Of Legends
-	[src="/assets/806953fe1cc616477175cbcdf90d5cd3.png"] {
-		background-color: #cea14638;
-	}
-	//? Github
-	[src="/assets/5d69e29f0d71aaa04ed9725100199b4e.png"] {
-		background-color: #24292e62;
-	}
-}
-
 //? Endİf
 
 .pinnedChannelsHeaderContainer-89Gjv4 .headerAmount-_-7GrS {
@@ -839,18 +720,6 @@ html.theme-dark {
 	background-color: currentColor !important;
 }
 
-#user-settings-cog-Nitro_Server_Boost::before {
-	content: "";
-	position: absolute;
-	flex: 0 0 auto;
-	padding-left: 82ex;
-	width: calc(var(--usesettingsicons) * var(--settingsiconssize));
-	height: calc(var(--usesettingsicons) * var(--settingsiconssize));
-	margin-right: calc(var(--usesettingsicons) * var(--settingsiconsgap));
-	background: currentColor;
-	mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/boosts.svg) (center / contain) no-repeat;
-}
-
 a {
 	&[title="Twitter"]:hover svg path {
 		fill: #1da1f2 !important;
@@ -1013,44 +882,7 @@ button {
 	background-color: var(--backgroundColor);
 }
 
-#user-settings-cog-Discord_Nitro::before {
-	content: "";
-	position: absolute;
-	flex: 0 0 auto;
-	padding-left: 82ex;
-	width: calc(var(--usesettingsicons) * var(--settingsiconssize));
-	height: calc(var(--usesettingsicons) * var(--settingsiconssize));
-	margin-right: calc(var(--usesettingsicons) * var(--settingsiconsgap));
-	background: currentColor;
-	mask: url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/svgs/settingsicons/nitro.svg) (center / contain) no-repeat;
-}
-
 //! Dil Uyarısı
-
-html[lang="en-GB"] #app-mount::after {
-	content: "Warning Theme Adapted For This Language Adapted Languages: English US, Turkish";
-	background: #000;
-	position: fixed;
-	z-index: 5;
-	right: 0;
-	bottom: 0;
-	display: flex;
-	align-items: center;
-	max-width: 225px;
-	line-height: normal;
-	padding: 15px 0 15px 60px;
-	margin-left: 10px;
-	right: -350px;
-	margin-bottom: 10px;
-	border-left: 2px solid #f04747;
-	border-radius: 2px;
-	color: rgba(255, 255, 255, 0.65);
-	background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMSAyMWgyMkwxMiAyIDEgMjF6bTEyLTNoLTJ2LTJoMnYyem0wLTRoLTJ2LTRoMnY0eiIvPjwvc3ZnPg==");
-	background-repeat: no-repeat;
-	background-size: 35px;
-	background-position: 10px center;
-	animation: lightwarning 10s;
-}
 
 .nowPlayingColumn-2sl4cE {
 	border: 1px solid var(--backgroundColor);
@@ -1430,8 +1262,7 @@ textarea::-webkit-scrollbar {
 //! Light Theme Warning
 
 html {
-	&[lang="tr"].theme-light #app-mount::after {
-		content: "Uyarı Beyaz Tema Tam Olarak Tamamlanmadı Lütfen Şu Konumu Takip Edin Ayarlar -> Görünüm -> Koyu Tema";
+	&.theme-light #app-mount::after {
 		background: #000;
 		position: fixed;
 		z-index: 5;
@@ -1454,30 +1285,12 @@ html {
 		background-position: 10px center;
 		animation: lightwarning 10s;
 	}
+	&[lang="tr"].theme-light #app-mount::after {
+		content: "Uyarı Beyaz Tema Tam Olarak Tamamlanmadı Lütfen Şu Konumu Takip Edin Ayarlar -> Görünüm -> Koyu Tema";
+	}
 
 	&[lang="en-US"].theme-light #app-mount::after {
 		content: "Warning The White Theme Is Not Completed Please Follow These Steps Settings -> Appearance -> Dark Theme";
-		background: #000;
-		position: fixed;
-		z-index: 5;
-		right: 0;
-		bottom: 0;
-		display: flex;
-		align-items: center;
-		max-width: 225px;
-		line-height: normal;
-		padding: 15px 0 15px 60px;
-		margin-left: 10px;
-		right: -350px;
-		margin-bottom: 10px;
-		border-left: 2px solid #f04747;
-		border-radius: 2px;
-		color: rgba(255, 255, 255, 0.65);
-		background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMSAyMWgyMkwxMiAyIDEgMjF6bTEyLTNoLTJ2LTJoMnYyem0wLTRoLTJ2LTRoMnY0eiIvPjwvc3ZnPg==");
-		background-repeat: no-repeat;
-		background-size: 35px;
-		background-position: 10px center;
-		animation: lightwarning 10s;
 	}
 }
 
