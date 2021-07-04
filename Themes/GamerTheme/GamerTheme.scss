@@ -486,6 +486,81 @@ html {
 
 //? Profil
 
+.userPopout-xaxa6l {
+	.avatarWrapper-3r9PdD {
+		top: 0;
+		left: 50%;
+		grid-area: avatar;
+		margin: 15px 0 0 -50px;
+		.avatar-37jOim {
+			background: none;
+			border: none;
+		}
+		.avatarHint-2A3RNb {
+			top: 0;
+			left: 0;
+			border-radius: calc(5px * 2) !important;
+			foreignObject {
+				mask: none !important;
+				.avatarHintInner-1TvA8u {
+					font-size: 0;
+					text-transform: none;
+					&::after {
+						white-space: normal;
+						text-align: center;
+						content: var(--avatar-hint-text);
+						color: var(--avatar-hint-color);
+						font-size: var(--avatar-hint-size);
+						font-family: var(--avatar-hint-font);
+					}
+				}
+			}
+		}
+	}
+	.headerTop-3vNv-a {
+		display: flex;
+		flex-direction: column-reverse;
+		text-align: center;
+		padding-top: 110px;
+		padding-bottom: 20px;
+		.profileBadges-ohc0Vu {
+			position: static;
+			justify-content: center;
+			max-width: unset;
+			> * {
+				margin: 0 3px;
+			}
+		}
+		.headerText-1vVs-U {
+			margin-bottom: 8px;
+		}
+	}
+	.banner-2QYc2d {
+		position: absolute;
+		width: 300px;
+		height: 180px;
+		border-radius: 8px 8px 0 0;
+		mask-image: linear-gradient(#000000c2, #000000c2);
+		clip-path: polygon(0 0, 100% 0, 100% calc(100% - 25px), 50% 100%, 0 calc(100% - 25px));
+		&.bannerPremium-2hSAwz {
+			background-color: transparent !important;
+		}
+	}
+	.customStatus-oN4ZZY,
+	.aboutMeSection-1Fw5Ia {
+		padding-top: 12px;
+	}
+	.divider-ewBQKj {
+		display: none;
+	}
+	.body-3HBlXn .bodyInnerWrapper-26fQXj {
+		padding-right: 16px;
+		.note-1oo11U {
+			margin: 0;
+		}
+	}
+}
+
 .container-3baos1 {
 	.avatar-SmRMf2 {
 		width: 32px !important;
