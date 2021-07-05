@@ -68,6 +68,7 @@ $backgroundColor: #0d0d0d;
 				margin-right: 16px !important;
 				box-shadow: unset;
 				border-radius: 20px;
+				--background-secondary: var(--backgroundColor);
 			}
 			.description-2ug5H_ {
 				margin-top: 15px;
@@ -81,6 +82,9 @@ $backgroundColor: #0d0d0d;
 		.comment-4IWttf {
 			margin-left: 55%;
 			margin-right: 30px;
+			.uploadCounter-iEGQQk {
+				bottom: -1.3em !important;
+			}
 			.label-3aiqT2 {
 				text-transform: unset;
 				font-size: 12px;
