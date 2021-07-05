@@ -71,6 +71,8 @@ $backgroundColor: #0d0d0d;
 			}
 			.description-2ug5H_ {
 				margin-top: 15px;
+				margin-left: 55%;
+				margin-right: 30px;
 				.filename-ovv3c5 {
 					font-weight: 550;
 				}
@@ -92,6 +94,9 @@ $backgroundColor: #0d0d0d;
 		position: absolute;
 		right: 20px;
 		bottom: 10px;
+		.labelForward-1wfipV {
+			display: none;
+		}
 		.checkboxWrapper-SkhIWG {
 			position: fixed;
 			top: 20px;
@@ -441,8 +446,7 @@ html.theme-dark .theme-light {
 }
 
 html {
-	&[lang="en-US"].theme-light .layer-3QrUeG:first-of-type::before,
-	&[lang="tr"].theme-light .layer-3QrUeG:first-of-type::before {
+	&.theme-light .layer-3QrUeG:first-of-type::before {
 		content: "You need to have dark theme enabled for this theme to work properly. To enable it, go into Settings -> Appearance";
 		position: fixed;
 		text-align: center;
@@ -514,7 +518,7 @@ html {
 }
 
 html {
-	&[lang="en-US"].theme-light .app-2rEoOp .container-3baos1 > .noWrap-3jynv6 > .button-14-BFJ[aria-label="User Settings"]::before,
+	&.theme-light .app-2rEoOp .container-3baos1 > .noWrap-3jynv6 > .button-14-BFJ[aria-label="User Settings"]::before,
 	&[lang="tr"].theme-light .app-2rEoOp .container-3baos1 > .noWrap-3jynv6 > .button-14-BFJ[aria-label="Kullanıcı Ayarları"]::before {
 		position: absolute;
 		content: "GO TO SETTINGS";
@@ -1456,6 +1460,7 @@ textarea::-webkit-scrollbar {
 
 html {
 	&.theme-light #app-mount::after {
+		content: "Warning The White Theme Is Not Completed Please Follow These Steps Settings -> Appearance -> Dark Theme";
 		background: #000;
 		position: fixed;
 		z-index: 5;
@@ -1480,10 +1485,6 @@ html {
 	}
 	&[lang="tr"].theme-light #app-mount::after {
 		content: "Uyarı Beyaz Tema Tam Olarak Tamamlanmadı Lütfen Şu Konumu Takip Edin Ayarlar -> Görünüm -> Koyu Tema";
-	}
-
-	&[lang="en-US"].theme-light #app-mount::after {
-		content: "Warning The White Theme Is Not Completed Please Follow These Steps Settings -> Appearance -> Dark Theme";
 	}
 }
 
@@ -2273,24 +2274,17 @@ button.actionButton-3CLkPB.da-actionButton.last-3WKR_s.da-last.centerButton-3CaN
 	border-radius: 115px;
 }
 
-html {
-	&[lang="tr"] div.problemsText-1Yx-Kl::after {
-		content: "Unutma Bu Temayı Yapan Kişi GamerboyTR :D";
-		padding-right: 175px;
-		font-size: 20px;
-		visibility: visible;
-	}
-
-	&[lang="en-US"] div.problemsText-1Yx-Kl::after {
-		content: "Remember The Person Who Made This Theme GamerboyTR :D";
+div.problemsText-1Yx-Kl {
+	visibility: hidden;
+	&::after {
+		content: "Theme Creator By GamerboyTR :D";
 		padding-right: 175px;
 		font-size: 20px;
 		visibility: visible;
 	}
 }
-
-div.problemsText-1Yx-Kl {
-	visibility: hidden;
+html[lang="tr"] div.problemsText-1Yx-Kl::after {
+	content: "Unutma Bu Temayı Yapan Kişi GamerboyTR :D";
 }
 
 .border-3dQmSY.speaking-WDn8Wm {
