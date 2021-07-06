@@ -1,4 +1,4 @@
-/* SASS Vartables */
+/* SASS */
 
 $usersid: 530043492014096384, 824169426236342284, 780073888742375435;
 
@@ -13,12 +13,12 @@ $usersid: 530043492014096384, 824169426236342284, 780073888742375435;
 }
 
 .root-3QyAh1 {
-	.banner-2QYc2d.profileBanner-33-uE1::after {
+	.banner-2QYc2d::after {
 		position: absolute;
 		right: 15px;
 		top: 10px !important;
 		box-shadow: 20px 20px 20px 0px black;
-		color: var(--userColor);
+		color: var(--userColor, #fff);
 		font-size: 1.4rem;
 		font-weight: 500;
 		text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px var(--userColor), 0 0 82px var(--userColor), 0 0 92px var(--userColor), 0 0 102px var(--userColor), 0 0 151px var(--userColor);
@@ -39,7 +39,7 @@ $usersid: 530043492014096384, 824169426236342284, 780073888742375435;
 		}
 	}
 }
-userPopout-xaxa5l {
+.userPopout-xaxa5l {
 	.headerTop-2cWpdB {
 		background-color: unset;
 		background-position: center;
@@ -49,61 +49,68 @@ userPopout-xaxa5l {
 /* Endİf */
 
 /* G̷a̷m̷e̷r̷b̷o̷y̷T̷R̷ ᶫᵒᵛᵉᵧₒᵤ#1881 */
-
-.root-3QyAh1[data-user-id="530043492014096384"] header {
-	background: linear-gradient(45deg, #ffe212a8, #ffdfdf00) !important;
-}
 html {
-	&[lang="tr"] .root-3QyAh1[data-user-id="530043492014096384"] .banner-2QYc2d.profileBanner-33-uE1::after {
+	&[lang="tr"] .root-3QyAh1[data-user-id="530043492014096384"] .banner-2QYc2d::after {
 		content: "Tema Kurucusu";
-		--userColor: yellow;
 	}
-	&[lang="en-US"] .root-3QyAh1[data-user-id="530043492014096384"] .banner-2QYc2d.profileBanner-33-uE1::after {
-		content: "Theme Owner";
-		--userColor: yellow;
+	.root-3QyAh1[data-user-id="530043492014096384"] {
+		.body-r6_QPy::before {
+			background-image: url(https://i.imgur.com/CAsvn0q.gif) !important;
+		}
+		.banner-2QYc2d::after {
+			content: "Theme Owner";
+			--userColor: yellow;
+		}
+		header {
+			background: linear-gradient(45deg, #ffe212a8, #ffdfdf00) !important;
+		}
 	}
-}
-.root-3QyAh1[data-user-id="530043492014096384"] .body-r6_QPy::before,
-userPopout-xaxa5l[data-user-id="530043492014096384"] .headerTop-2cWpdB {
-	background-image: url(https://i.imgur.com/CAsvn0q.gif) !important;
+	.userPopout-xaxa5l[data-user-id="530043492014096384"] .headerTop-2cWpdB {
+		background-image: url(https://i.imgur.com/CAsvn0q.gif) !important;
+	}
 }
 
 /* 𝙻𝚢𝚝𝚜𝚜#0032 */
 
-.root-3QyAh1[data-user-id="824169426236342284"] header {
-	background: linear-gradient(45deg, #1265ffa8, #ffdfdf00) !important;
-}
 html {
-	&[lang="tr"] .root-3QyAh1[data-user-id="824169426236342284"] .banner-2QYc2d.profileBanner-33-uE1::after {
+	&[lang="tr"] .root-3QyAh1[data-user-id="824169426236342284"] .banner-2QYc2d::after {
 		content: "Tema Testçisi";
-		--userColor: #1265ffa8;
 	}
-
-	&[lang="en-US"] .root-3QyAh1[data-user-id="824169426236342284"] .banner-2QYc2d.profileBanner-33-uE1::after {
-		content: "Theme Tester";
-		--userColor: #1265ffa8;
+	.root-3QyAh1[data-user-id="824169426236342284"] {
+		.body-r6_QPy::before {
+			background-image: url(https://i.imgur.com/BGyfYiv.gif) !important;
+		}
+		.banner-2QYc2d::after {
+			content: "Theme Tester";
+			--userColor: #1265ffa8;
+		}
+		header {
+			background: linear-gradient(45deg, #1265ffa8, #ffdfdf00) !important;
+		}
 	}
-}
-.root-3QyAh1[data-user-id="824169426236342284"] .body-r6_QPy::before,
-userPopout-xaxa5l[data-user-id="824169426236342284"] .headerTop-2cWpdB {
-	background-image: url(https://i.imgur.com/BGyfYiv.gif) !important;
+	.userPopout-xaxa5l[data-user-id="824169426236342284"] .headerTop-2cWpdB {
+		background-image: url(https://i.imgur.com/BGyfYiv.gif) !important;
+	}
 }
 
 /* 爪卂乃乇ㄥ#5770 */
 
-.root-3QyAh1[data-user-id="780073888742375435"] header {
-	background: linear-gradient(45deg, #006b00, #ffdfdf00) !important;
-}
 html {
-	&[lang="tr"] .root-3QyAh1[data-user-id="780073888742375435"] .banner-2QYc2d.profileBanner-33-uE1::after {
+	&[lang="tr"] .root-3QyAh1[data-user-id="780073888742375435"] .banner-2QYc2d::after {
 		content: "Değerli Üye";
 	}
-
-	&[lang="en-US"] .root-3QyAh1[data-user-id="780073888742375435"] .banner-2QYc2d.profileBanner-33-uE1::after {
-		content: "Dear Member";
+	.root-3QyAh1[data-user-id="780073888742375435"] {
+		.body-r6_QPy::before {
+			background-image: url(https://i.imgur.com/siZ4kpF.gif) !important;
+		}
+		.banner-2QYc2d::after {
+			content: "Dear Member";
+		}
+		header {
+			background: linear-gradient(45deg, #006b00, #ffdfdf00) !important;
+		}
 	}
-}
-.root-3QyAh1[data-user-id="780073888742375435"] .body-r6_QPy::before,
-userPopout-xaxa5l[data-user-id="780073888742375435"] .headerTop-2cWpdB {
-	background-image: url(https://i.imgur.com/siZ4kpF.gif) !important;
+	.userPopout-xaxa5l[data-user-id="780073888742375435"] .headerTop-2cWpdB {
+		background-image: url(https://i.imgur.com/siZ4kpF.gif) !important;
+	}
 }
