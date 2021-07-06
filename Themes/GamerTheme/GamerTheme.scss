@@ -43,6 +43,13 @@ $backgroundColor: #0d0d0d;
 }
 //? Endİf
 
+.date-YN6TCS {
+	color: #fff;
+	> div[style] {
+		box-shadow: inset 1px 1px 20px #00000078;
+	}
+}
+
 .stickerInspected-2EM4w- .inspectedIndicator-59EII8 {
 	background-color: lighten($backgroundColor, 10%);
 }
