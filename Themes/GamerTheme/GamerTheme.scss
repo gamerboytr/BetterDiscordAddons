@@ -1,5 +1,6 @@
 //! İmports
 @import url("./Resurces/import/imports.css");
+@import "./Resurces/sass/autoload";
 //? Endİf
 
 //! Sass
@@ -9,6 +10,7 @@ $update: false;
 $updateFile: false;
 $themeName: "GamerTheme";
 $backgroundColor: #0d0d0d;
+
 //? Endİf
 
 //! Root
@@ -63,9 +65,7 @@ $backgroundColor: #0d0d0d;
 }
 
 .container-1r6BKw .children-19S4PO .icon-22AiRD {
-	color: var(--themeColor3);
-	filter: drop-shadow(0 0 3px);
-	width: 22px;
+	@include gloweffect;
 }
 
 .avatar-AvHqJA {
