@@ -3,8 +3,9 @@
 //? Endİf
 
 //! Sass
-$version: "4.3.0";
-$update: true;
+$version: "4.3.2";
+$whitethemeversion: "1.6";
+$update: false;
 $updateFile: false;
 $themeName: "GamerTheme";
 $backgroundColor: #0d0d0d;
@@ -23,7 +24,6 @@ $backgroundColor: #0d0d0d;
 	--aligndms: 0;
 	--settingsmodalbackground: transparent;
 	--font-display: var(--font-primary);
-	--whitethemeversion: "1.3" !important;
 
 	--themeColor1: #ff3838;
 	--themeColor2: #5b86e5;
@@ -318,15 +318,15 @@ body.powercord {
 
 //? Açık mod engelleme
 
+/* Artık Kullanılmıyor
+
 html.theme-dark .theme-light {
 	.root-1gCeng {
 		background-color: #141414 !important;
-		box-shadow: 0 0 0 1px var(--background-secondary), 0 2px 10px 0 rgba(0, 0, 0, 0.2) !important;
 	}
 
 	.footer-2gL1pp {
 		background-color: #0c0c0c !important;
-		box-shadow: inset 0 1px 0 var(--background-tertiary) !important;
 		color: var(--text-normal) !important;
 	}
 }
@@ -348,29 +348,26 @@ html.theme-dark .theme-light {
 		box-shadow: 0 0 20px 15px rgba(240, 71, 71, 0), 0 0 0 6px rgba(240, 24, 70, 0.1);
 	}
 }
+html.theme-light .layer-3QrUeG:first-of-type::before {
+	content: "You need to have dark theme enabled for this theme to work properly. To enable it, go into Settings -> Appearance";
+	position: fixed;
+	text-align: center;
+	width: 400px;
+	height: 30px;
+	top: 50%;
+	left: 50%;
+	background: #202020;
+	transform: translate(-50%, -50%);
+	color: #ffffff;
+	padding: 17px 16px 20px 13.5px;
+	box-shadow: 0 2px 10px rgba(240, 71, 71, 0.22);
+	border: 2.5px solid #f04747;
+	border-radius: 4px;
+	z-index: 2;
+}
 
-html {
-	&.theme-light .layer-3QrUeG:first-of-type::before {
-		content: "You need to have dark theme enabled for this theme to work properly. To enable it, go into Settings -> Appearance";
-		position: fixed;
-		text-align: center;
-		width: 400px;
-		height: 30px;
-		top: 50%;
-		left: 50%;
-		background: #202020;
-		transform: translate(-50%, -50%);
-		color: #ffffff;
-		padding: 17px 16px 20px 13.5px;
-		box-shadow: 0 2px 10px rgba(240, 71, 71, 0.22);
-		border: 2.5px solid #f04747;
-		border-radius: 4px;
-		z-index: 2;
-	}
-
-	&[lang="tr"].theme-light .layer-3QrUeG:first-of-type::before {
-		content: "Beyaz Tema Halen Bakımda. Lütfen Siyah Temaya Geçin, Ayarlar -> Görünüm";
-	}
+html[lang="tr"].theme-light .layer-3QrUeG:first-of-type::before {
+	content: "Beyaz Tema Halen Bakımda. Lütfen Siyah Temaya Geçin, Ayarlar -> Görünüm";
 }
 
 .theme-light {
@@ -456,6 +453,9 @@ html {
 	}
 }
 
+*/
+
+//? Endİf
 .banner-3Kac2g {
 	max-width: 100% !important;
 }
@@ -688,6 +688,8 @@ div.grid-1nZz7S {
 		width: 200%;
 		height: 200%;
 		transform: skewX(-20deg);
+		user-select: none;
+		pointer-events: none;
 		background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.3), transparent);
 	}
 
@@ -1418,20 +1420,49 @@ html {
 }
 
 //* Açık Mod
-
 .theme-light {
 	--backgroundImage: transparent;
-
-	.appMount-3lHmkl {
+	--backgroundColor: #dfdfdf;
+	$backgroundColor: #dfdfdf;
+	.typeWindows-1za-n7 {
+		background-color: #0d0d0d !important;
+	}
+	.tooltip-2QfLtc.detailsTooltip-G9hSSa.listItemTooltip-1JmWJ7 .icon-hSL42R {
+		box-shadow: 0px 20px 20px 20px #fff 1 !important;
+		background-color: #fff;
+	}
+	.activityProfile-2bJRaP .content-3JfFJh,
+	.activityProfile-2bJRaP .details-38sfDr,
+	.activityProfile-2bJRaP .headerText-1HLrL7,
+	.activityProfile-2bJRaP .name-29ETJS,
+	.activityUserPopout-2yItg2 .content-3JfFJh,
+	.activityUserPopout-2yItg2 .details-38sfDr,
+	.activityUserPopout-2yItg2 .headerText-1HLrL7,
+	.activityUserPopout-2yItg2 .name-29ETJS {
+		text-shadow: none !important;
+	}
+	.wrapper-1cBijl {
+		border-color: rgba(255, 255, 255, 0.5) !important;
+	}
+	.theme-light .text-GwUZgS,
+	.theme-light .title-2BxgL2 {
+		color: #000;
+	}
+	.expandedFolderBackground-1cujaW,
+	.folder-1hbNCn {
+		background-color: #ffffff82;
+	}
+	.appMount-3lHmkl,
+	body {
 		background-color: #fff !important;
 	}
-}
 
-body {
-	background-color: #fff !important;
-}
-
-.theme-light {
+	.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+		background-color: rgba(255, 255, 255, 0.65) !important;
+	}
+	.container-3baos1 .avatar-SmRMf2:after {
+		color: #000;
+	}
 	.panels-j1Uci_ {
 		background: #f5f7f86e !important;
 	}
@@ -1456,7 +1487,7 @@ body {
 		}
 
 		&:after {
-			content: "#{$version}, White Mode "var(--whitethemeversion);
+			content: "#{$version}, White Mode #{$whitethemeversion}";
 		}
 	}
 
@@ -1711,11 +1742,6 @@ body {
 }
 
 //? Endİf
-
-.wrapper-r-6rrt {
-	display: flex;
-	margin-left: 60ex;
-}
 
 .sparkles-fvfHK0 {
 	width: unset;
