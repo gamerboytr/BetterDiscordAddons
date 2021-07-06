@@ -88,6 +88,11 @@
 					visibility: visible;
 					border-radius: 19px;
 				}
+				&.checked-3_4uQ9 {
+					&::before {
+						content: "visibility_off" !important;
+					}
+				}
 			}
 		}
 	}
