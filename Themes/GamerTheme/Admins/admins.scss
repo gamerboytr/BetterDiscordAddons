@@ -18,10 +18,10 @@ $usersid: 530043492014096384, 824169426236342284, 780073888742375435;
 		right: 15px;
 		top: 10px !important;
 		box-shadow: 20px 20px 20px 0px black;
-		color: var(--userColor, #fff);
+		color: var(--userColor, var(--themeColor3));
 		font-size: 1.4rem;
 		font-weight: 500;
-		text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px var(--userColor), 0 0 82px var(--userColor), 0 0 92px var(--userColor), 0 0 102px var(--userColor), 0 0 151px var(--userColor);
+		text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px var(--userColor, var(--themeColor3)), 0 0 82px var(--userColor, var(--themeColor3)), 0 0 92px var(--userColor, var(--themeColor3)), 0 0 102px var(--userColor, var(--themeColor3)), 0 0 151px var(--userColor, var(--themeColor3));
 	}
 	.body-r6_QPy {
 		position: relative;
