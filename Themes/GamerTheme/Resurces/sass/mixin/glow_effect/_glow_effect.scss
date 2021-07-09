@@ -1,5 +1,7 @@
-@mixin gloweffect($color: var(--themeColor3)) {
+@mixin gloweffect($color: var(--themeColor3), $width: 22) {
 	color: $color;
 	filter: drop-shadow(0 0 3px);
-	width: 22px;
+	@if $width != false {
+		width: #{$width}px;
+	}
 }
