@@ -801,10 +801,6 @@ html.theme-dark {
 
 .scroller-3gAZLs.list-donH_Z.none-2Eo-qx {
 	background-color: #080808 !important;
-
-	.listItems-1uJgMC {
-		background-color: #080808 !important;
-	}
 }
 
 .header-8ilj5e,
@@ -1843,44 +1839,24 @@ div[searchResult] {
 	background: #161616 !important;
 }
 
-button {
-	&[aria-label="Kapat"],
-	&[aria-label="Disconnect"],
-	&[aria-label="Dismiss"] {
+.wrapper-3EGhDO {
+	// #41ab7d Green
+	.centerButton-3CaNcJ.grow-q77ONN[aria-label] {
 		border-radius: 115px;
-	}
-
-	&[aria-label="Share Your Screen"] {
 		&:hover {
 			border-radius: 115px;
 		}
-
-		border-radius: 115px;
+		&.red-33-Lnk.button-38aScr {
+			background: #a62328 !important;
+		}
 	}
+}
 
-	&[aria-label="Bağlantıyı Kes"] {
-		border-radius: 115px !important;
-	}
-
-	&[aria-label="Ekranını Paylaş"],
-	&[aria-label="Aramaya Katıl"],
-	&[aria-label="Görüntülü Aramaya Katıl"],
-	&[aria-label="Join Call"],
-	&[aria-label="Join Video Call"] {
-		border-radius: 115px !important;
-		background: #41ab7d !important;
-	}
-
+button {
 	&[aria-label="İzlemeyi Bırak"],
 	&[aria-label="Stop Watching"] {
 		border-radius: 115px !important;
 		background: #ef464c !important;
-	}
-
-	&[aria-label="Disconnect"]:hover,
-	&[aria-label="Dismiss"]:hover {
-		border-radius: 115px !important;
-		background: #a62328 !important;
 	}
 
 	&[aria-label="Aramaya Katıl"]:hover,
