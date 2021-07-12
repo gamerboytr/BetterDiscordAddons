@@ -1842,19 +1842,22 @@ div[searchResult] {
 // #41ab7d Green #2b7555
 .centerButton-3CaNcJ.grow-q77ONN[aria-label] {
 	&[aria-label="Unmute"]:hover {
-		background-color: lighten(#f2f3f5, 10%);
-		background: lighten(#f2f3f5, 10%);
+		background-color: darken(#f2f3f5, 10%) !important;
+		background: lighten(#f2f3f5, 10%) !important;
 	}
 	border-radius: 50%;
+	&:hover {
+		border-radius: 50%;
+		background: lighten($backgroundColor, 10%) !important;
+	}
 	&.red-33-Lnk.button-38aScr {
 		background: #ef464c !important;
 		&:hover {
 			background: #a62328 !important;
 		}
 	}
-	&:hover {
-		border-radius: 50%;
-		background: lighten($backgroundColor, 10%);
+	&.green-plH-Mj:hover {
+		background: lighten(#3ca560, 10%) !important;
 	}
 }
 .green-plH-Mj.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN {
