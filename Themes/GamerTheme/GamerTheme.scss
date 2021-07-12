@@ -4,7 +4,7 @@
 //? Endİf
 
 //! Sass
-$version: "4.3.2";
+$version: "4.4.0";
 $whitethemeversion: "1.6";
 $update: false;
 $updateFile: false;
@@ -1838,8 +1838,6 @@ div[searchResult] {
 .colorable-1bkp8v.primaryDark-3mSFDl {
 	background: #161616 !important;
 }
-
-// #41ab7d Green #2b7555
 .centerButton-3CaNcJ.grow-q77ONN[aria-label] {
 	&[aria-label="Unmute"]:hover {
 		background-color: darken(#f2f3f5, 10%) !important;
@@ -1990,10 +1988,6 @@ div.newMessagesBar-265mhP {
 	background: none !important;
 }
 
-div[aria-controls="Hypesquad Online-tab"] {
-	color: orange;
-}
-
 .text-1FOLJS {
 	font-weight: 500;
 }
@@ -2001,10 +1995,6 @@ div[aria-controls="Hypesquad Online-tab"] {
 .connectedAccountName-f8AEe2,
 .connectedAccountNameInner-1phBvE {
 	overflow: unset !important;
-}
-
-.listItems-1uJgMC {
-	background: #0d0d0d;
 }
 
 .header-8ilj5e.da-header,
@@ -2042,7 +2032,7 @@ ul#folder-items-1831673625 {
 	height: unset !important;
 }
 
-patch[d="M21 4.27L19.73 3L3 19.73L4.27 21L8.46 16.82L9.69 15.58L11.35 13.92L14.99 10.28L21 4.27Z"]:hover {
+path[d="M21 4.27L19.73 3L3 19.73L4.27 21L8.46 16.82L9.69 15.58L11.35 13.92L14.99 10.28L21 4.27Z"]:hover {
 	color: #fff;
 }
 
@@ -2254,11 +2244,6 @@ div.preview-2nSL_2.da-preview.group-spacing-16.cardPrimaryOutline-29Ujqw.card-3Q
 	margin-right: 8px;
 	-ms-flex-negative: 0;
 	flex-shrink: 0;
-}
-
-.theme-dark .channelNotice-1-XFjC.invite-OjTXrW,
-.theme-light .channelNotice-1-XFjC.invite-OjTXrW {
-	background-image: url("https://discord.com/assets/bf625d222187f542b9d7179109422e2c.svg") !important;
 }
 
 button.actionButton-3CLkPB.da-actionButton.centerButton-3CaNcJ.colorable-1bkp8v.da-centerButton.da-colorable.red-33-Lnk.button-38aScr.da-button.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN.da-grow {
