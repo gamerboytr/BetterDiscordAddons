@@ -45,6 +45,10 @@ $backgroundColor: #0d0d0d;
 }
 //? Endİf
 
+.container-BetterVolume {
+	background: lighten($backgroundColor, 10%);
+}
+
 .avatarSpeaking-2c8-9i {
 	display: none;
 }
