@@ -1839,45 +1839,26 @@ div[searchResult] {
 	background: #161616 !important;
 }
 
-.wrapper-3EGhDO {
-	// #41ab7d Green
-	.centerButton-3CaNcJ.grow-q77ONN[aria-label] {
-		border-radius: 115px;
+// #41ab7d Green #2b7555
+.centerButton-3CaNcJ.grow-q77ONN[aria-label] {
+	&[aria-label="Unmute"]:hover {
+		background-color: lighten(#f2f3f5, 10%);
+		background: lighten(#f2f3f5, 10%);
+	}
+	border-radius: 50%;
+	&.red-33-Lnk.button-38aScr {
+		background: #ef464c !important;
 		&:hover {
-			border-radius: 115px;
-		}
-		&.red-33-Lnk.button-38aScr {
-			background: #ef464c !important;
-			&:hover {
-				background: #a62328 !important;
-			}
+			background: #a62328 !important;
 		}
 	}
-	.green-plH-Mj.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN {
-		border-radius: 115px;
+	&:hover {
+		border-radius: 50%;
+		background: lighten($backgroundColor, 10%);
 	}
 }
-
-button {
-	&[aria-label="İzlemeyi Bırak"],
-	&[aria-label="Stop Watching"] {
-		border-radius: 115px !important;
-		background: #ef464c !important;
-	}
-
-	&[aria-label="Aramaya Katıl"]:hover,
-	&[aria-label="Görüntülü Aramaya Katıl"]:hover,
-	&[aria-label="Join Call"]:hover,
-	&[aria-label="Join Video Call"]:hover {
-		border-radius: 115px !important;
-		background: #2b7555 !important;
-	}
-
-	&[aria-label="İzlemeyi Bırak"]:hover,
-	&[aria-label="Stop Watching"]:hover {
-		border-radius: 115px !important;
-		background: #a72424 !important;
-	}
+.green-plH-Mj.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.grow-q77ONN {
+	border-radius: 50%;
 }
 //? Endİf
 
